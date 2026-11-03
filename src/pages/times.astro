@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import InternalIntro from '../components/InternalIntro.astro';
+import ApplicationClosing from '../components/ApplicationClosing.astro';
+import PackageCard from '../components/pricing/PackageCard.astro';
+import BenefitIcon from '../components/pricing/BenefitIcon.astro';
+import '../styles/internal.css';
+import '../styles/pricing.css';
+const benefits=[{icon:'card',title:'Πληρωμή με κάρτα',text:'Μηνιαία συνδρομή ανά πακέτο.'},{icon:'refresh',title:'Διορθώσεις χωρίς χρέωση',text:'Έως 5 νέα σχέδια της ίδιας πράξης.'},{icon:'word',title:'Τι μετρά ως πράξη',text:'Μια πράξη μετρά μόνο όταν βγει .docx ή κείμενο. Όσο το Praxis σας δείχνει τι χρειάζεται ακόμη, δεν μετρά.'}];
+---
+<Layout title="Τιμές και πακέτα."><div class="internal-page pricing-page">
+  <InternalIntro label="Τιμές" title="Τιμές και πακέτα." description="Μηνιαία συνδρομή ανά πακέτο. Κάθε πακέτο έχει ορισμένο αριθμό πράξεων τον μήνα και μέγιστο αριθμό χρηστών."/>
+  <section class="pricing-content container" aria-label="Πακέτα">
+    <div class="package-grid">{Array.from({length:3},()=> <PackageCard/>)}</div>
+    <p class="package-note">Ενδεικτική δομή. Ονόματα, πλήθος και ποσά των πακέτων: [●].</p>
+    <section class="package-benefits" aria-labelledby="benefits-title"><h2 id="benefits-title">Σε κάθε πακέτο</h2><div class="benefits-grid">{benefits.map(benefit=><div class="package-benefit"><BenefitIcon name={benefit.icon}/><div><h3>{benefit.title}</h3><p>{benefit.text}</p></div></div>)}</div></section>
+    <p class="pricing-activation">Κάθε λογαριασμός ενεργοποιείται προσωπικά από την ομάδα της Aspect, μετά από αίτηση. <a href="/aitisi">Κάντε αίτηση</a></p>
+  </section>
+  <ApplicationClosing/>
+</div></Layout>

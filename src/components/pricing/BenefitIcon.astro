@@ -1,0 +1,5 @@
+---
+const {name}=Astro.props;
+const paths: Record<string,string>={card:'M3 5h18v14H3zM3 9h18M7 14h4',refresh:'M20 4v6h-6M20 10a8 8 0 1 0 0 6',word:'M6 2h9l4 4v16H6zM14 2v6h5M9 12l1 5 2-3 2 3 1-5'};
+---
+<svg class="benefit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]}/></svg>

@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import InternalIntro from '../components/InternalIntro.astro';
+import ApplicationClosing from '../components/ApplicationClosing.astro';
+import Button from '../components/Button.astro';
+import Icon from '../components/home/Icon.astro';
+import DataJourney from '../components/security/DataJourney.astro';
+import PseudonymExample from '../components/security/PseudonymExample.astro';
+import measures from '../data/security.json';
+import '../styles/internal.css';
+import '../styles/security.css';
+---
+<Layout title="Πώς προστατεύουμε τα δεδομένα."><div class="internal-page security-page">
+  <InternalIntro label="Ασφάλεια και δεδομένα" title="Πώς προστατεύουμε τα δεδομένα." description="Τι φυλάσσεται, πού, και ποιος το βλέπει. Όλα όσα περιγράφουμε εδώ λειτουργούν ήδη."/>
+  <section class="security-journey dark" aria-labelledby="journey-title"><div class="container">
+    <p class="security-label">Η διαδρομή των δεδομένων</p><h2 id="journey-title">Πού πηγαίνουν τα δεδομένα σας.</h2>
+    <DataJourney/><PseudonymExample/>
+    <div class="journey-actions"><Button href="/aitisi">Κάντε αίτηση <Icon/></Button><a class="internal-link" href="#metra">Όλα τα μέτρα, ένα-ένα <Icon/></a></div>
+  </div></section>
+  <section class="security-measures" id="metra" aria-labelledby="measures-title"><div class="container">
+    <p class="security-label">Αναλυτικά</p><h2 id="measures-title">Όλα τα μέτρα, ένα-ένα.</h2>
+    <dl class="measures-list">{measures.map((measure,index)=><div class="security-measure" style={`--measure-row:${index%5+1};--measure-column:${Math.floor(index/5)+1}`}><dt>{measure.label}</dt><dd><p><strong>{index===9?<>Όροι χρήσης και <a href="https://app.aspect-praxis.com/prostasia-dedomenon">Σύμβαση επεξεργασίας δεδομένων</a> (άρθρο 28 ΓΚΠΔ).</>:measure.heading}</strong></p><p>{measure.description}</p></dd></div>)}</dl>
+    <p class="security-contact">Ερωτήσεις για τα δεδομένα; Γράψτε μας στο <a href="mailto:info@aspect-praxis.com">info@aspect-praxis.com</a></p>
+  </div></section>
+  <ApplicationClosing/>
+</div></Layout>
