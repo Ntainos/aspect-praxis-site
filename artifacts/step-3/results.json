@@ -1,0 +1,561 @@
+[
+  {
+    "slug": "pos-leitourgei",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 286
+      },
+      {
+        "class": "workflow-step",
+        "top": 379,
+        "height": 582
+      },
+      {
+        "class": "workflow-step",
+        "top": 961,
+        "height": 1260
+      },
+      {
+        "class": "workflow-step",
+        "top": 2221,
+        "height": 1000
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 3221,
+        "height": 443
+      },
+      {
+        "class": "application-closing dark",
+        "top": 3665,
+        "height": 502
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/pos-leitourgei",
+      "http://127.0.0.1:4321/_astro/eidi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/eidi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": [],
+    "previousSections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 286
+      },
+      {
+        "class": "workflow-step",
+        "top": 379,
+        "height": 582
+      },
+      {
+        "class": "workflow-step",
+        "top": 961,
+        "height": 1296
+      },
+      {
+        "class": "workflow-step",
+        "top": 2257,
+        "height": 1016
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 3273,
+        "height": 443
+      },
+      {
+        "class": "application-closing dark",
+        "top": 3717,
+        "height": 502
+      }
+    ],
+    "baselineCommit": "fab06fe",
+    "sectionChanges": [
+      {
+        "section": 0,
+        "topBefore": 77,
+        "topAfter": 77,
+        "heightBefore": 286,
+        "heightAfter": 286
+      },
+      {
+        "section": 1,
+        "topBefore": 379,
+        "topAfter": 379,
+        "heightBefore": 582,
+        "heightAfter": 582
+      },
+      {
+        "section": 2,
+        "topBefore": 961,
+        "topAfter": 961,
+        "heightBefore": 1296,
+        "heightAfter": 1260
+      },
+      {
+        "section": 3,
+        "topBefore": 2257,
+        "topAfter": 2221,
+        "heightBefore": 1016,
+        "heightAfter": 1000
+      },
+      {
+        "section": 4,
+        "topBefore": 3273,
+        "topAfter": 3221,
+        "heightBefore": 443,
+        "heightAfter": 443
+      },
+      {
+        "section": 5,
+        "topBefore": 3717,
+        "topAfter": 3665,
+        "heightBefore": 502,
+        "heightAfter": 502
+      }
+    ],
+    "referenceClosingTop": 3653,
+    "closingOffset": 12
+  },
+  {
+    "slug": "pos-leitourgei",
+    "width": 768,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 354
+      },
+      {
+        "class": "workflow-step",
+        "top": 443,
+        "height": 617
+      },
+      {
+        "class": "workflow-step",
+        "top": 1060,
+        "height": 1815
+      },
+      {
+        "class": "workflow-step",
+        "top": 2875,
+        "height": 1185
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 4060,
+        "height": 474
+      },
+      {
+        "class": "application-closing dark",
+        "top": 4534,
+        "height": 581
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/pos-leitourgei",
+      "http://127.0.0.1:4321/_astro/eidi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/eidi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": [],
+    "previousSections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 354
+      },
+      {
+        "class": "workflow-step",
+        "top": 443,
+        "height": 617
+      },
+      {
+        "class": "workflow-step",
+        "top": 1060,
+        "height": 1815
+      },
+      {
+        "class": "workflow-step",
+        "top": 2875,
+        "height": 1185
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 4060,
+        "height": 474
+      },
+      {
+        "class": "application-closing dark",
+        "top": 4534,
+        "height": 581
+      }
+    ],
+    "baselineCommit": "fab06fe",
+    "sectionChanges": [
+      {
+        "section": 0,
+        "topBefore": 73,
+        "topAfter": 73,
+        "heightBefore": 354,
+        "heightAfter": 354
+      },
+      {
+        "section": 1,
+        "topBefore": 443,
+        "topAfter": 443,
+        "heightBefore": 617,
+        "heightAfter": 617
+      },
+      {
+        "section": 2,
+        "topBefore": 1060,
+        "topAfter": 1060,
+        "heightBefore": 1815,
+        "heightAfter": 1815
+      },
+      {
+        "section": 3,
+        "topBefore": 2875,
+        "topAfter": 2875,
+        "heightBefore": 1185,
+        "heightAfter": 1185
+      },
+      {
+        "section": 4,
+        "topBefore": 4060,
+        "topAfter": 4060,
+        "heightBefore": 474,
+        "heightAfter": 474
+      },
+      {
+        "section": 5,
+        "topBefore": 4534,
+        "topAfter": 4534,
+        "heightBefore": 581,
+        "heightAfter": 581
+      }
+    ]
+  },
+  {
+    "slug": "pos-leitourgei",
+    "width": 390,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 320
+      },
+      {
+        "class": "workflow-step",
+        "top": 393,
+        "height": 874
+      },
+      {
+        "class": "workflow-step",
+        "top": 1266,
+        "height": 2702
+      },
+      {
+        "class": "workflow-step",
+        "top": 3969,
+        "height": 1817
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 5785,
+        "height": 448
+      },
+      {
+        "class": "application-closing dark",
+        "top": 6233,
+        "height": 775
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/pos-leitourgei",
+      "http://127.0.0.1:4321/_astro/eidi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/eidi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": [],
+    "previousSections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 324
+      },
+      {
+        "class": "workflow-step",
+        "top": 397,
+        "height": 890
+      },
+      {
+        "class": "workflow-step",
+        "top": 1286,
+        "height": 2783
+      },
+      {
+        "class": "workflow-step",
+        "top": 4069,
+        "height": 1901
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 5970,
+        "height": 448
+      },
+      {
+        "class": "application-closing dark",
+        "top": 6418,
+        "height": 775
+      }
+    ],
+    "baselineCommit": "fab06fe",
+    "sectionChanges": [
+      {
+        "section": 0,
+        "topBefore": 65,
+        "topAfter": 65,
+        "heightBefore": 324,
+        "heightAfter": 320
+      },
+      {
+        "section": 1,
+        "topBefore": 397,
+        "topAfter": 393,
+        "heightBefore": 890,
+        "heightAfter": 874
+      },
+      {
+        "section": 2,
+        "topBefore": 1286,
+        "topAfter": 1266,
+        "heightBefore": 2783,
+        "heightAfter": 2702
+      },
+      {
+        "section": 3,
+        "topBefore": 4069,
+        "topAfter": 3969,
+        "heightBefore": 1901,
+        "heightAfter": 1817
+      },
+      {
+        "section": 4,
+        "topBefore": 5970,
+        "topAfter": 5785,
+        "heightBefore": 448,
+        "heightAfter": 448
+      },
+      {
+        "section": 5,
+        "topBefore": 6418,
+        "topAfter": 6233,
+        "heightBefore": 775,
+        "heightAfter": 775
+      }
+    ],
+    "referenceClosingTop": 6194,
+    "closingOffset": 39
+  },
+  {
+    "slug": "eidi",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 281
+      },
+      {
+        "class": "deed-category",
+        "top": 454,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 454,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 454,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 854,
+        "height": 380
+      },
+      {
+        "class": "deed-category",
+        "top": 854,
+        "height": 380
+      },
+      {
+        "class": "card development-card",
+        "top": 854,
+        "height": 380
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1330,
+        "height": 502
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/eidi",
+      "http://127.0.0.1:4321/_astro/eidi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/eidi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "eidi",
+    "width": 768,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 372
+      },
+      {
+        "class": "deed-category",
+        "top": 541,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 541,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 925,
+        "height": 321
+      },
+      {
+        "class": "deed-category",
+        "top": 925,
+        "height": 321
+      },
+      {
+        "class": "deed-category",
+        "top": 1286,
+        "height": 380
+      },
+      {
+        "class": "card development-card",
+        "top": 1286,
+        "height": 380
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1763,
+        "height": 581
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/eidi",
+      "http://127.0.0.1:4321/_astro/eidi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/eidi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "eidi",
+    "width": 390,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 312
+      },
+      {
+        "class": "deed-category",
+        "top": 441,
+        "height": 329
+      },
+      {
+        "class": "deed-category",
+        "top": 817,
+        "height": 233
+      },
+      {
+        "class": "deed-category",
+        "top": 1099,
+        "height": 233
+      },
+      {
+        "class": "deed-category",
+        "top": 1380,
+        "height": 307
+      },
+      {
+        "class": "deed-category",
+        "top": 1735,
+        "height": 233
+      },
+      {
+        "class": "card development-card",
+        "top": 2016,
+        "height": 380
+      },
+      {
+        "class": "application-closing dark",
+        "top": 2460,
+        "height": 775
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/eidi",
+      "http://127.0.0.1:4321/_astro/eidi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/eidi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  }
+]

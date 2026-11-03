@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "node tests/foundation.mjs",
-    "test:home": "node tests/homepage.mjs"
+    "test:home": "node tests/homepage.mjs",
+    "test:pages": "node tests/pages.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"
