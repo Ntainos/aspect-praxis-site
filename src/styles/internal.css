@@ -21,3 +21,35 @@
 /* The preceding step already supplies its bottom gutter. */
 .workflow-responsibility{padding-top:16px}
 @media(max-width:700px){.workflow-responsibility{padding-top:40px}.wf-forms>div{padding:8px}.wf-caption{margin-bottom:12px}}
+
+/* Workflow-only corrections measured against the approved section boundaries. */
+@media(min-width:1101px){
+ .workflow-page .wf-forms{margin-block:12px}
+ .workflow-page .wf-inflection .wf-caption{margin-bottom:8px}
+ .workflow-page .needs-grid{margin-top:24px}
+ .workflow-page .wf-illustration-3 .wf-paper{padding:20px}
+ .workflow-page .wf-word-lines{padding-block:16px}
+ .workflow-page .workflow-detail{padding-block:18px}
+}
+@media(max-width:700px){
+ .workflow-page .internal-intro{padding-bottom:28px}
+ .workflow-page .wf-fields>div+div{margin-top:12px}
+ .workflow-page .workflow-detail{padding-block:16px}
+ .workflow-page .wf-deed{line-height:1.7}
+ .workflow-page .wf-forms{margin-block:12px}
+ .workflow-page .wf-inflection .wf-caption{margin-bottom:8px}
+ .workflow-page .needs-grid{margin-top:16px;padding-top:20px}
+ .workflow-page .needs-grid h3{margin-bottom:8px}
+ .workflow-page .needs-cards{gap:12px}
+ .workflow-page .needs-cards p,.workflow-page .needs-intro>p{line-height:1.5}
+ .workflow-page .wf-review-grid>.wf-proposal{padding:12px}
+ .workflow-page .wf-review-grid>.wf-proposal>p:not(.wf-check-note){margin-bottom:0}
+ .workflow-page .wf-review-grid .home-icon{width:14px;height:14px}
+ .workflow-page .wf-check-note{margin-top:8px!important}
+ .workflow-page .wf-chat>p{font-size:12px;margin-bottom:8px;line-height:1.4}
+ .workflow-page .wf-chat>strong{margin-bottom:8px}
+ .workflow-page .wf-chat .wf-proposal{margin-bottom:8px}
+ .workflow-page .wf-after{font-size:16px}
+ .workflow-page .wf-word>p{padding-block:8px}
+ .workflow-page .wf-word-lines{padding-block:14px}
+}
