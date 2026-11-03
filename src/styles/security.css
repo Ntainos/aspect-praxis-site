@@ -1,0 +1,149 @@
+/* Dedicated security diagram; the approved homepage diagram is unchanged. */
+.security-page .internal-intro{padding-top:56px}
+.security-page .intro-columns>p{color:#36423E}
+.security-journey,.security-measures{padding-block:96px}
+.security-label{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:500;color:var(--petrol);margin:0 0 16px}
+.security-label::before{content:'';border-inline:5px solid transparent;border-bottom:9px solid currentColor}
+.dark .security-label{color:var(--mint)}
+.security-journey h2,.security-measures h2{margin-bottom:48px}
+.journey-figure{margin:0;font-size:15px}
+.journey-diagram{display:grid;grid-template-columns:1.2fr 150px 1.25fr 150px 1.6fr;align-items:start}
+.journey-diagram small,.pseudonym-card small{display:block;font-size:13px;font-weight:500;color:var(--mint);margin-bottom:8px}
+.journey-diagram strong{display:block;font-size:19px;font-weight:500;line-height:1.4;margin-bottom:8px}
+.journey-diagram p{font-size:14px;line-height:1.5;color:var(--dark-text);margin:0}
+.journey-office{background:#EEF3F1;color:var(--ink);border-radius:12px;padding:24px}
+.journey-office small{color:var(--petrol)}
+.journey-office strong{font-size:17px}
+.journey-office p{color:var(--ink);font-size:14px}
+.journey-eu{position:relative;border:1px dashed #3F6D61;border-radius:20px;padding:28px 12px 12px}
+.journey-region{position:absolute;top:-13px;left:18px;border:1px solid #3F6D61;background:var(--ink);color:var(--mint);border-radius:100px;padding:2px 10px;font-size:13px;line-height:20px;font-weight:500;white-space:nowrap}
+.journey-praxis,.journey-backups{background:var(--dark-card);border:1px solid var(--dark-line);border-radius:12px;padding:22px}
+.journey-eu small,.journey-eu strong{margin-bottom:12px}
+.journey-praxis{margin-bottom:12px}
+.journey-data-row{background:#0F1B17;border:1px solid var(--dark-line);border-radius:8px;padding:7px 12px;margin-top:8px;font-size:14px;display:flex;align-items:center;gap:8px}
+.journey-data-row::before{content:'';width:5px;height:5px;flex-shrink:0;border-radius:50%;background:var(--mint)}
+.journey-diagram .journey-file-note{border-top:1px solid var(--dark-line);padding-top:16px;margin-top:12px}
+.journey-backups strong{font-size:17px}
+.journey-provider{position:relative;border:1px solid #3F6D61;border-radius:12px;padding:30px 22px 20px;align-self:stretch;display:flex;flex-direction:column}
+.journey-provider>.journey-region{color:#D5E1DD}
+.journey-diagram .journey-system{color:white;margin-bottom:4px}
+.journey-provider p{font-size:15px}
+.journey-provider>p:first-of-type{margin-bottom:16px}
+.journey-word{border-top:1px solid #3F6D61;margin-top:22px;padding-top:20px}
+.journey-diagram .journey-no-training{margin-top:auto;padding-top:16px;border-top:1px solid #3F6D61;font-size:13px;font-weight:500;color:white}
+.journey-word{margin-bottom:48px}
+.journey-flow{position:relative;color:var(--mint);font-size:13px;font-weight:500}
+.journey-flow span{position:relative;z-index:1;display:table;margin-inline:auto;background:var(--ink);border:1px solid #3F6D61;border-radius:100px;padding:2px 10px;white-space:nowrap}
+.journey-flow::before,.journey-flow::after{content:'';position:absolute;background:var(--mint);height:1px;left:0;right:0}
+.journey-flow span::after{content:'';position:absolute;right:-9px;top:50%;border-left:8px solid var(--mint);border-block:5px solid transparent;transform:translateY(-50%)}
+.journey-https{padding-top:72px}
+.journey-https::before{top:85px}.journey-https::after{display:none}
+.journey-https span::after{right:calc(-1 * (150px - 100%) / 2 - 1px)}
+.journey-ai-flow{padding-top:142px}
+.journey-ai-flow span+span{margin-top:118px}
+.journey-ai-flow::before{top:156px}.journey-ai-flow::after{top:300px}
+.journey-mobile{display:none!important}
+.journey-legend{display:flex;justify-content:flex-end;gap:24px;flex-wrap:wrap;font-size:13px;color:var(--dark-text);margin-top:24px}
+.journey-legend span{display:flex;align-items:center;gap:8px}
+.journey-legend span::before{content:'';display:block;width:22px;height:14px;border:1px solid #3F6D61;border-radius:4px;flex-shrink:0}
+.journey-key-office::before{background:#EEF3F1}.journey-key-eu::before{border-style:dashed!important;border-color:var(--mint)!important}.journey-key-praxis::before{background:var(--dark-card)}.journey-key-flow::before{height:1px!important;background:var(--mint);border:0!important;border-radius:0!important}
+.pseudonym-example{border-top:1px solid var(--dark-line);padding-top:32px;margin:56px 0 0}
+.pseudonym-example>figcaption{font-size:13px;color:var(--dark-text);margin-bottom:16px}
+.pseudonym-grid{display:grid;grid-template-columns:1fr 32px 1fr 1fr;gap:20px;align-items:stretch}
+.pseudonym-card{border:1px solid #3F6D61;border-radius:12px;padding:20px;font-size:16px}
+.pseudonym-original p{max-width:260px}
+.pseudonym-original{background:var(--dark-card);border-color:var(--dark-line)}
+.pseudonym-card small{font-size:12px}
+.pseudonym-card p{margin-bottom:8px;line-height:1.5}
+.pseudonym-card p:last-child{margin:0}
+.pseudonym-card strong{font-weight:600}
+.pseudonym-card mark{background:#25473D;color:#9EE4D2;font-weight:600;padding:1px 5px}
+.pseudonym-card .pseudonym-explanation{font-size:14px;color:var(--dark-text);line-height:1.6}
+.pseudonym-separate{margin-left:20px}
+.pseudonym-arrow{display:flex;align-items:center;justify-content:center;color:var(--mint)}
+.journey-actions{display:flex;align-items:center;gap:28px;margin-top:48px}
+.journey-actions .internal-link{color:var(--mint)}
+.security-measures{scroll-margin-top:96px}
+.measures-list{display:grid;grid-template-columns:1fr 1fr;column-gap:64px;margin:0;border-top:1px solid var(--ink)}
+.security-measure{grid-row:var(--measure-row);grid-column:var(--measure-column);display:grid;grid-template-columns:125px 1fr;gap:24px;padding-block:20px;border-bottom:1px solid var(--line);font-size:17px}
+.security-measure dt{font-size:15px;font-weight:500;color:var(--muted)}
+.security-measure dd{margin:0}
+.security-measure p{margin:0 0 4px}
+.security-measure p:last-child{margin-bottom:0;font-size:16px;color:#36423E}
+.security-measure strong{font-weight:500}
+.security-measure a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.security-contact{margin:32px 0 0;color:#36423E}
+@media(min-width:1101px){.journey-office small,.journey-office strong{margin-bottom:12px}}
+@media(min-width:1000px) and (max-width:1100px){
+ .journey-diagram{grid-template-columns:1.1fr 48px 1.2fr 48px 1.5fr}
+ .journey-https span::after{right:-1px}
+ .journey-flow span{font-size:10px;white-space:normal;text-align:center;padding-inline:3px}
+ .journey-flow span::after{right:-5px}
+ .journey-office,.journey-praxis,.journey-backups,.journey-provider{padding-inline:12px}
+ .journey-region{white-space:normal;max-width:calc(100% - 16px);left:8px;font-size:11px;line-height:16px}
+ .journey-provider{padding-top:48px}
+ .journey-desktop{display:none!important}
+ .journey-ai-flow .journey-desktop{display:table!important}
+ .journey-diagram strong{font-size:16px}
+ .journey-diagram p{font-size:13px}
+ .journey-legend{gap:16px}
+ .pseudonym-grid{grid-template-columns:1fr 24px 1fr 1fr;gap:12px}
+ .pseudonym-card{padding:16px;font-size:14px}
+ .pseudonym-separate{margin-left:0}
+ .security-measure{grid-template-columns:1fr;gap:8px}
+}
+@media(max-width:999px){
+ .security-page .internal-intro{padding-top:30px;padding-bottom:39px}
+ .security-journey,.security-measures{padding-block:64px}
+ .security-label{font-size:14px;margin-bottom:12px}
+ .security-journey h2,.security-measures h2{margin-bottom:32px}
+ .journey-diagram{display:flex;flex-direction:column}
+ .journey-office,.journey-eu,.journey-provider{width:100%}
+ .journey-office{padding:22px 18px}
+ .journey-office strong{font-size:19px}
+ .journey-office p{font-size:14px}
+ .journey-diagram small,.journey-eu small{font-size:13px;margin-bottom:8px}
+ .journey-eu strong{margin-bottom:8px}
+ .journey-provider p{font-size:14px}
+ .journey-provider>strong,.journey-excerpts>strong{margin-bottom:4px}
+ .journey-provider>p:first-of-type{margin-bottom:12px}
+ .journey-diagram strong{font-size:19px}
+ .journey-desktop{display:none!important}
+ .journey-mobile{display:table!important}
+ .journey-flow{height:64px;width:100%;padding:18px 0;flex-shrink:0}
+ .journey-flow::before{height:auto;width:1px;left:50%;top:0;bottom:0;right:auto}
+ .journey-flow::after{display:none}
+ .journey-flow span{font-size:13px;line-height:20px}
+ .journey-flow span::after{top:auto;bottom:-20px;right:50%;border:0;border-top:8px solid var(--mint);border-inline:5px solid transparent;transform:translateX(50%)}
+ .journey-ai-flow span+span{margin:0 auto}
+ .journey-eu{padding:28px 12px 12px;border-radius:20px}
+ .journey-eu>.journey-region{left:auto;right:12px}
+ .journey-praxis,.journey-backups{padding:18px 18px}
+ .journey-praxis>strong{text-wrap:balance}
+ .journey-backups strong{font-size:17px}
+ .journey-data-row{font-size:15px;padding:6px 12px}
+ .journey-diagram .journey-file-note{padding-top:16px;margin-top:12px}
+ .journey-provider{display:block;padding:60px 18px 20px}
+ .journey-provider>.journey-region{left:18px;top:16px;font-size:12px;padding-inline:10px;max-width:calc(100% - 36px)}
+ .journey-diagram .journey-system{margin-bottom:4px}
+ .journey-word{margin:20px 0 0;padding-top:18px}
+ .journey-diagram .journey-no-training{margin-top:18px;padding-top:16px;font-size:14px}
+ .journey-legend{justify-content:flex-start;gap:8px 24px;margin-top:24px;font-size:13px;line-height:1.4}
+ .pseudonym-example{margin-top:40px;padding-top:32px}
+ .pseudonym-example>figcaption{font-size:13px;margin-bottom:20px}
+ .pseudonym-grid{grid-template-columns:1fr;gap:0}
+ .pseudonym-card{padding:18px;font-size:16px}
+ .pseudonym-card small{font-size:13px;margin-bottom:8px}
+ .pseudonym-card .pseudonym-explanation{font-size:14px}
+ .pseudonym-arrow{height:60px}
+ .pseudonym-arrow .home-icon{transform:rotate(90deg)}
+ .pseudonym-separate{margin:28px 0 0}
+ .journey-actions{flex-direction:column;align-items:stretch;gap:16px;margin-top:48px}
+ .journey-actions .button{width:100%}
+ .journey-actions .internal-link{align-self:flex-start;font-size:16px}
+ .measures-list{display:block}
+ .security-measure{display:block;padding-block:18px;font-size:17px}
+ .security-measure dt{margin-bottom:4px;font-size:14px}
+ .security-contact{margin-top:32px;font-size:16px}
+ .security-measures{scroll-margin-top:80px}
+}

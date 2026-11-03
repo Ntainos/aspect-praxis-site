@@ -1,0 +1,120 @@
+{
+  "baseline": "5989d643b1901f977552a89124c1c99c8c2b8017",
+  "images": [
+    {
+      "file": "artifacts/step-1/comparison-1440.png",
+      "gitBlob": "618ace905b4b6bec6f5f17defe5892a7b722c088",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/comparison-390.png",
+      "gitBlob": "65ce76df272af3afd2e7ac3576be9f876b056c6c",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/header-comparison-1440.png",
+      "gitBlob": "e5c758626f08b7bec0b86bce2cec0c9bafcafdba",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/header-comparison-390.png",
+      "gitBlob": "4a88d105f7104ccb4f2603e92294395d4bc596f3",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/menu-390.png",
+      "gitBlob": "883f5221536f22bf7c04627804e6d2bc19ef93b1",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/odigos-1440.png",
+      "gitBlob": "cfe364aae4d72100469be8dd54c0827ea6f30ab1",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/odigos-390.png",
+      "gitBlob": "91067f0a65b9f15084bc07d38e66410ed6d1d96b",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-1/odigos-768.png",
+      "gitBlob": "7ea644df5a48db4e60b3f7b1b710b80a0b9ca5d1",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-2/comparison-1440.png",
+      "gitBlob": "c135ecad7ec7055809d344d647e274aa75e2c71b",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-2/comparison-390.png",
+      "gitBlob": "a6e5833cec33c133beb6b3dca49c77a3a8895f56",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-2/index-1440.png",
+      "gitBlob": "dae78acfb08ff1a7ed113e82616797de4328cd49",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-2/index-390.png",
+      "gitBlob": "7583e26cc8d1aaf5a94b204d0020915d5f523a91",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-2/index-768.png",
+      "gitBlob": "8a39c427231f2e1d928bcd0eb7ea345e274d38a2",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/comparison-eidi-1440.png",
+      "gitBlob": "04a7ded78e8b0ee774ea7bb6e49fbbb9aac6eaff",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/comparison-eidi-390.png",
+      "gitBlob": "345c55c8ef3efb79ab896275bbcef3d1fe4f3d93",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/comparison-pos-leitourgei-1440.png",
+      "gitBlob": "6f981aafc67c77ae285f7842ebc0020f8b7485dc",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/comparison-pos-leitourgei-390.png",
+      "gitBlob": "66fde8de48ab628c75031e757674d67e95e950eb",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/eidi-1440.png",
+      "gitBlob": "c416b009aa83312b7fe6418362ee44724bee18b9",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/eidi-390.png",
+      "gitBlob": "160999e8fcf32c43214db7edae1aa388070c0e01",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/eidi-768.png",
+      "gitBlob": "861d4e4b30169cb58422009099c0d91619f438a7",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/pos-leitourgei-1440.png",
+      "gitBlob": "cdf51b3dfb289bf78949290ee665be55bf610d6d",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/pos-leitourgei-390.png",
+      "gitBlob": "6b5568c2b3b2b61d00e6eb186272d9eefe23eadf",
+      "byteIdentical": true
+    },
+    {
+      "file": "artifacts/step-3/pos-leitourgei-768.png",
+      "gitBlob": "7355b91dd90c2db753eec350adf996ff2a4062d2",
+      "byteIdentical": true
+    }
+  ]
+}

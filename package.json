@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "test": "node tests/foundation.mjs",
     "test:home": "node tests/homepage.mjs",
-    "test:pages": "node tests/pages.mjs"
+    "test:pages": "node tests/pages.mjs",
+    "test:data-pricing": "node tests/data-pricing.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"
