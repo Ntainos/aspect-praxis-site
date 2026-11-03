@@ -16,6 +16,11 @@ for(const width of [1440,768,390]){
  assert.match(await page.locator('meta[name=robots]').getAttribute('content'),/noindex/);
  assert.equal(await page.locator('#terms').isChecked(),false);
  assert.equal(await page.locator('form').count(),0);
+ if(width===1440) assert.equal(Math.round((await page.locator('.desktop-nav').boundingBox()).x),532);
+ if(width===390){
+  assert.equal(Math.round((await page.locator('.application-link').boundingBox()).x),185);
+  assert.equal(Math.round((await page.locator('.menu-toggle').boundingBox()).x),274);
+ }
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  assert(await page.evaluate(()=>document.fonts.check('17px Geologica')));
  await page.screenshot({path:`${out}/odigos-${width}.png`,fullPage:true});
@@ -23,12 +28,23 @@ for(const width of [1440,768,390]){
  const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
  if(width<1000){
   const toggle=page.locator('.menu-toggle'); const menu=page.locator('#mobile-navigation');
+  for(const control of [toggle,page.locator('.application-link .button')]) assert((await control.boundingBox()).height>=44);
+  assert(await toggle.locator('.menu-lines').isVisible());
   await toggle.focus();await page.keyboard.press('Enter');assert.equal(await toggle.getAttribute('aria-expanded'),'true');
   await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement.textContent),'Πώς λειτουργεί');
   await page.keyboard.press('Escape');assert.equal(await toggle.getAttribute('aria-expanded'),'false');assert(await toggle.evaluate(e=>e===document.activeElement));
   await page.keyboard.press('Space');assert(await menu.isVisible());await page.keyboard.press('Escape');
   if(width===390) await toggle.tap();else await toggle.click();
   assert(await menu.isVisible());
+  assert(await toggle.locator('.close-lines').isVisible());
+  assert.equal(await menu.locator('.mobile-nav-link svg').count(),4);
+  assert.equal(await menu.locator('.button.primary').count(),1);
+  for(const link of await menu.locator('a').all()) assert((await link.boundingBox()).height>=44);
+  const openAxe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+  axe.violations.push(...openAxe.violations);
+  await menu.locator('.mobile-nav-link').nth(1).hover();
+  assert.equal(await menu.locator('.mobile-nav-link').nth(1).evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(227, 242, 238)');
+  await toggle.focus();
   if(width===390)await page.screenshot({path:`${out}/menu-390.png`,fullPage:true});
   await toggle.click();assert(await menu.isHidden());
   const hiddenFocus=await menu.evaluate(e=>[...e.querySelectorAll('a')].every(a=>a.getClientRects().length===0));assert(hiddenFocus);
