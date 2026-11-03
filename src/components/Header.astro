@@ -6,10 +6,10 @@ const links = [['/pos-leitourgei','Πώς λειτουργεί'],['/eidi','Εί�
 ---
 <header class="site-header"><div class="container header-inner">
 <div class="identity"><Brand /><span class="attribution">από την <img src="/logo/aspect/aspect-symbol-black.svg" height="14" alt="" /> Aspect</span></div>
-<nav class="desktop-nav" aria-label="Κύρια πλοήγηση">{links.map(([href,label])=><a href={href}>{label}</a>)}</nav>
+<nav class="desktop-nav" aria-label="Κύρια πλοήγηση">{links.map(([href,label])=><a href={href} aria-current={Astro.url.pathname.replace(/\/$/, '') === href ? 'page' : undefined}>{label}</a>)}</nav>
 <div class:list={['application-link', {reserved: application}]} aria-hidden={application || undefined} inert={application}><Button href="/aitisi" small><span class="desktop-label">Κάντε αίτηση</span><span class="mobile-label">Αίτηση</span></Button></div>
 <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation"><svg class="menu-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path class="menu-lines" d="M4 7h16M4 12h16M4 17h16" /><path class="close-lines" d="m6 6 12 12M18 6 6 18" /></svg><span class="menu-label">Μενού</span></button>
-<nav id="mobile-navigation" class="mobile-nav" aria-label="Πλοήγηση κινητού" hidden>{links.map(([href,label])=><a class="mobile-nav-link" href={href}><span>{label}</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg></a>)}<Button href="/aitisi">Κάντε αίτηση</Button><p class="menu-attribution">από την <img src="/logo/aspect/aspect-symbol-black.svg" height="14" alt="" /> Aspect</p></nav>
+<nav id="mobile-navigation" class="mobile-nav" aria-label="Πλοήγηση κινητού" hidden>{links.map(([href,label])=><a class="mobile-nav-link" href={href} aria-current={Astro.url.pathname.replace(/\/$/, '') === href ? 'page' : undefined}><span>{label}</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg></a>)}<Button href="/aitisi">Κάντε αίτηση</Button><p class="menu-attribution">από την <img src="/logo/aspect/aspect-symbol-black.svg" height="14" alt="" /> Aspect</p></nav>
 </div></header>
 <script>
 const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle')!;
@@ -23,3 +23,8 @@ menu.addEventListener('click',event=>{if(event.target instanceof Element && even
 document.querySelector('.site-header')!.addEventListener('focusout',event=>{const next = (event as FocusEvent).relatedTarget; if(!menu.hidden && next instanceof Node && !document.querySelector('.site-header')!.contains(next)) close();});
 matchMedia('(min-width: 1000px)').addEventListener('change',event=>{if(event.matches) close(menu.contains(document.activeElement));});
 </script>
+
+<style>
+.desktop-nav a[aria-current="page"]{font-weight:500;position:relative}.desktop-nav a[aria-current="page"]:after{content:"";position:absolute;bottom:-16px;left:0;right:0;height:2px;background:var(--petrol)}
+.mobile-nav-link[aria-current="page"]{background:var(--soft);color:var(--soft-text)}
+</style>

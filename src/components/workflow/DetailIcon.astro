@@ -1,0 +1,6 @@
+---
+import Icon from '../home/Icon.astro';
+const {name}=Astro.props;
+const paths:Record<string,string>={lock:'M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5z',cases:'m3 18 5-12 5 12M5 14h6m9-3v7m0-4c-6-5-7 7 0 3',refresh:'M20 8a8 8 0 1 0 0 8m0-13v6h-6'};
+---
+{paths[name]?<svg class="home-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]}/></svg>:<Icon name={name}/>}
