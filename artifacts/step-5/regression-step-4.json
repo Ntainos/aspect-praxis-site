@@ -1,0 +1,611 @@
+[
+  {
+    "slug": "dedomena",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 286,
+        "reference": {
+          "top": 76,
+          "height": 287
+        },
+        "deltaTop": 1,
+        "deltaHeight": -1
+      },
+      {
+        "class": "security-journey dark",
+        "top": 363,
+        "height": 1311,
+        "reference": {
+          "top": 363,
+          "height": 1307
+        },
+        "deltaTop": 0,
+        "deltaHeight": 4
+      },
+      {
+        "class": "security-measures",
+        "top": 1674,
+        "height": 1141,
+        "reference": {
+          "top": 1670,
+          "height": 1140
+        },
+        "deltaTop": 4,
+        "deltaHeight": 1
+      },
+      {
+        "class": "application-closing dark",
+        "top": 2815,
+        "height": 502,
+        "reference": {
+          "top": 2810,
+          "height": 484
+        },
+        "deltaTop": 5,
+        "deltaHeight": 18
+      }
+    ],
+    "details": [
+      {
+        "class": "journey-diagram",
+        "top": 596,
+        "height": 543
+      },
+      {
+        "class": "journey-office",
+        "top": 596,
+        "height": 182
+      },
+      {
+        "class": "journey-eu",
+        "top": 596,
+        "height": 540
+      },
+      {
+        "class": "journey-provider",
+        "top": 596,
+        "height": 543
+      },
+      {
+        "class": "pseudonym-example",
+        "top": 1240,
+        "height": 238
+      },
+      {
+        "class": "security-measure",
+        "top": 1909,
+        "height": 125
+      },
+      {
+        "class": "security-measure",
+        "top": 2034,
+        "height": 151
+      },
+      {
+        "class": "security-measure",
+        "top": 2184,
+        "height": 125
+      },
+      {
+        "class": "security-measure",
+        "top": 2309,
+        "height": 175
+      },
+      {
+        "class": "security-measure",
+        "top": 2484,
+        "height": 176
+      },
+      {
+        "class": "security-measure",
+        "top": 1909,
+        "height": 125
+      },
+      {
+        "class": "security-measure",
+        "top": 2034,
+        "height": 151
+      },
+      {
+        "class": "security-measure",
+        "top": 2184,
+        "height": 125
+      },
+      {
+        "class": "security-measure",
+        "top": 2309,
+        "height": 175
+      },
+      {
+        "class": "security-measure",
+        "top": 2484,
+        "height": 176
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/dedomena",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.POtRamIz.css",
+      "http://127.0.0.1:4321/_astro/dedomena.Cvjwox5D.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "externalRequests": [],
+    "cookies": [],
+    "errors": [],
+    "failures": [],
+    "violations": []
+  },
+  {
+    "slug": "dedomena",
+    "width": 768,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 295
+      },
+      {
+        "class": "security-journey dark",
+        "top": 368,
+        "height": 2170
+      },
+      {
+        "class": "security-measures",
+        "top": 2538,
+        "height": 1581
+      },
+      {
+        "class": "application-closing dark",
+        "top": 4119,
+        "height": 581
+      }
+    ],
+    "details": [
+      {
+        "class": "journey-diagram",
+        "top": 548,
+        "height": 1117
+      },
+      {
+        "class": "journey-office",
+        "top": 548,
+        "height": 128
+      },
+      {
+        "class": "journey-eu",
+        "top": 740,
+        "height": 409
+      },
+      {
+        "class": "journey-provider",
+        "top": 1213,
+        "height": 451
+      },
+      {
+        "class": "pseudonym-example",
+        "top": 1773,
+        "height": 541
+      },
+      {
+        "class": "security-measure",
+        "top": 2719,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 2839,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 2959,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 3080,
+        "height": 171
+      },
+      {
+        "class": "security-measure",
+        "top": 3251,
+        "height": 146
+      },
+      {
+        "class": "security-measure",
+        "top": 3397,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 3517,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 3637,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 3757,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 3877,
+        "height": 120
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/dedomena",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.POtRamIz.css",
+      "http://127.0.0.1:4321/_astro/dedomena.Cvjwox5D.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "externalRequests": [],
+    "cookies": [],
+    "errors": [],
+    "failures": [],
+    "violations": []
+  },
+  {
+    "slug": "dedomena",
+    "width": 390,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 293,
+        "reference": {
+          "top": 64,
+          "height": 294
+        },
+        "deltaTop": 1,
+        "deltaHeight": -1
+      },
+      {
+        "class": "security-journey dark",
+        "top": 358,
+        "height": 2307,
+        "reference": {
+          "top": 358,
+          "height": 2308
+        },
+        "deltaTop": 0,
+        "deltaHeight": -1
+      },
+      {
+        "class": "security-measures",
+        "top": 2666,
+        "height": 1883,
+        "reference": {
+          "top": 2666,
+          "height": 1880
+        },
+        "deltaTop": 0,
+        "deltaHeight": 3
+      },
+      {
+        "class": "application-closing dark",
+        "top": 4548,
+        "height": 775,
+        "reference": {
+          "top": 4546,
+          "height": 782
+        },
+        "deltaTop": 2,
+        "deltaHeight": -7
+      }
+    ],
+    "details": [
+      {
+        "class": "journey-diagram",
+        "top": 558,
+        "height": 1185
+      },
+      {
+        "class": "journey-office",
+        "top": 558,
+        "height": 149
+      },
+      {
+        "class": "journey-eu",
+        "top": 772,
+        "height": 436
+      },
+      {
+        "class": "journey-provider",
+        "top": 1271,
+        "height": 472
+      },
+      {
+        "class": "pseudonym-example",
+        "top": 1878,
+        "height": 564
+      },
+      {
+        "class": "security-measure",
+        "top": 2832,
+        "height": 147
+      },
+      {
+        "class": "security-measure",
+        "top": 2979,
+        "height": 173
+      },
+      {
+        "class": "security-measure",
+        "top": 3152,
+        "height": 147
+      },
+      {
+        "class": "security-measure",
+        "top": 3299,
+        "height": 223
+      },
+      {
+        "class": "security-measure",
+        "top": 3522,
+        "height": 199
+      },
+      {
+        "class": "security-measure",
+        "top": 3720,
+        "height": 146
+      },
+      {
+        "class": "security-measure",
+        "top": 3866,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 3986,
+        "height": 120
+      },
+      {
+        "class": "security-measure",
+        "top": 4107,
+        "height": 147
+      },
+      {
+        "class": "security-measure",
+        "top": 4254,
+        "height": 147
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/dedomena",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.POtRamIz.css",
+      "http://127.0.0.1:4321/_astro/dedomena.Cvjwox5D.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "externalRequests": [],
+    "cookies": [],
+    "errors": [],
+    "failures": [],
+    "violations": []
+  },
+  {
+    "slug": "times",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 227,
+        "reference": {
+          "top": 76,
+          "height": 228
+        },
+        "deltaTop": 1,
+        "deltaHeight": -1
+      },
+      {
+        "class": "pricing-content container",
+        "top": 304,
+        "height": 816,
+        "reference": {
+          "top": 304,
+          "height": 814
+        },
+        "deltaTop": 0,
+        "deltaHeight": 2
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1120,
+        "height": 502,
+        "reference": {
+          "top": 1118,
+          "height": 484
+        },
+        "deltaTop": 2,
+        "deltaHeight": 18
+      }
+    ],
+    "details": [
+      {
+        "class": "package-grid",
+        "top": 400,
+        "height": 254
+      },
+      {
+        "class": "package-benefits",
+        "top": 743,
+        "height": 195
+      },
+      {
+        "class": "pricing-activation",
+        "top": 978,
+        "height": 47
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/times",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "externalRequests": [],
+    "cookies": [],
+    "errors": [],
+    "failures": [],
+    "violations": []
+  },
+  {
+    "slug": "times",
+    "width": 768,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 288
+      },
+      {
+        "class": "pricing-content container",
+        "top": 361,
+        "height": 884
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1245,
+        "height": 581
+      }
+    ],
+    "details": [
+      {
+        "class": "package-grid",
+        "top": 457,
+        "height": 242
+      },
+      {
+        "class": "package-benefits",
+        "top": 787,
+        "height": 250
+      },
+      {
+        "class": "pricing-activation",
+        "top": 1077,
+        "height": 72
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/times",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "externalRequests": [],
+    "cookies": [],
+    "errors": [],
+    "failures": [],
+    "violations": []
+  },
+  {
+    "slug": "times",
+    "width": 390,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 255,
+        "reference": {
+          "top": 64,
+          "height": 256
+        },
+        "deltaTop": 1,
+        "deltaHeight": -1
+      },
+      {
+        "class": "pricing-content container",
+        "top": 320,
+        "height": 957,
+        "reference": {
+          "top": 320,
+          "height": 952
+        },
+        "deltaTop": 0,
+        "deltaHeight": 5
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1278,
+        "height": 775,
+        "reference": {
+          "top": 1272,
+          "height": 783
+        },
+        "deltaTop": 6,
+        "deltaHeight": -8
+      }
+    ],
+    "details": [
+      {
+        "class": "package-grid",
+        "top": 384,
+        "height": 249
+      },
+      {
+        "class": "package-benefits",
+        "top": 746,
+        "height": 330
+      },
+      {
+        "class": "pricing-activation",
+        "top": 1116,
+        "height": 98
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/times",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.POtRamIz.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "externalRequests": [],
+    "cookies": [],
+    "errors": [],
+    "failures": [],
+    "violations": []
+  }
+]

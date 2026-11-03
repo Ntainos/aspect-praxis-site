@@ -1,0 +1,79 @@
+.application-page .internal-intro{padding-top:56px}
+.application-page .internal-intro h1{max-width:540px}
+.application-page .intro-columns>p{color:#36423E}
+.application-content{display:grid;grid-template-columns:1.75fr 1fr;gap:64px;padding-block:64px 96px;align-items:start}
+.application-form-column{min-width:0}
+.application-required{font-size:15px;color:var(--muted);margin:0 0 24px}
+.application-fields{border:0;padding:0;margin:0;min-width:0}
+.application-field-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px 20px}
+.application-field{display:flex;flex-direction:column;min-width:0}
+.application-field-wide{grid-column:1/-1}
+.application-field label{display:block;font-size:15px;font-weight:500;line-height:1.5;margin-bottom:8px}
+.application-field label span{font-weight:380;color:var(--muted)}
+.application-hint{font-size:14px;line-height:1.5;color:var(--muted);margin:0 0 6px}
+.application-field input,.application-field textarea{width:100%;border:1px solid #89958F;border-radius:var(--radius-control);background:white;color:var(--ink);padding:12px 16px;font:inherit;line-height:1.6;touch-action:manipulation;scroll-margin-top:110px}
+.application-field input{height:52px}
+.application-field textarea{resize:vertical;min-height:152px;height:152px}
+.application-field input:hover,.application-field textarea:hover{border-color:var(--petrol)}
+.application-field [aria-invalid=true]{border:2px solid var(--error)}
+.application-page .field-error{display:flex;align-items:start;gap:8px;font-size:13px;margin:8px 0 0}
+.application-page .field-error .form-status-icon{width:14px;height:14px;flex-shrink:0;margin-top:3px}
+.application-terms-group{margin-top:24px}
+.application-terms{min-height:60px;display:flex;align-items:start;gap:12px;border:1px solid var(--line);border-radius:12px;background:var(--gray);padding:14px 18px;font-size:15px}
+.application-terms input{accent-color:var(--petrol);width:22px;height:22px;flex-shrink:0;margin:1px 0 0;scroll-margin-top:110px}
+.application-consent-text{flex:1;min-height:24px;cursor:pointer}
+.application-terms a{text-decoration:underline;text-underline-offset:3px}
+.application-terms:has([aria-invalid=true]){background:var(--error-bg);border:2px solid var(--error);padding:13px 17px}
+.application-submit{margin-top:24px}
+.application-submit svg{width:18px;height:18px}
+.application-page .application-submit .home-icon{color:inherit}
+.application-submit:disabled{cursor:not-allowed;opacity:.75}
+#office-application[aria-busy=true] .application-submit{cursor:wait}
+.application-privacy{font-size:15px;color:var(--muted);margin:24px 0 0}
+.application-next{background:var(--gray);border:1px solid var(--line);border-radius:12px;padding:32px}
+.application-next h2{font-size:24px;line-height:1.3;letter-spacing:-.025em;margin-bottom:24px}
+.application-next ol{counter-reset:next;list-style:none;margin:0;padding:0}
+.application-next li{counter-increment:next;display:flex;align-items:start;gap:20px;border-top:1px solid var(--line);padding-block:16px;font-size:16px;line-height:1.5}
+.application-next li:last-child{border-bottom:1px solid var(--line)}
+.application-next li::before{content:counter(next)'.';color:var(--petrol);font-size:15px;font-weight:500;flex-shrink:0}
+.application-contact{border-top:1px solid var(--line);padding-top:24px;margin-top:20px;font-size:17px}
+.application-contact h3{font-size:17px;line-height:1.4;letter-spacing:0;margin:0 0 8px}
+.application-contact a{position:relative;display:inline-block;text-decoration:underline;text-underline-offset:3px}
+/* Enlarge the mail link hit area without changing the approved line spacing. */
+.application-contact a::after{content:"";position:absolute;top:50%;left:0;width:100%;height:44px;transform:translateY(-50%)}
+.application-contact p{margin:8px 0 0}
+.application-feedback.error-summary{border:2px solid var(--error)}
+.application-feedback{scroll-margin-top:100px;overflow-wrap:anywhere}
+.application-feedback:focus{outline:3px solid var(--petrol);outline-offset:3px}
+.application-feedback .feedback-heading{color:var(--error);display:flex;gap:8px;align-items:start;margin:0}
+.application-feedback .form-status-icon{flex-shrink:0;margin-top:2px}
+.application-feedback [data-server-error]{margin:12px 0 0}
+.application-feedback .email{white-space:normal}
+#application-success{display:flex;gap:12px;color:var(--soft-text)}
+#application-success p{margin:0;color:var(--ink)}
+.application-status{margin:16px 0 0;font-size:15px;color:var(--petrol)}
+.application-status:empty{display:none}
+.application-honeypot{display:none}
+.application-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@media(min-width:701px) and (max-width:1100px){.application-content{grid-template-columns:1.5fr 1fr;gap:32px}.application-next{padding:24px}.application-next li{gap:12px}.application-contact .email{white-space:normal;overflow-wrap:anywhere}}
+@media(max-width:700px){
+ .application-page .internal-intro{padding-top:30px;padding-bottom:38px}
+ .application-content{grid-template-columns:1fr;gap:48px;padding-block:64px}
+ .application-required{font-size:15px;margin-bottom:24px}
+ .application-field-grid{grid-template-columns:1fr;gap:24px}
+ .application-field label{font-size:16px}
+ .application-hint{font-size:14px}
+ .application-field input,.application-field textarea{font-size:16px}
+ .application-terms{padding:16px 18px;font-size:16px}
+ .application-terms input{width:24px;height:24px}
+ .application-consent-text{min-height:44px}
+ .application-terms:has([aria-invalid=true]){padding:15px 17px}
+ .application-submit{width:100%;font-size:16px}
+ .application-privacy{font-size:15px}
+ .application-next{padding:26px 22px}
+ .application-next h2{font-size:24px;margin-bottom:24px}
+ .application-next li{font-size:16px;line-height:1.5;padding-block:16px;gap:24px}
+ .application-contact{font-size:16px;margin-top:20px;padding-top:24px}
+ .application-contact h3{font-size:17px;line-height:1.2}
+ .application-contact p{margin-top:4px}
+}

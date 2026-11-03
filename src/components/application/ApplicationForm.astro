@@ -1,0 +1,31 @@
+---
+import FormField from './FormField.astro';
+import StatusIcon from './StatusIcon.astro';
+import Icon from '../home/Icon.astro';
+---
+<div class="application-form-column">
+  <div class="error-summary application-feedback" id="application-errors" tabindex="-1" role="alert" aria-atomic="true" hidden><p class="feedback-heading"><StatusIcon/><strong data-summary-title></strong></p><ul data-error-links hidden></ul><p data-server-error hidden></p></div>
+  <div class="success application-feedback" id="application-success" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden><StatusIcon success/><div><strong>Η αίτησή σας στάλθηκε.</strong><p>Θα επικοινωνήσουμε μαζί σας στο email ή στο τηλέφωνο που δώσατε. Για οτιδήποτε άλλο: <a class="email" href="mailto:info@aspect-praxis.com">info@aspect-praxis.com</a></p></div></div>
+  <form id="office-application" method="post">
+    <p class="application-required">Όλα τα πεδία είναι υποχρεωτικά, εκτός από το μήνυμα.</p>
+    <fieldset class="application-fields"><legend class="application-sr-only">Αίτηση για το γραφείο σας.</legend>
+      <div class="application-field-grid">
+        <FormField name="officeName" label="Γραφείο" hint="Π.χ. Συμβολαιογραφείο [●]." autocomplete="organization"/>
+        <FormField name="city" label="Πόλη" hint="Η έδρα του γραφείου." autocomplete="address-level2"/>
+        <FormField name="notaryName" label="Ονοματεπώνυμο" autocomplete="name"/>
+        <FormField name="email" label="Email" type="email" autocomplete="email"/>
+        <FormField name="phone" label="Τηλέφωνο" type="tel" autocomplete="tel"/>
+        <FormField name="message" label="Μήνυμα" hint="Για παράδειγμα, ποια είδη πράξεων συντάσσετε συχνότερα." optional multiline/>
+      </div>
+      <div class="application-honeypot" aria-hidden="true" inert><label for="application-website">Ιστότοπος</label><input type="text" id="application-website" name="website" tabindex="-1" autocomplete="off"/></div>
+      <div class="application-terms-group"><label class="application-terms" for="application-acceptTerms"><input type="checkbox" id="application-acceptTerms" name="acceptTerms" required/><span class="application-consent-text">Έχω διαβάσει και αποδέχομαι τους <a href="https://app.aspect-praxis.com/oroi">Όρους χρήσης</a>.</span></label><p class="field-error" id="application-acceptTerms-error" hidden><StatusIcon/><span data-field-error-text></span></p></div>
+      <p class="application-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      <button class="button primary application-submit" type="submit" disabled><span>Υποβολή αίτησης</span><Icon/></button>
+      <p class="application-privacy">Για τα στοιχεία της αίτησης, δείτε την <a href="https://app.aspect-praxis.com/aporrito">Πολιτική απορρήτου</a>.</p>
+    </fieldset>
+    <noscript><p class="error-summary">Για την υποβολή ενεργοποιήστε τη JavaScript ή γράψτε μας στο <a href="mailto:info@aspect-praxis.com">info@aspect-praxis.com</a>.</p></noscript>
+  </form>
+</div>
+<script>
+import '../../scripts/application';
+</script>
