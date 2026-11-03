@@ -45,4 +45,4 @@
 
 Οι σύνδεσμοι προς `/aitisi` παραμένουν προετοιμασμένοι για το Βήμα 5. Δεν προστίθεται φόρμα. Δεν έγινε Cloudflare, deployment ή merge.
 
-Αν το API αρνηθεί τη δημιουργία PR με `Forbidden`, η παρούσα περιγραφή είναι έτοιμη για χειροκίνητο άνοιγμα από τον ιδιοκτήτη.
+Η προσπάθεια δημιουργίας PR μέσω `gh pr create` επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. Η παρούσα περιγραφή είναι έτοιμη για [χειροκίνητο άνοιγμα από τον ιδιοκτήτη](https://github.com/Ntainos/aspect-praxis-site/pull/new/feat/step-4-data-pricing).

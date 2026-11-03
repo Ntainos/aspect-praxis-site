@@ -97,3 +97,5 @@
 ## Παράδοση
 
 Η περιγραφή του PR αποθηκεύεται στο [PR.md](PR.md). Τα links προς /aitisi παραμένουν προετοιμασμένα για το επόμενο βήμα· η φόρμα δεν υλοποιήθηκε. Δεν έγινε merge ή deployment.
+
+Το commit υλοποίησης `4423c7c` έγινε push στο ίδιο branch. Η κανονική προσπάθεια `gh pr create --base main --head feat/step-4-data-pricing --body-file artifacts/step-4/PR.md` απέτυχε: `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. Εκκρεμεί αποκλειστικά χειροκίνητο άνοιγμα PR από τον ιδιοκτήτη: https://github.com/Ntainos/aspect-praxis-site/pull/new/feat/step-4-data-pricing .
