@@ -1,0 +1,24 @@
+---
+import Brand from './Brand.astro';
+import Button from './Button.astro';
+const application = Astro.url.pathname.replace(/\/$/, '') === '/aitisi';
+const links = [['/pos-leitourgei','Πώς λειτουργεί'],['/eidi','Είδη πράξεων'],['/dedomena','Ασφάλεια και δεδομένα'],['/times','Τιμές']];
+---
+<header class="site-header"><div class="container header-inner">
+<div class="identity"><Brand /><span class="attribution">από την <img src="/logo/aspect/aspect-symbol-black.svg" height="14" alt="" /> Aspect</span></div>
+<nav class="desktop-nav" aria-label="Κύρια πλοήγηση">{links.map(([href,label])=><a href={href}>{label}</a>)}</nav>
+<div class:list={['application-link', {reserved: application}]} aria-hidden={application || undefined} inert={application}><Button href="/aitisi" small><span class="desktop-label">Κάντε αίτηση</span><span class="mobile-label">Αίτηση</span></Button></div>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation">Μενού</button>
+<nav id="mobile-navigation" class="mobile-nav" aria-label="Πλοήγηση κινητού" hidden>{links.map(([href,label])=><a href={href}>{label}</a>)}<a href="/aitisi">Κάντε αίτηση</a><p>από την Aspect</p></nav>
+</div></header>
+<script>
+const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle')!;
+const menu = document.querySelector<HTMLElement>('#mobile-navigation')!;
+function close(restore = false) { menu.hidden = true; toggle.setAttribute('aria-expanded','false'); toggle.textContent = 'Μενού'; if(restore) toggle.focus(); }
+toggle.addEventListener('click',()=>{ const opening = menu.hidden; menu.hidden = !opening; toggle.setAttribute('aria-expanded',String(opening)); toggle.textContent = opening ? 'Κλείσιμο' : 'Μενού'; });
+document.addEventListener('keydown',event=>{if(event.key==='Escape' && !menu.hidden){event.preventDefault(); close(true);}});
+document.addEventListener('click',event=>{if(!menu.hidden && event.target instanceof Node && !menu.contains(event.target) && !toggle.contains(event.target)) close();});
+menu.addEventListener('click',event=>{if(event.target instanceof Element && event.target.closest('a')) close();});
+document.querySelector('.site-header')!.addEventListener('focusout',event=>{const next = (event as FocusEvent).relatedTarget; if(!menu.hidden && next instanceof Node && !document.querySelector('.site-header')!.contains(next)) close();});
+matchMedia('(min-width: 1000px)').addEventListener('change',event=>{if(event.matches) close(menu.contains(document.activeElement));});
+</script>
