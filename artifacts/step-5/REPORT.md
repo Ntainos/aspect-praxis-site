@@ -112,3 +112,5 @@ CSS px από την αρχή του εγγράφου, μετά τη φόρτω�
 Ο πραγματικός server δεν είναι διαθέσιμος και, σύμφωνα με την εντολή, δεν κλήθηκε. Η πραγματική ενσωμάτωση, το production CORS και η παραλαβή της αίτησης δεν έχουν δοκιμαστεί. Το συμβόλαιο προετοιμάστηκε και ελέγχθηκε αποκλειστικά με mocks.
 
 Η περιγραφή PR αποθηκεύεται στο [PR.md](PR.md). Δεν έγινε merge, deployment, Cloudflare setup, Astra, τελικό φινίρισμα ή εργασία Βήματος 6.
+
+Το commit υλοποίησης `7fd954b` έγινε push στο `feat/step-5-application`. Η κανονική προσπάθεια ανοίγματος PR με `gh pr create` απέτυχε με `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. Χειροκίνητο άνοιγμα από τον ιδιοκτήτη: https://github.com/Ntainos/aspect-praxis-site/pull/new/feat/step-5-application .
