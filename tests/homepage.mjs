@@ -10,6 +10,15 @@ for(const width of [1440,768,390]){
  const context=await browser.newContext({viewport:{width,height:900},hasTouch:width===390});const page=await context.newPage();const requests=[],errors=[];
  page.on('request',r=>requests.push(r.url()));page.on('pageerror',e=>errors.push(e.message));
  assert.equal((await page.goto('http://127.0.0.1:4321/')).status(),200);await page.evaluate(()=>document.fonts.ready);
+ if(width===390){
+  const secondary=page.locator('.home-hero .secondary');
+  const styles=()=>secondary.evaluate(e=>({color:getComputedStyle(e).color,border:getComputedStyle(e).borderTopColor}));
+  assert.deepEqual(await styles(),{color:'rgb(13, 22, 20)',border:'rgb(207, 216, 212)'});
+  assert((await secondary.boundingBox()).height>=44);
+  await secondary.hover();assert.equal((await styles()).border,'rgb(86, 98, 94)');
+  await page.mouse.move(0,0);await secondary.focus();assert.equal(await secondary.evaluate(e=>getComputedStyle(e).outlineWidth),'3px');
+  await secondary.evaluate(e=>e.blur());
+ }
  assert.equal(await page.locator('h1').count(),1);assert.equal((await page.locator('h1').innerText()).replace(/\s+/g,' ').trim(),'Συμπληρώνετε μια φόρμα. Παίρνετε σχέδιο πράξης σε Word.');assert.equal(await page.locator('html').getAttribute('lang'),'el');
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  const expectedTypes=[...source.split('## 1 · Αρχική')[1].split('## 2 ·')[0].matchAll(/- (\d\d) (.*)/g)].map(m=>m[1]+m[2]);

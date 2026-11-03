@@ -10,38 +10,38 @@
       {
         "class": "home-section home-features",
         "top": 1246,
-        "height": 883
+        "height": 855
       },
       {
         "class": "home-section home-steps",
-        "top": 2129,
-        "height": 1013
+        "top": 2101,
+        "height": 997
       },
       {
         "class": "home-section home-types",
-        "top": 3142,
+        "top": 3098,
         "height": 757
       },
       {
         "class": "home-section home-security dark",
-        "top": 3899,
-        "height": 1451
+        "top": 3855,
+        "height": 1388
       },
       {
         "class": "home-section home-prices",
-        "top": 5349,
+        "top": 5243,
         "height": 563
       },
       {
         "class": "application-closing dark",
-        "top": 5912,
+        "top": 5806,
         "height": 502
       }
     ],
     "requests": [
       "http://127.0.0.1:4321/",
       "http://127.0.0.1:4321/_astro/index.B3G6p0Jy.css",
-      "http://127.0.0.1:4321/_astro/index.CJ1WLQP5.css",
+      "http://127.0.0.1:4321/_astro/index.DdJ3ah6C.css",
       "http://127.0.0.1:4321/logo/praxis-mark.svg",
       "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
       "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
@@ -94,7 +94,7 @@
     "requests": [
       "http://127.0.0.1:4321/",
       "http://127.0.0.1:4321/_astro/index.B3G6p0Jy.css",
-      "http://127.0.0.1:4321/_astro/index.CJ1WLQP5.css",
+      "http://127.0.0.1:4321/_astro/index.DdJ3ah6C.css",
       "http://127.0.0.1:4321/logo/praxis-mark.svg",
       "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
       "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
@@ -116,38 +116,38 @@
       {
         "class": "home-section home-features",
         "top": 1323,
-        "height": 917
+        "height": 889
       },
       {
         "class": "home-section home-steps",
-        "top": 2240,
+        "top": 2212,
         "height": 985
       },
       {
         "class": "home-section home-types",
-        "top": 3225,
-        "height": 840
+        "top": 3197,
+        "height": 812
       },
       {
         "class": "home-section home-security dark",
-        "top": 4065,
-        "height": 2275
+        "top": 4009,
+        "height": 2117
       },
       {
         "class": "home-section home-prices",
-        "top": 6340,
+        "top": 6126,
         "height": 509
       },
       {
         "class": "application-closing dark",
-        "top": 6849,
+        "top": 6635,
         "height": 775
       }
     ],
     "requests": [
       "http://127.0.0.1:4321/",
       "http://127.0.0.1:4321/_astro/index.B3G6p0Jy.css",
-      "http://127.0.0.1:4321/_astro/index.CJ1WLQP5.css",
+      "http://127.0.0.1:4321/_astro/index.DdJ3ah6C.css",
       "http://127.0.0.1:4321/logo/praxis-mark.svg",
       "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
       "http://127.0.0.1:4321/logo/praxis-mark-white.svg",

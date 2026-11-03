@@ -26,3 +26,45 @@
 .diagram-legend .legend-eu:before{border-style:dashed;border-color:var(--mint)}
 .diagram-legend .legend-praxis:before{background:var(--dark-card)}
 .diagram-legend .legend-flow:before{height:2px;background:var(--mint);border:0;border-radius:0}
+/* Step 2 review: local secondary treatment and reference spacing. */
+@media(min-width:1101px){
+ .home-features .features-grid li{padding-top:12px;padding-bottom:12px}
+ .home-features .features-grid li:last-child{padding-bottom:0}
+ .home-steps .steps-grid{margin-bottom:32px}
+ .home-security .data-diagram{line-height:1.5}
+ .home-security .data-diagram p{line-height:1.5}
+ .home-security .praxis-node{padding:20px}
+ .home-security .data-diagram small{margin-bottom:8px}
+ .home-security .data-diagram strong{margin-bottom:8px}
+}
+@media(max-width:700px){
+ .home-hero .home-actions .secondary{border-color:var(--line-strong);color:var(--ink);background:white}
+ .home-hero .home-actions .secondary:hover{border-color:var(--muted);background:var(--gray)}
+ .home-hero .home-actions .secondary:focus-visible{border-color:var(--ink);outline:3px solid var(--petrol);outline-offset:3px;background:white}
+ .home-hero .home-actions .secondary:active{background:var(--gray);border-color:var(--ink)}
+ .home-features .features-grid li{padding-block:12px}
+ .home-features .features-grid li:last-child{padding-bottom:0}
+ .home-types .types-mobile-link{margin-top:12px}
+ .home-security h2{margin-bottom:16px}
+ .home-security .data-figure{margin-top:32px}
+ .home-security .data-diagram p{line-height:1.5}
+ .home-security .data-diagram small{margin-bottom:8px}
+ .home-security .data-diagram strong{margin-bottom:8px;line-height:1.35}
+ .home-security .provider-node>p{margin-bottom:12px}
+ .home-security .word-node{padding-top:16px;margin-top:16px}
+ .home-security .provider-node .no-training{padding-top:12px;margin-top:16px}
+ .home-security .security-points{margin-bottom:32px}
+ .home-security .security-points li{padding-top:12px}
+}
+@media(min-width:1101px){
+ .home-security .data-diagram p{font-size:14px}
+}
+@media(max-width:700px){
+ .home-types .big-number{margin-bottom:4px}
+ .home-types .deed-types{margin-top:16px}
+ .home-types .types-mobile-link{margin-top:4px}
+ .home-security .data-figure{margin-top:24px}
+ .home-security .praxis-node{padding:18px}
+ .home-security .provider-node{padding:18px}
+ .home-security .security-points p{font-size:15px}
+}
