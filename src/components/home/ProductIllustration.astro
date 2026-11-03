@@ -1,0 +1,12 @@
+---
+import Icon from './Icon.astro';
+---
+<figure class="product-figure" aria-label="Σχηματική εικόνα · πλασματικά στοιχεία">
+<figcaption>● Σχηματική εικόνα · πλασματικά στοιχεία</figcaption>
+<div class="product-window">
+<div class="product-toolbar"><span><Icon name="document" /> Αγοραπωλησία ακινήτου</span><span class="chip">Σχέδιο</span></div>
+<div class="product-body"><aside class="product-sidebar"><p>Ενότητες</p>{['Πρόσωπα','Ακίνητο','Τίμημα','Ειδικοί όροι','Πιστοποιητικά'].map((text,i)=><div class:list={{selected:i===3}}><Icon name={i===3?'ai':i===4?'empty':'check'}/>{text}</div>)}</aside>
+<div class="product-form"><strong class="desktop-only">Ειδικοί όροι</strong><p>Ειδικός όρος</p><div class="fake-field">[●]</div><p>Για αυτή την περίπτωση, το Praxis προτείνει παράγραφο με τεχνητή νοημοσύνη.</p><div class="desktop-only"><p>Συμβολαιογράφος · έδρα</p><div class="fake-field muted">[●] · Λάρισα</div><div class="product-chat"><strong><Icon name="chat" /> Ρωτήστε το Praxis</strong><p>Τι αναφέρει η πράξη για το τίμημα;</p><div class="ai-box"><div class="skeleton"></div></div><div class="fake-field">Ερώτηση για αυτή την πράξη… <Icon /></div></div></div></div>
+<div class="product-preview"><div class="document-paper"><strong class="paper-title">ΑΓΟΡΑΠΩΛΗΣΙΑ ΑΚΙΝΗΤΟΥ</strong><p class="deed-copy"><u>Στη Λάρισα</u> σήμερα, [●], στο γραφείο μου, ενώπιον εμού της Συμβολαιογράφου Λάρισας [●], εμφανίστηκαν αφενός <u>η Μαρία Κωνσταντίνου</u> του Νικολάου, <u>ως πωλήτρια</u>, και αφετέρου ο Ιωάννης Δημητρίου του Γεωργίου, ως αγοραστής…</p><div class="skeleton desktop-only"></div><p class="desktop-only">ΕΙΔΙΚΟΙ ΟΡΟΙ</p><div class="ai-box"><div class="ai-heading"><strong>Πρόταση τεχνητής νοημοσύνης</strong><span>1 από 1</span></div><p>Για τον ειδικό όρο «[●]». Την εγκρίνετε ή την απορρίπτετε.</p><div class="skeleton"></div><div class="fake-actions"><span>Έγκριση</span><span>Απόρριψη</span></div></div></div></div>
+</div><div class="product-status"><span class="desktop-only"><Icon name="check"/> Γένος, αριθμός και πτώσεις: αυτόματα</span><span class="desktop-only"><Icon name="check"/> Έλεγχος της πράξης με τεχνητή νοημοσύνη</span><span class="ai-chip"><Icon name="ai"/> 1 πρόταση για έγκριση</span></div>
+</div></figure>

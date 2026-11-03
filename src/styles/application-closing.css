@@ -1,0 +1,20 @@
+.application-closing{padding:96px 0 64px}
+.closing-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.application-closing p{color:var(--dark-text);font-size:19px}
+.application-closing h3{font-size:15px;letter-spacing:0;font-weight:500;color:var(--mint);margin:0 0 16px}
+.application-closing ol{list-style:none;counter-reset:start;margin:0;padding:0}
+.application-closing li{counter-increment:start;display:flex;gap:24px;border-top:1px solid var(--dark-line);padding:16px 0}
+.application-closing li:last-child{border-bottom:1px solid var(--dark-line)}
+.application-closing li:before{content:counter(start)'.';color:var(--mint);font-size:15px;font-weight:500}
+.application-closing .closing-email{font-size:15px;margin-top:20px}
+.closing-email a{color:white}
+@media(max-width:700px){
+.closing-grid{grid-template-columns:1fr;gap:40px}
+.application-closing{padding:64px 0 48px}
+.application-closing p{font-size:19px}
+.application-closing .button{width:100%}
+.application-closing .closing-email{font-size:14px}
+.application-closing li{font-size:16px}
+.application-closing h3{font-size:15px}
+.application-closing h2{font-size:31px}
+}

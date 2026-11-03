@@ -1,0 +1,9 @@
+---
+const { name = 'arrow' } = Astro.props;
+const paths: Record<string,string> = {
+empty:'M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18',arrow:'M5 12h14m-5-5 5 5-5 5', check:'m5 12 4 4L19 6', ai:'M6 5h12v14H6zM3 9h3m-3 6h3m12-6h3m-3 6h3M9 9h6m-6 4h4',
+eye:'M3 3l18 18M10 5c5-1 9 4 11 7-1 2-2 3-4 4M7 7c-2 1-4 3-5 5 3 5 7 8 12 6m-5-8a3 3 0 0 0 4 4',
+shield:'m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6zM8 11l3 3 5-6', cookie:'M19 4a5 5 0 0 0 2 7 9 9 0 1 1-9-9 5 5 0 0 0 7 2M3 21 21 3M8 13h.01M13 17h.01',
+database:'M4 6c0-4 16-4 16 0s-16 4-16 0v12c0 4 16 4 16 0V6M4 12c0 4 16 4 16 0', download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',document:'M6 2h9l4 4v16H6zM14 2v6h5M9 12h7m-7 4h7',chat:'M4 4h16v12H9l-5 4zM8 8h8m-8 4h5'};
+---
+<svg class="home-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name] || paths.document}/></svg>
