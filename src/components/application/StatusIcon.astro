@@ -1,0 +1,4 @@
+---
+const {success=false}=Astro.props;
+---
+<svg class="form-status-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill={success?'currentColor':'none'} stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{success?<><circle cx="12" cy="12" r="10"/><path d="m7 12 3 3 7-7" stroke="white"/></>:<path d="m12 3 10 18H2L12 3Zm0 6v5m0 3h.01"/>}</svg>

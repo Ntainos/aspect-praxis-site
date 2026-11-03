@@ -10,7 +10,8 @@
     "test": "node tests/foundation.mjs",
     "test:home": "node tests/homepage.mjs",
     "test:pages": "node tests/pages.mjs",
-    "test:data-pricing": "node tests/data-pricing.mjs"
+    "test:data-pricing": "node tests/data-pricing.mjs",
+    "test:application": "node tests/application.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"

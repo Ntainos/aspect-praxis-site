@@ -1,0 +1,12 @@
+---
+import StatusIcon from './StatusIcon.astro';
+interface Props { name:string; label:string; hint?:string; type?:string; autocomplete?:string; optional?:boolean; multiline?:boolean; }
+const {name,label,hint,type='text',autocomplete,optional=false,multiline=false}=Astro.props;
+const id=`application-${name}`;
+---
+<div class:list={['application-field',{'application-field-wide':multiline||name==='notaryName'}]}>
+  <label for={id}>{label}{optional&&<span> (προαιρετικό)</span>}</label>
+  {hint&&<p class="application-hint" id={`${id}-hint`}>{hint}</p>}
+  {multiline?<textarea id={id} name={name} rows="5" aria-describedby={hint?`${id}-hint`:undefined}/>:<input id={id} name={name} type={type} autocomplete={autocomplete} inputmode={type==='tel'?'tel':type==='email'?'email':undefined} required aria-describedby={hint?`${id}-hint`:undefined}/>}
+  <p class="field-error" id={`${id}-error`} hidden><StatusIcon/><span data-field-error-text></span></p>
+</div>

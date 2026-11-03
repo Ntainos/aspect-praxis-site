@@ -82,5 +82,5 @@ for(const slug of ['dedomena','times'])for(const width of [1440,768,390]){
  if(width!==768){const ref=`design/eikones/${slug}__${width}.png`,current=`${out}/${slug}-${width}.png`;const a=await sharp(ref).metadata(),b=await sharp(current).metadata();await sharp({create:{width:width*2,height:Math.max(a.height,b.height),channels:3,background:'white'}}).composite([{input:ref,left:0,top:0},{input:current,left:width,top:0}]).png().toFile(`${out}/comparison-${slug}-${width}.png`);}
 }
 for(const forbidden of ['design','artifacts'])assert(!(await readdir('dist')).includes(forbidden));
-assert(!(await readdir('dist')).includes('aitisi'));
+// Step 5 now supplies /aitisi; its behavior is covered by test:application.
 await browser.close();await writeFile(`${out}/results.json`,JSON.stringify(results,null,2));assert(results.every(r=>!r.violations.length),JSON.stringify(results.map(r=>({slug:r.slug,width:r.width,violations:r.violations})),null,2));console.log('PASS: security and pricing at 1440/768/390; approved copy, measures, cards, anchor, navigation, menu, local requests, axe.');
