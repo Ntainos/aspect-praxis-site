@@ -1,0 +1,71 @@
+{
+  "dist": [
+    "404.html",
+    "_astro",
+    "aitisi",
+    "dedomena",
+    "eidi",
+    "fonts",
+    "index.html",
+    "logo",
+    "pos-leitourgei",
+    "times"
+  ],
+  "notFound": [
+    {
+      "path": "/odigos",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/odigos/",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/odigos/index.html",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/unknown-step-6",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/nested/unknown-step-6",
+      "status": 404,
+      "customGreekPage": true
+    }
+  ],
+  "favicon": {
+    "url": "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "width": 115,
+    "height": 150
+  },
+  "approvedFaviconBytes": true,
+  "externalInitialRequests": 0,
+  "requests": [
+    "http://127.0.0.1:4321/",
+    "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+    "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+    "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+    "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+    "http://127.0.0.1:4321/logo/praxis-mark.svg",
+    "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+    "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+    "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+    "http://127.0.0.1:4321/pos-leitourgei",
+    "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+    "http://127.0.0.1:4321/eidi",
+    "http://127.0.0.1:4321/dedomena",
+    "http://127.0.0.1:4321/_astro/dedomena.Cvjwox5D.css",
+    "http://127.0.0.1:4321/times",
+    "http://127.0.0.1:4321/aitisi",
+    "http://127.0.0.1:4321/_astro/aitisi.D443b6AA.css",
+    "http://127.0.0.1:4321/_astro/ApplicationForm.astro_astro_type_script_index_0_lang.CGjRFqjc.js",
+    "http://127.0.0.1:4321/unknown-step-6"
+  ]
+}

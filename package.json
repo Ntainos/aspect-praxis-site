@@ -11,7 +11,8 @@
     "test:home": "node tests/homepage.mjs",
     "test:pages": "node tests/pages.mjs",
     "test:data-pricing": "node tests/data-pricing.mjs",
-    "test:application": "node tests/application.mjs"
+    "test:application": "node tests/application.mjs",
+    "test:audit": "node tests/final-audit.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0"

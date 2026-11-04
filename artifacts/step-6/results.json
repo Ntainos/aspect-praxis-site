@@ -1,0 +1,1178 @@
+[
+  {
+    "name": "index",
+    "width": 1440,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "home-hero",
+        "id": "",
+        "y": 77,
+        "height": 1170
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-features",
+        "id": "",
+        "y": 1247,
+        "height": 855
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-steps",
+        "id": "",
+        "y": 2102,
+        "height": 997
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-types",
+        "id": "",
+        "y": 3099,
+        "height": 757
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-security dark",
+        "id": "",
+        "y": 3856,
+        "height": 1413
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-prices",
+        "id": "",
+        "y": 5269,
+        "height": 551
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 5819,
+        "height": 485
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 6304,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "index",
+    "width": 768,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "home-hero",
+        "id": "",
+        "y": 73,
+        "height": 1383
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-features",
+        "id": "",
+        "y": 1456,
+        "height": 1164
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-steps",
+        "id": "",
+        "y": 2620,
+        "height": 1127
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-types",
+        "id": "",
+        "y": 3746,
+        "height": 877
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-security dark",
+        "id": "",
+        "y": 4623,
+        "height": 1783
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-prices",
+        "id": "",
+        "y": 6406,
+        "height": 658
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 7064,
+        "height": 621
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 7684,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "index",
+    "width": 390,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "home-hero",
+        "id": "",
+        "y": 65,
+        "height": 1258
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-features",
+        "id": "",
+        "y": 1323,
+        "height": 889
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-steps",
+        "id": "",
+        "y": 2212,
+        "height": 985
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-types",
+        "id": "",
+        "y": 3197,
+        "height": 812
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-security dark",
+        "id": "",
+        "y": 4009,
+        "height": 2117
+      },
+      {
+        "tag": "SECTION",
+        "class": "home-section home-prices",
+        "id": "",
+        "y": 6126,
+        "height": 493
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 6619,
+        "height": 782
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 7401,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "pos-leitourgei",
+    "width": 1440,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 77,
+        "height": 286
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 379,
+        "height": 582
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 961,
+        "height": 1260
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 2221,
+        "height": 1000
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-responsibility",
+        "id": "",
+        "y": 3221,
+        "height": 443
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 3665,
+        "height": 485
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 4150,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "pos-leitourgei",
+    "width": 768,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 73,
+        "height": 354
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 443,
+        "height": 617
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 1060,
+        "height": 1815
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 2875,
+        "height": 1185
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-responsibility",
+        "id": "",
+        "y": 4060,
+        "height": 474
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 4534,
+        "height": 621
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 5154,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "pos-leitourgei",
+    "width": 390,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 65,
+        "height": 320
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 393,
+        "height": 874
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 1266,
+        "height": 2702
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-step",
+        "id": "",
+        "y": 3969,
+        "height": 1817
+      },
+      {
+        "tag": "SECTION",
+        "class": "workflow-responsibility",
+        "id": "",
+        "y": 5785,
+        "height": 448
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 6233,
+        "height": 782
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 7015,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "eidi",
+    "width": 1440,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 77,
+        "height": 281
+      },
+      {
+        "tag": "SECTION",
+        "class": "container category-grid",
+        "id": "",
+        "y": 358,
+        "height": 972
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 454,
+        "height": 344
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 454,
+        "height": 344
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 454,
+        "height": 344
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 854,
+        "height": 380
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 854,
+        "height": 380
+      },
+      {
+        "tag": "DIV",
+        "class": "card development-card",
+        "id": "",
+        "y": 854,
+        "height": 380
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 1330,
+        "height": 485
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 1815,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "eidi",
+    "width": 768,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 73,
+        "height": 372
+      },
+      {
+        "tag": "SECTION",
+        "class": "container category-grid",
+        "id": "",
+        "y": 445,
+        "height": 1317
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 541,
+        "height": 344
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 541,
+        "height": 344
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 925,
+        "height": 321
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 925,
+        "height": 321
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 1286,
+        "height": 380
+      },
+      {
+        "tag": "DIV",
+        "class": "card development-card",
+        "id": "",
+        "y": 1286,
+        "height": 380
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 1763,
+        "height": 621
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 2383,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "eidi",
+    "width": 390,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 65,
+        "height": 312
+      },
+      {
+        "tag": "SECTION",
+        "class": "container category-grid",
+        "id": "",
+        "y": 377,
+        "height": 2083
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 441,
+        "height": 329
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 817,
+        "height": 233
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 1099,
+        "height": 233
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 1380,
+        "height": 307
+      },
+      {
+        "tag": "SECTION",
+        "class": "deed-category",
+        "id": "",
+        "y": 1735,
+        "height": 233
+      },
+      {
+        "tag": "DIV",
+        "class": "card development-card",
+        "id": "",
+        "y": 2016,
+        "height": 380
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 2460,
+        "height": 782
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 3242,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "dedomena",
+    "width": 1440,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 77,
+        "height": 286
+      },
+      {
+        "tag": "SECTION",
+        "class": "security-journey dark",
+        "id": "",
+        "y": 363,
+        "height": 1311
+      },
+      {
+        "tag": "SECTION",
+        "class": "security-measures",
+        "id": "metra",
+        "y": 1674,
+        "height": 1141
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 2815,
+        "height": 485
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 3300,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "dedomena",
+    "width": 768,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 73,
+        "height": 295
+      },
+      {
+        "tag": "SECTION",
+        "class": "security-journey dark",
+        "id": "",
+        "y": 368,
+        "height": 2170
+      },
+      {
+        "tag": "SECTION",
+        "class": "security-measures",
+        "id": "metra",
+        "y": 2538,
+        "height": 1581
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 4119,
+        "height": 621
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 4740,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "dedomena",
+    "width": 390,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 65,
+        "height": 293
+      },
+      {
+        "tag": "SECTION",
+        "class": "security-journey dark",
+        "id": "",
+        "y": 358,
+        "height": 2307
+      },
+      {
+        "tag": "SECTION",
+        "class": "security-measures",
+        "id": "metra",
+        "y": 2666,
+        "height": 1883
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 4548,
+        "height": 782
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 5331,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "times",
+    "width": 1440,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 77,
+        "height": 227
+      },
+      {
+        "tag": "SECTION",
+        "class": "pricing-content container",
+        "id": "",
+        "y": 304,
+        "height": 816
+      },
+      {
+        "tag": "SECTION",
+        "class": "package-benefits",
+        "id": "",
+        "y": 743,
+        "height": 195
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 1120,
+        "height": 485
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 1605,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "times",
+    "width": 768,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 73,
+        "height": 288
+      },
+      {
+        "tag": "SECTION",
+        "class": "pricing-content container",
+        "id": "",
+        "y": 361,
+        "height": 884
+      },
+      {
+        "tag": "SECTION",
+        "class": "package-benefits",
+        "id": "",
+        "y": 787,
+        "height": 250
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 1245,
+        "height": 621
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 1866,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "times",
+    "width": 390,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 65,
+        "height": 255
+      },
+      {
+        "tag": "SECTION",
+        "class": "pricing-content container",
+        "id": "",
+        "y": 320,
+        "height": 957
+      },
+      {
+        "tag": "SECTION",
+        "class": "package-benefits",
+        "id": "",
+        "y": 746,
+        "height": 330
+      },
+      {
+        "tag": "SECTION",
+        "class": "application-closing dark",
+        "id": "",
+        "y": 1278,
+        "height": 782
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 2060,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "aitisi",
+    "width": 1440,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 77,
+        "height": 286
+      },
+      {
+        "tag": "SECTION",
+        "class": "container application-content",
+        "id": "",
+        "y": 363,
+        "height": 972
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 1335,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "aitisi",
+    "width": 768,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 73,
+        "height": 286
+      },
+      {
+        "tag": "SECTION",
+        "class": "container application-content",
+        "id": "",
+        "y": 359,
+        "height": 1014
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 1373,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "aitisi",
+    "width": 390,
+    "status": 200,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "internal-intro",
+        "id": "",
+        "y": 65,
+        "height": 320
+      },
+      {
+        "tag": "SECTION",
+        "class": "container application-content",
+        "id": "",
+        "y": 385,
+        "height": 1828
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 2212,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "404",
+    "width": 1440,
+    "status": 404,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "container not-found",
+        "id": "",
+        "y": 77,
+        "height": 371
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 448,
+        "height": 448
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "404",
+    "width": 768,
+    "status": 404,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "container not-found",
+        "id": "",
+        "y": 73,
+        "height": 371
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 444,
+        "height": 687
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  },
+  {
+    "name": "404",
+    "width": 390,
+    "status": 404,
+    "sections": [
+      {
+        "tag": "SECTION",
+        "class": "container not-found",
+        "id": "",
+        "y": 65,
+        "height": 325
+      },
+      {
+        "tag": "FOOTER",
+        "class": "site-footer dark",
+        "id": "",
+        "y": 390,
+        "height": 1152
+      }
+    ],
+    "axeViolations": [],
+    "menuViolations": [],
+    "externalRequests": [],
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "keyboardFocus": true,
+    "touchTargets": true,
+    "storage": 0
+  }
+]

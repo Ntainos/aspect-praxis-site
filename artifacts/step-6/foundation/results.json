@@ -1,0 +1,50 @@
+[
+  {
+    "width": 1440,
+    "axeViolations": [],
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "checks": "layout, sticky, font, footer, no storage, no external requests, keyboard/touch/click menu where visible"
+  },
+  {
+    "width": 768,
+    "axeViolations": [],
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "checks": "layout, sticky, font, footer, no storage, no external requests, keyboard/touch/click menu where visible"
+  },
+  {
+    "width": 390,
+    "axeViolations": [],
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "checks": "layout, sticky, font, footer, no storage, no external requests, keyboard/touch/click menu where visible"
+  }
+]

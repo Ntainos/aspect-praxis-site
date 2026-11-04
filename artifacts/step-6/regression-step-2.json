@@ -1,0 +1,161 @@
+[
+  {
+    "width": 1440,
+    "sections": [
+      {
+        "class": "home-hero",
+        "top": 77,
+        "height": 1170
+      },
+      {
+        "class": "home-section home-features",
+        "top": 1247,
+        "height": 855
+      },
+      {
+        "class": "home-section home-steps",
+        "top": 2102,
+        "height": 997
+      },
+      {
+        "class": "home-section home-types",
+        "top": 3099,
+        "height": 757
+      },
+      {
+        "class": "home-section home-security dark",
+        "top": 3856,
+        "height": 1413
+      },
+      {
+        "class": "home-section home-prices",
+        "top": 5269,
+        "height": 551
+      },
+      {
+        "class": "application-closing dark",
+        "top": 5819,
+        "height": 485
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "width": 768,
+    "sections": [
+      {
+        "class": "home-hero",
+        "top": 73,
+        "height": 1383
+      },
+      {
+        "class": "home-section home-features",
+        "top": 1456,
+        "height": 1164
+      },
+      {
+        "class": "home-section home-steps",
+        "top": 2620,
+        "height": 1127
+      },
+      {
+        "class": "home-section home-types",
+        "top": 3746,
+        "height": 877
+      },
+      {
+        "class": "home-section home-security dark",
+        "top": 4623,
+        "height": 1783
+      },
+      {
+        "class": "home-section home-prices",
+        "top": 6406,
+        "height": 658
+      },
+      {
+        "class": "application-closing dark",
+        "top": 7064,
+        "height": 621
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "width": 390,
+    "sections": [
+      {
+        "class": "home-hero",
+        "top": 65,
+        "height": 1258
+      },
+      {
+        "class": "home-section home-features",
+        "top": 1323,
+        "height": 889
+      },
+      {
+        "class": "home-section home-steps",
+        "top": 2212,
+        "height": 985
+      },
+      {
+        "class": "home-section home-types",
+        "top": 3197,
+        "height": 812
+      },
+      {
+        "class": "home-section home-security dark",
+        "top": 4009,
+        "height": 2117
+      },
+      {
+        "class": "home-section home-prices",
+        "top": 6126,
+        "height": 493
+      },
+      {
+        "class": "application-closing dark",
+        "top": 6619,
+        "height": 782
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/index.DrkS_UKj.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  }
+]
