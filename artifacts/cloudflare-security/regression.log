@@ -1,0 +1,47 @@
+
+npm test
+
+> aspect-praxis-site@0.1.0 test
+> node tests/foundation.mjs
+
+PASS: 1440, 768, 390; zero WCAG A/AA axe violations.
+
+npm run test:home
+
+> aspect-praxis-site@0.1.0 test:home
+> node tests/homepage.mjs
+
+PASS: homepage 1440/768/390; approved copy, links, responsive counts, menu, local requests, axe.
+
+npm run test:pages
+
+> aspect-praxis-site@0.1.0 test:pages
+> node tests/pages.mjs
+
+PASS: both pages at 1440/768/390; content, navigation, responsive layout, menu, local requests, axe.
+
+npm run test:data-pricing
+
+> aspect-praxis-site@0.1.0 test:data-pricing
+> node tests/data-pricing.mjs
+
+PASS: security and pricing at 1440/768/390; approved copy, measures, cards, anchor, navigation, menu, local requests, axe.
+
+npm run test:application
+
+> aspect-praxis-site@0.1.0 test:application
+> node tests/application.mjs
+
+PASS: application at 1440/768/390, axe 0, 46 mocked/validation cases, no real external requests.
+
+npm run test:audit
+
+> aspect-praxis-site@0.1.0 test:audit
+> node tests/final-audit.mjs
+
+PASS: 21 page/viewport checks; axe 0; all local links/anchors; approved external destinations; 404; no guide; favicon; no external loading requests.
+
+node tests/comparisons.mjs
+
+node tests/application-states.mjs
+PASS: eight application state screenshots; axe 0; simulated API only.
