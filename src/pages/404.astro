@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Button from '../components/Button.astro';
+---
+<Layout title="Η σελίδα δεν βρέθηκε · Praxis" noindex>
+  <section class="container not-found">
+    <p class="eyebrow">404</p>
+    <h1>Η σελίδα δεν βρέθηκε.</h1>
+    <Button href="/">Επιστροφή στην Αρχική</Button>
+  </section>
+</Layout>
+<style>
+  .not-found { padding-block: var(--s24); }
+  .not-found h1 { max-width: 760px; }
+  @media (max-width: 700px) { .not-found { padding-block: var(--s16); } }
+</style>

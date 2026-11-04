@@ -1,0 +1,45 @@
+{
+  "html": [
+    "404.html",
+    "aitisi/index.html",
+    "dedomena/index.html",
+    "eidi/index.html",
+    "index.html",
+    "pos-leitourgei/index.html",
+    "times/index.html"
+  ],
+  "guideContentAbsent": true,
+  "designUnchanged": true,
+  "files": [
+    {
+      "file": "src/layouts/Layout.astro",
+      "unchanged": true,
+      "sha256": "81e0e63ccfaa8e92558759b71d536135e8fe4d00b453d66d92d8872b212b31d8"
+    },
+    {
+      "file": "src/components/Header.astro",
+      "unchanged": true,
+      "sha256": "c82dcebd341f8a48d1d28448d3312d6e54f1517bf38aa7406e67ce93387306bf"
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "unchanged": true,
+      "sha256": "f31d63b58d11db82969835e559436499a2b56d5024a628feba16c1723b7d4f20"
+    },
+    {
+      "file": "src/styles/global.css",
+      "unchanged": true,
+      "sha256": "2b8cd55a503028eda7a0cfd91dfcc47b8bb92ff7ee65a67bf787c84382fb79fd"
+    },
+    {
+      "file": "src/scripts/application.ts",
+      "unchanged": true,
+      "sha256": "6913cdf429d3ca79f6adc42169b4bfab865eb24b78ebc191d217ece41ac9c19b"
+    },
+    {
+      "file": "src/lib/application.ts",
+      "unchanged": true,
+      "sha256": "a78b2ce8c9c6a01d116e05f2354c043c40f9036b53a371a5de1ea5aa97ccc90d"
+    }
+  ]
+}

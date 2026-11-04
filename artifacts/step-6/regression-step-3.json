@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "pos-leitourgei",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 286
+      },
+      {
+        "class": "workflow-step",
+        "top": 379,
+        "height": 582
+      },
+      {
+        "class": "workflow-step",
+        "top": 961,
+        "height": 1260
+      },
+      {
+        "class": "workflow-step",
+        "top": 2221,
+        "height": 1000
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 3221,
+        "height": 443
+      },
+      {
+        "class": "application-closing dark",
+        "top": 3665,
+        "height": 485
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/pos-leitourgei",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "pos-leitourgei",
+    "width": 768,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 354
+      },
+      {
+        "class": "workflow-step",
+        "top": 443,
+        "height": 617
+      },
+      {
+        "class": "workflow-step",
+        "top": 1060,
+        "height": 1815
+      },
+      {
+        "class": "workflow-step",
+        "top": 2875,
+        "height": 1185
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 4060,
+        "height": 474
+      },
+      {
+        "class": "application-closing dark",
+        "top": 4534,
+        "height": 621
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/pos-leitourgei",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "pos-leitourgei",
+    "width": 390,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 320
+      },
+      {
+        "class": "workflow-step",
+        "top": 393,
+        "height": 874
+      },
+      {
+        "class": "workflow-step",
+        "top": 1266,
+        "height": 2702
+      },
+      {
+        "class": "workflow-step",
+        "top": 3969,
+        "height": 1817
+      },
+      {
+        "class": "workflow-responsibility",
+        "top": 5785,
+        "height": 448
+      },
+      {
+        "class": "application-closing dark",
+        "top": 6233,
+        "height": 782
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/pos-leitourgei",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "eidi",
+    "width": 1440,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 77,
+        "height": 281
+      },
+      {
+        "class": "deed-category",
+        "top": 454,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 454,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 454,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 854,
+        "height": 380
+      },
+      {
+        "class": "deed-category",
+        "top": 854,
+        "height": 380
+      },
+      {
+        "class": "card development-card",
+        "top": 854,
+        "height": 380
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1330,
+        "height": 485
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/eidi",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "eidi",
+    "width": 768,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 73,
+        "height": 372
+      },
+      {
+        "class": "deed-category",
+        "top": 541,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 541,
+        "height": 344
+      },
+      {
+        "class": "deed-category",
+        "top": 925,
+        "height": 321
+      },
+      {
+        "class": "deed-category",
+        "top": 925,
+        "height": 321
+      },
+      {
+        "class": "deed-category",
+        "top": 1286,
+        "height": 380
+      },
+      {
+        "class": "card development-card",
+        "top": 1286,
+        "height": 380
+      },
+      {
+        "class": "application-closing dark",
+        "top": 1763,
+        "height": 621
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/eidi",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  },
+  {
+    "slug": "eidi",
+    "width": 390,
+    "sections": [
+      {
+        "class": "internal-intro",
+        "top": 65,
+        "height": 312
+      },
+      {
+        "class": "deed-category",
+        "top": 441,
+        "height": 329
+      },
+      {
+        "class": "deed-category",
+        "top": 817,
+        "height": 233
+      },
+      {
+        "class": "deed-category",
+        "top": 1099,
+        "height": 233
+      },
+      {
+        "class": "deed-category",
+        "top": 1380,
+        "height": 307
+      },
+      {
+        "class": "deed-category",
+        "top": 1735,
+        "height": 233
+      },
+      {
+        "class": "card development-card",
+        "top": 2016,
+        "height": 380
+      },
+      {
+        "class": "application-closing dark",
+        "top": 2460,
+        "height": 782
+      }
+    ],
+    "requests": [
+      "http://127.0.0.1:4321/eidi",
+      "http://127.0.0.1:4321/_astro/aitisi.646RMTPg.css",
+      "http://127.0.0.1:4321/_astro/aitisi.B2_4_eWB.css",
+      "http://127.0.0.1:4321/logo/praxis-mark.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+      "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+      "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+      "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+      "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg"
+    ],
+    "errors": [],
+    "violations": []
+  }
+]

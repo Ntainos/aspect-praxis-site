@@ -53,3 +53,12 @@
  .workflow-page .wf-word>p{padding-block:8px}
  .workflow-page .wf-word-lines{padding-block:14px}
 }
+
+/* Final audit: retain the illustration layout, refine the chat and Word strokes. */
+.workflow-page .wf-chat>p{width:fit-content;max-width:100%;margin-left:auto}
+@media(max-width:700px){.workflow-page .wf-chat>p{width:80%}}
+.workflow-page .wf-chat .wf-proposal{width:82%}
+.workflow-page .wf-proposal .wf-lines{background-image:linear-gradient(#B5D9CF 0 0),linear-gradient(#B5D9CF 0 0),linear-gradient(#B5D9CF 0 0)}
+.workflow-page .wf-chat .wf-lines.short{background:linear-gradient(#B5D9CF 0 0) 0 0/96% 6px no-repeat,linear-gradient(#B5D9CF 0 0) 0 12px/80% 6px no-repeat,linear-gradient(#B5D9CF 0 0) 0 24px/42% 6px no-repeat}
+.workflow-page .wf-word-lines .wf-lines:first-child{background:linear-gradient(#98A7A1 0 0) 50% 0/40% 7px no-repeat,linear-gradient(var(--line) 0 0) 0 20px/96% 6px no-repeat,linear-gradient(var(--line) 0 0) 0 33px/90% 6px no-repeat}
+.workflow-page .wf-word-lines .wf-lines:last-child{background-size:94% 6px,88% 6px,56% 6px;background-position:0 4px,0 17px,0 30px}

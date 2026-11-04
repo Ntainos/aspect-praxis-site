@@ -1,41 +1,55 @@
-# Praxis · Βήματα 1–3
+# Praxis · δημόσιο site
 
-Στατική βάση Astro με Αρχική στη `/`, `/pos-leitourgei`, `/eidi` και εσωτερική `/odigos`.
-Οι υπόλοιπες δημόσιες σελίδες και η πραγματική φόρμα δεν έχουν υλοποιηθεί.
+Στατικό Astro site με τις έξι σελίδες `/`, `/pos-leitourgei`, `/eidi`, `/dedomena`, `/times` και `/aitisi`. Περιλαμβάνει ελληνική `404.html`. Η δοκιμαστική `/odigos` έχει αφαιρεθεί από την παραγωγική έξοδο.
+
+Η εμφάνιση βασίζεται στα εγκεκριμένα αρχεία του `design/`. Η Geologica, τα λογότυπα και το favicon φορτώνονται τοπικά. Η JavaScript περιορίζεται στο κοινό μενού κινητού και στη φόρμα αίτησης. Δεν υπάρχουν analytics, cookies ή αποθήκευση στοιχείων της αίτησης στον browser.
 
 ## Τοπική εκτέλεση
 
-Node.js 22.12+ (ελέγχθηκε με 24.22.1).
+Node.js 24 για το σύνολο των tests (χρησιμοποιούν εγγενή υποστήριξη TypeScript). Το Astro υποστηρίζει Node.js 22.12+.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Ανοίξτε τη διαδρομή `/` ή `/odigos` στη διεύθυνση που αναφέρει το Astro.
+Για έλεγχο της πραγματικής στατικής εξόδου:
 
 ```sh
 npm run build
 npm run preview -- --host 127.0.0.1
 ```
 
-Για τους ελέγχους browser, με το preview ενεργό στη θύρα 4321:
+Η έξοδος είναι ο φάκελος `dist/`, με `output: 'static'`, κατάλληλος για Cloudflare Pages. Το `design/` είναι αποκλειστικά πηγή αναφοράς. Τα `artifacts/`, tests και πηγές σχεδιασμού δεν περιλαμβάνονται στο build.
+
+## Έλεγχοι
+
+Με ενεργό preview στο `http://127.0.0.1:4321` και εγκατεστημένο Chromium:
 
 ```sh
 npm test
+npm run test:home
+npm run test:pages
+npm run test:data-pricing
+npm run test:application
+npm run test:audit
 node tests/comparisons.mjs
-CHROME_PATH=/usr/bin/chromium npx lighthouse http://127.0.0.1:4321/odigos --only-categories=accessibility,best-practices --chrome-flags='--headless --no-sandbox' --output=json --output-path=artifacts/step-1/lighthouse.json --quiet
+node tests/lighthouse-audit.mjs
+node tests/application-states.mjs
 ```
 
-Το `npm test` χρησιμοποιεί τοπικό Chromium (`/usr/bin/chromium`, ή `CHROMIUM_PATH`).
-Σε άλλο περιβάλλον απαιτείται εγκατεστημένος Chromium. Δεν περιλαμβάνεται browser στην εφαρμογή.
+Οι browser tests χρησιμοποιούν `/usr/bin/chromium`, ή την τιμή της `CHROMIUM_PATH`. Οι έλεγχοι του Βήματος 1 εξετάζουν πλέον τα κοινά components στην πραγματική Αρχική. Οι έλεγχοι των Βημάτων 2–5 εξακολουθούν να γράφουν artifacts στους αντίστοιχους φακέλους· σε νέο έλεγχο διατηρήστε τα ιστορικά αρχεία και αποθηκεύστε τα νέα αποτελέσματα στον φάκελο της παράδοσης.
 
-Το `public/` περιέχει μόνο τοπικά logo και τη Geologica με την άδεια OFL. Το `design/` παραμένει αποκλειστικά αναφορά και δεν αντιγράφεται στο `dist/`. Τα αρχεία ελέγχου παραμένουν στο `artifacts/` και δεν δημοσιεύονται.
+Το `test:audit` ελέγχει τις έξι σελίδες και την 404 στα 1440/768/390 px: axe, πληκτρολόγιο/μενού, sticky header, οριζόντια κύλιση, τοπικές αιτήσεις/γραμματοσειρά, αποθήκευση, συνδέσμους/άγκυρες, favicon και αφαίρεση οδηγού. Παράγει 12 συγκρίσεις και overlays ίδιας κλίμακας. Το `lighthouse-audit.mjs` ελέγχει Accessibility / Best Practices ≥95 για τις έξι σελίδες σε desktop και mobile.
 
-**Πριν την τελική παραγωγική δημοσίευση στο Βήμα 6 πρέπει να αποκλειστεί η `/odigos` από το build. Το `noindex` δεν αποτελεί έλεγχο πρόσβασης.**
+Το `application-states.mjs` αποθηκεύει εικόνες σφάλματος επικύρωσης, αναμονής, σφάλματος server και επιτυχίας στα 1440/390 px, με axe και αποκλειστικά προσομοιωμένο API.
 
-Δείτε την [αναφορά ελέγχων και αποκλίσεων](artifacts/step-1/REPORT.md).
+## Φόρμα αίτησης
 
-Έλεγχοι Αρχικής: `npm run test:home`, με ενεργό preview στη θύρα 4321. Παράγονται screenshots και συγκρίσεις στο `artifacts/step-2/`. [Αναφορά Βήματος 2](artifacts/step-2/REPORT.md).
+Η `/aitisi` διαθέτει επικύρωση, αποδοχή Όρων χωρίς προεπιλογή, honeypot, όριο 16384 bytes UTF-8, αποτροπή διπλής υποβολής και προσβάσιμα μηνύματα. Προορισμός της έγκυρης υποβολής είναι το συμβόλαιο `POST https://app.aspect-praxis.com/api/public/office-application`.
 
-Βήμα 3: `npm run test:pages` με ενεργό preview στη θύρα 4321. [Αναφορά και συγκρίσεις](artifacts/step-3/REPORT.md).
+Οι δοκιμές υποβολής αναχαιτίζουν όλες τις εξωτερικές αιτήσεις και χρησιμοποιούν αποκλειστικά προσομοιωμένες απαντήσεις. Η πραγματική παραλαβή αιτήσεων και η παραγωγική πολιτική CORS **δεν έχουν ελεγχθεί**· απαιτείται διαθέσιμο API για αυτόν τον έλεγχο. Δεν υπάρχει server, proxy ή Cloudflare Function στο repository.
+
+Οι τέσσερις νομικοί σύνδεσμοι οδηγούν στις εγκεκριμένες διαδρομές της εφαρμογής. Τα `[●]` στις τιμές και στα στοιχεία εταιρείας παραμένουν ως έχουν, μέχρι να δοθούν εγκεκριμένες τιμές.
+
+[Τελική αναφορά Βήματος 6](artifacts/step-6/REPORT.md) · [Περιγραφή PR](artifacts/step-6/PR.md). Η τελική έγκριση εικόνων και κώδικα ανήκει στον ιδιοκτήτη. Δεν έχει γίνει deployment από αυτή την εργασία.

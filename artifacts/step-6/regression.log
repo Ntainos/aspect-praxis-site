@@ -1,0 +1,25 @@
+
+> aspect-praxis-site@0.1.0 test
+> node tests/foundation.mjs
+
+PASS: 1440, 768, 390; zero WCAG A/AA axe violations.
+
+> aspect-praxis-site@0.1.0 test:home
+> node tests/homepage.mjs
+
+PASS: homepage 1440/768/390; approved copy, links, responsive counts, menu, local requests, axe.
+
+> aspect-praxis-site@0.1.0 test:pages
+> node tests/pages.mjs
+
+PASS: both pages at 1440/768/390; content, navigation, responsive layout, menu, local requests, axe.
+
+> aspect-praxis-site@0.1.0 test:data-pricing
+> node tests/data-pricing.mjs
+
+PASS: security and pricing at 1440/768/390; approved copy, measures, cards, anchor, navigation, menu, local requests, axe.
+
+> aspect-praxis-site@0.1.0 test:application
+> node tests/application.mjs
+
+PASS: application at 1440/768/390, axe 0, 46 mocked/validation cases, no real external requests.
