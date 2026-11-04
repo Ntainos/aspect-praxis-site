@@ -26,3 +26,7 @@
 Οι έλεγχοι εφαρμόζουν την ίδια πολιτική τοπικά, χωρίς να ισοδυναμούν με Cloudflare deployment. Η πραγματική παραλαβή αιτήσεων και το παραγωγικό CORS δεν δοκιμάστηκαν. Το noindex δεν αποτελεί έλεγχο πρόσβασης και δεν έγινε Cloudflare Access setup.
 
 Δεν αλλάζει το `cf-placeholder` ή το `main`. Δεν έγινε merge, deployment, σύνδεση domain/DNS/SSL, SEO, cookie banner ή analytics. Τα ιστορικά artifacts διατηρήθηκαν. Η εργασία σταματά στην παράδοση αυτού του PR.
+
+## Παράδοση branch / PR
+
+Το commit υλοποίησης `5d6dad8` ανέβηκε επιτυχώς. Η κανονική προσπάθεια `gh pr create` επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία PR προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...feat/cloudflare-private-preview-security?expand=1), με την έτοιμη περιγραφή `artifacts/cloudflare-security/PR.md`.

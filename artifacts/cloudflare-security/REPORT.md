@@ -76,3 +76,7 @@ Lighthouse Accessibility / Best Practices για όλες τις σελίδες 
 Lighthouse: **Accessibility 100 / Best Practices 100 και στις 12 εκτελέσεις**, με ενεργή CSP και noindex.
 
 Οι οκτώ εντολές της ομάδας regression ολοκληρώθηκαν με exit code 0. Axe: 0 παραβιάσεις στις έξι σελίδες και στην 404 στα τρία πλάτη, στα ανοιχτά μενού και στις οκτώ καταστάσεις φόρμας. Τα ιστορικά artifacts Βημάτων 1–6 διατηρήθηκαν χωρίς διαφορά από τη βάση.
+
+## Παράδοση branch / PR
+
+Το commit υλοποίησης `5d6dad8` ανέβηκε επιτυχώς. Η κανονική προσπάθεια `gh pr create` επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία PR προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...feat/cloudflare-private-preview-security?expand=1), με την έτοιμη περιγραφή `artifacts/cloudflare-security/PR.md`.
