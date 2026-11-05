@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "file": "src/pages/pos-leitourgei.astro",
+      "unchangedBeyondLayoutProps": true
+    },
+    {
+      "file": "src/pages/eidi.astro",
+      "unchangedBeyondLayoutProps": true
+    },
+    {
+      "file": "src/pages/aitisi.astro",
+      "unchangedBeyondLayoutProps": true
+    },
+    {
+      "file": "src/pages/404.astro",
+      "unchangedBeyondLayoutProps": true
+    },
+    {
+      "file": "src/pages/index.astro",
+      "unchangedBeyondLayoutProps": true
+    },
+    {
+      "file": "src/pages/dedomena.astro",
+      "unchangedBeyondLayoutProps": true
+    },
+    {
+      "file": "src/pages/times.astro",
+      "unchangedBeyondLayoutProps": true
+    }
+  ],
+  "headersBuildAndApplicationCodeUnchanged": true
+}
