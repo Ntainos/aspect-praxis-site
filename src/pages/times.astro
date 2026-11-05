@@ -8,7 +8,7 @@ import '../styles/internal.css';
 import '../styles/pricing.css';
 const benefits=[{icon:'card',title:'Πληρωμή με κάρτα',text:'Μηνιαία συνδρομή ανά πακέτο.'},{icon:'refresh',title:'Διορθώσεις χωρίς χρέωση',text:'Έως 5 νέα σχέδια της ίδιας πράξης.'},{icon:'word',title:'Τι μετρά ως πράξη',text:'Μια πράξη μετρά μόνο όταν βγει .docx ή κείμενο. Όσο το Praxis σας δείχνει τι χρειάζεται ακόμη, δεν μετρά.'}];
 ---
-<Layout title="Τιμές και πακέτα."><div class="internal-page pricing-page">
+<Layout title="Τιμές και πακέτα · Praxis" description="Μηνιαία συνδρομή ανά πακέτο. Κάθε πακέτο έχει ορισμένο αριθμό πράξεων τον μήνα και μέγιστο αριθμό χρηστών."><div class="internal-page pricing-page">
   <InternalIntro label="Τιμές" title="Τιμές και πακέτα." description="Μηνιαία συνδρομή ανά πακέτο. Κάθε πακέτο έχει ορισμένο αριθμό πράξεων τον μήνα και μέγιστο αριθμό χρηστών."/>
   <section class="pricing-content container" aria-label="Πακέτα">
     <div class="package-grid">{Array.from({length:3},()=> <PackageCard/>)}</div>

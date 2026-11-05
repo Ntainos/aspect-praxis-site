@@ -1,17 +1,18 @@
-# Προετοιμασία SEO και εκκρεμοτήτων δημοσίευσης
+# Draft: Εγκεκριμένα metadata και εκκρεμότητες δημοσίευσης
 
-Το site χρειάζεται έγκριση μεταδεδομένων και συγκεντρωμένη καταγραφή εκκρεμοτήτων πριν από τη δημόσια λειτουργία. Αυτό το PR προσθέτει μόνο τρία έγγραφα στο artifacts/prelaunch/, από τη βάση main `a449e16`, χωρίς ενεργή αλλαγή SEO ή εφαρμογής.
+**Το PR δεν εγκρίνει ούτε ενεργοποιεί δημόσια δημοσίευση**. Να παραμείνει Draft, χωρίς merge.
 
-- [Προτάσεις SEO](SEO_PROPOSALS.md): έξι ακριβείς σημερινοί τίτλοι, διατήρησή τους, αυτούσιες περιγραφές 16–128 χαρακτήρων με πηγές/στήριξη και σημεία έγκρισης. Μελλοντικός σχεδιασμός canonical, sitemap, robots, ελληνικού Open Graph, Search Console και noindex για pages.dev.
-- [Εκκρεμότητες δημοσίευσης](BLOCKERS.md): σειρά επιβεβαίωσης εταιρείας, νομικών, API/CORS, email, πακέτων/[●], πραγματικών ισχυρισμών ασφάλειας, DNS/email records και παραγωγικών headers/cookies, με υπεύθυνο και ζητούμενο τεκμήριο.
+Βάση: docs/prelaunch-seo-review στο `3b6155a`, στόχος main στο `a449e16`. Περιλαμβάνει τα τρία αρχεία τεκμηρίωσης του προηγούμενου branch.
 
-**Απαιτείται έγκριση ιδιοκτήτη και Claude πριν από οποιαδήποτε ενεργή εφαρμογή SEO.** Το γενικό `X-Robots-Tag: noindex, nofollow` παραμένει ανέπαφο και ενεργό μέχρι έγκριση δημόσιας δημοσίευσης. Δεν δημιουργήθηκε εικόνα Open Graph.
+Εφαρμόζονται μόνο τα έξι ρητά εγκεκριμένα title/description με προαιρετικό SEO prop στο κοινό Layout. Τα ορατά κείμενα, H1, CSS, εικονογραφήσεις, φόρμα, API, headers και noindex δεν αλλάζουν. Ενημερώνονται οι εγκεκριμένες πηγές και οι εκκρεμότητες του Claude.
 
-## Έλεγχος αμετάβλητης εφαρμογής
+- [Τελικά metadata και πηγές](SEO_PROPOSALS.md)
+- [Εκκρεμότητες](BLOCKERS.md)
+- [Πλήρης αναφορά και νέα αποτελέσματα](PUBLICATION_DRAFT_REPORT.md)
 
-Το diff περιορίζεται στα τρία Markdown αυτού του φακέλου. Τα src/, public/, design/, tests, dependencies και οι ρυθμίσεις build είναι ίδια με τη βάση. Το υπάρχον site και η εμφάνισή του δεν αλλάζουν. Δεν απαιτείται επανάληψη build/browser tests για έγγραφα που δεν περιλαμβάνονται στη στατική έξοδο. Ελέγχθηκαν αυτούσιες περιγραφές/μήκη, ακριβείς τίτλοι από πηγές Layout/σελίδων και οι τοπικοί σύνδεσμοι τεκμηρίωσης. Δεν δηλώνονται νέα αποτελέσματα Lighthouse ή νέος έλεγχος παραγωγής.
+Δεν προστίθενται canonical/sitemap/robots/Open Graph/JSON-LD/Search Console/analytics/cookie banner. Το cf-placeholder, Cloudflare Access, production branch, DNS και main δεν τροποποιούνται.
 
-Δεν έγινε merge, deployment, Cloudflare/DNS/domain/email setup ή αλλαγή production branch. Το cf-placeholder δεν τροποποιήθηκε. Οι υφιστάμενες οπτικές αποκλίσεις δεν επανεκτιμήθηκαν ούτε παρουσιάζονται ως διορθωμένες· παραμένει η [αναφορά Βήματος 6](../step-6/REPORT.md).
+Όλοι οι έλεγχοι και οι νέες οπτικές συγκρίσεις βρίσκονται στο publication-draft/. Οι δοκιμές φόρμας χρησιμοποιούν αποκλειστικά mock API. Τα αποτελέσματα είναι τοπικά και δεν πιστοποιούν παραγωγική λειτουργία.
 
 ## Υφιστάμενα οπτικά τεκμήρια
 
@@ -26,6 +27,6 @@
 | Τιμές | [εικόνα](../step-6/comparison-times-1440.png) | [σχέδιο](../../design/eikones/times__1440.png) | [εικόνα](../step-6/comparison-times-390.png) | [σχέδιο](../../design/eikones/times__390.png) |
 | Αίτηση | [εικόνα](../step-6/comparison-aitisi-1440.png) | [σχέδιο](../../design/eikones/aitisi__1440.png) | [εικόνα](../step-6/comparison-aitisi-390.png) | [σχέδιο](../../design/eikones/aitisi__390.png) |
 
-## Κατάσταση παράδοσης
+## Νέα αποτελέσματα
 
-Το commit τεκμηρίωσης `e6dec2a` ανέβηκε στο branch. Η κανονική προσπάθεια δημιουργίας PR επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία PR προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...docs/prelaunch-seo-review?expand=1).
+PASS: production build, έξι ακριβή μοναδικά ζεύγη title/description, σωστή ελληνική 404, ίδιο γενικό noindex/CSP, όλες οι υπάρχουσες σουίτες. Axe 0, Lighthouse Accessibility / Best Practices 100/100 και στις 12 εκτελέσεις. Μηδέν διαφορετικά ορατά pixels σε 12 συγκρίσεις προς Βήμα 6. Αποκλειστικά mock API, χωρίς πραγματική εξωτερική POST. [Αναλυτικά αποτελέσματα και συγκρίσεις](PUBLICATION_DRAFT_REPORT.md).
