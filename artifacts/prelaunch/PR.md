@@ -25,3 +25,7 @@
 | Ασφάλεια και δεδομένα | [εικόνα](../step-6/comparison-dedomena-1440.png) | [σχέδιο](../../design/eikones/dedomena__1440.png) | [εικόνα](../step-6/comparison-dedomena-390.png) | [σχέδιο](../../design/eikones/dedomena__390.png) |
 | Τιμές | [εικόνα](../step-6/comparison-times-1440.png) | [σχέδιο](../../design/eikones/times__1440.png) | [εικόνα](../step-6/comparison-times-390.png) | [σχέδιο](../../design/eikones/times__390.png) |
 | Αίτηση | [εικόνα](../step-6/comparison-aitisi-1440.png) | [σχέδιο](../../design/eikones/aitisi__1440.png) | [εικόνα](../step-6/comparison-aitisi-390.png) | [σχέδιο](../../design/eikones/aitisi__390.png) |
+
+## Κατάσταση παράδοσης
+
+Το commit τεκμηρίωσης `e6dec2a` ανέβηκε στο branch. Η κανονική προσπάθεια δημιουργίας PR επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία PR προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...docs/prelaunch-seo-review?expand=1).
