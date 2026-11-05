@@ -67,3 +67,9 @@ Lighthouse: **Accessibility 100 / Best Practices 100 και στις 12 εκτε
 PASS: production build, έξι ακριβή metadata, 404 και headers. PASS και στις εννέα εντολές regression (Βήματα 1–6, συγκρίσεις, καταστάσεις φόρμας και security). Axe 0 στα τρία πλάτη και στα ανοιχτά μενού/καταστάσεις φόρμας. Τα 46 σενάρια φόρμας καλύπτουν επικύρωση, όριο UTF-8 και απαντήσεις API αποκλειστικά με προσομοιώσεις. Μηδέν διαφορετικά pixels και στις 12 οπτικές συγκρίσεις. Μηδέν νέες κανονικές παραβάσεις CSP/JavaScript errors/εξωτερικές αιτήσεις· μόνο η σκόπιμη αρνητική native submit παράγει την αναμενόμενη form-action παράβαση και καμία POST.
 
 Η ισότητα πηγών εκτός Layout props και των headers/build/package/κώδικα εφαρμογής καταγράφεται στο [source-integrity.json](publication-draft/source-integrity.json). Τα ιστορικά artifacts διατηρήθηκαν ανέπαφα.
+
+## Κατάσταση Draft PR
+
+Το commit υλοποίησης `5ef078a` ανέβηκε επιτυχώς. Η κανονική προσπάθεια `gh pr create --draft` προς main επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη και δεν δημιουργήθηκε PR από το εργαλείο.
+
+[Χειροκίνητη δημιουργία](https://github.com/Ntainos/aspect-praxis-site/compare/main...feat/publication-seo-draft?expand=1): πρέπει να επιλεγεί **Create draft pull request**, με την έτοιμη περιγραφή στο artifacts/prelaunch/PR.md. Να παραμείνει Draft, χωρίς merge. Το PR δεν εγκρίνει ούτε ενεργοποιεί δημόσια δημοσίευση.

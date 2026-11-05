@@ -30,3 +30,9 @@
 ## Νέα αποτελέσματα
 
 PASS: production build, έξι ακριβή μοναδικά ζεύγη title/description, σωστή ελληνική 404, ίδιο γενικό noindex/CSP, όλες οι υπάρχουσες σουίτες. Axe 0, Lighthouse Accessibility / Best Practices 100/100 και στις 12 εκτελέσεις. Μηδέν διαφορετικά ορατά pixels σε 12 συγκρίσεις προς Βήμα 6. Αποκλειστικά mock API, χωρίς πραγματική εξωτερική POST. [Αναλυτικά αποτελέσματα και συγκρίσεις](PUBLICATION_DRAFT_REPORT.md).
+
+## Κατάσταση Draft PR
+
+Το commit υλοποίησης `5ef078a` ανέβηκε επιτυχώς. Η κανονική προσπάθεια `gh pr create --draft` προς main επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν επιχειρήθηκε παράκαμψη και δεν δημιουργήθηκε PR από το εργαλείο.
+
+[Χειροκίνητη δημιουργία](https://github.com/Ntainos/aspect-praxis-site/compare/main...feat/publication-seo-draft?expand=1): πρέπει να επιλεγεί **Create draft pull request**, με την έτοιμη περιγραφή στο artifacts/prelaunch/PR.md. Να παραμείνει Draft, χωρίς merge. Το PR δεν εγκρίνει ούτε ενεργοποιεί δημόσια δημοσίευση.
