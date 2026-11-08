@@ -1,0 +1,41 @@
+{
+  "scope": "Tracked text files and current dist; not full Git history or guarantee of absence",
+  "secretPatterns": [
+    "private_key",
+    "github_token",
+    "aws_access_key"
+  ],
+  "secretFindings": [],
+  "distFiles": [
+    "404.html",
+    "index.html",
+    "_headers",
+    "dedomena/index.html",
+    "logo/praxis-mark.svg",
+    "logo/praxis-mark-48plus-accent.svg",
+    "logo/praxis-mark-small-under24.svg",
+    "logo/praxis-mark-white.svg",
+    "aitisi/index.html",
+    "_astro/times.BgEIfFMu.css",
+    "_astro/aitisi.D443b6AA.css",
+    "_astro/dedomena.Cvjwox5D.css",
+    "_astro/aitisi.646RMTPg.css",
+    "_astro/aitisi.B2_4_eWB.css",
+    "_astro/Header.astro_astro_type_script_index_0_lang.fROUa_gJ.js",
+    "_astro/404.CDJtEkO3.css",
+    "_astro/dedomena.CFRYZqBf.css",
+    "_astro/index.DrkS_UKj.css",
+    "_astro/ApplicationForm.astro_astro_type_script_index_0_lang.CGjRFqjc.js",
+    "times/index.html",
+    "pos-leitourgei/index.html",
+    "fonts/Geologica[CRSV,SHRP,slnt,wght].ttf",
+    "fonts/OFL.txt",
+    "eidi/index.html",
+    "logo/aspect/aspect-logo-white.svg",
+    "logo/aspect/aspect-symbol-black.svg"
+  ],
+  "disallowedOutputFiles": [],
+  "dangerousDomSinks": [],
+  "applicationConsoleLogging": false,
+  "newTabLinks": false
+}

@@ -1,0 +1,44 @@
+
+> aspect-praxis-site@0.1.0 build
+> astro build
+
+11:20:03 [content] Syncing content
+11:20:03 [content] Synced content
+11:20:03 [types] Generated 130ms
+11:20:03 [build] output: "static"
+11:20:03 [build] mode: "static"
+11:20:03 [build] directory: /workspace/aspect-praxis-site/dist/
+11:20:03 [build] Collecting build info...
+11:20:03 [build] ✓ Completed in 148ms.
+11:20:03 [build] Building static entrypoints...
+11:20:04 [vite] ✓ built in 1.13s
+11:20:04 [build] ✓ Completed in 1.17s.
+
+ building client (vite)
+11:20:04 [vite] transforming...
+11:20:04 [vite] ✓ 4 modules transformed.
+11:20:04 [vite] rendering chunks...
+11:20:04 [vite] computing gzip size...
+11:20:04 [vite] dist/_astro/Header.astro_astro_type_script_index_0_lang.fROUa_gJ.js           1.00 kB │ gzip: 0.48 kB
+11:20:04 [vite] dist/_astro/ApplicationForm.astro_astro_type_script_index_0_lang.CGjRFqjc.js  5.83 kB │ gzip: 2.61 kB
+11:20:04 [vite] ✓ built in 61ms
+
+ generating static routes
+11:20:04 ▶ src/pages/404.astro
+11:20:04   └─ /404.html (+12ms)
+11:20:04 ▶ src/pages/aitisi.astro
+11:20:04   └─ /aitisi/index.html (+4ms)
+11:20:04 ▶ src/pages/dedomena.astro
+11:20:04   └─ /dedomena/index.html (+4ms)
+11:20:04 ▶ src/pages/eidi.astro
+11:20:04   └─ /eidi/index.html (+4ms)
+11:20:04 ▶ src/pages/index.astro
+11:20:04   └─ /index.html (+5ms)
+11:20:04 ▶ src/pages/pos-leitourgei.astro
+11:20:04   └─ /pos-leitourgei/index.html (+4ms)
+11:20:04 ▶ src/pages/times.astro
+11:20:04   └─ /times/index.html (+3ms)
+11:20:04 ✓ Completed in 54ms.
+
+11:20:04 [build] 7 page(s) built in 1.45s
+11:20:04 [build] Complete!

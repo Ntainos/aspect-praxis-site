@@ -1,0 +1,57 @@
+[
+  {
+    "path": "node_modules/@isaacs/nonrecursive-glob-match",
+    "before": null,
+    "after": "1.1.0"
+  },
+  {
+    "path": "node_modules/@sentry/bundler-plugins",
+    "before": "11.10.0",
+    "after": "11.11.0"
+  },
+  {
+    "path": "node_modules/@sentry/conventions",
+    "before": "0.29.0",
+    "after": "0.30.0"
+  },
+  {
+    "path": "node_modules/@sentry/core",
+    "before": "11.10.0",
+    "after": "11.11.0"
+  },
+  {
+    "path": "node_modules/@sentry/node",
+    "before": "11.10.0",
+    "after": "11.11.0"
+  },
+  {
+    "path": "node_modules/@sentry/opentelemetry",
+    "before": "11.10.0",
+    "after": "11.11.0"
+  },
+  {
+    "path": "node_modules/@sentry/server-runtime-injection",
+    "before": "11.10.0",
+    "after": "11.11.0"
+  },
+  {
+    "path": "node_modules/@sentry/server-utils",
+    "before": "11.10.0",
+    "after": "11.11.0"
+  },
+  {
+    "path": "node_modules/glob",
+    "before": "13.0.6",
+    "after": "14.0.4"
+  },
+  {
+    "path": "node_modules/minimatch",
+    "before": "10.2.6",
+    "after": "11.0.5"
+  },
+  {
+    "path": "node_modules/path-scurry",
+    "before": "2.0.2",
+    "after": "3.0.0"
+  }
+]
