@@ -29,3 +29,7 @@
 PASS: npm ci, npm ls, Astro static build, και οι εννέα εντολές της ομάδας regression (όλα τα υπάρχοντα tests, συγκρίσεις, καταστάσεις φόρμας, test:security). Axe 0 σε 1440/768/390 και στα ελεγχόμενα ανοιχτά μενού/καταστάσεις. Lighthouse Accessibility 100 / Best Practices 100 και στις 12 εκτελέσεις. 46 σενάρια φόρμας με mock API. Μηδέν διαφορετικά pixels σε όλες τις 12 συγκρίσεις προς Βήμα 6. Τα package.json/package-lock.json, src/, public/, design/ και τα ιστορικά artifacts είναι ίδια με τη βάση.
 
 Οι προειδοποιήσεις npm audit δεν αντιμετωπίστηκαν ως αποτυχία build ούτε ως απόδειξη δημόσιας εκμεταλλευσιμότητας. Το audit παραμένει μη καθαρό με τις 9 εγγραφές που αναλύονται παραπάνω. Η προτεινόμενη ενημέρωση δεν εφαρμόστηκε τελικά και δεν πρέπει να αναφερθεί ως διορθωμένη ευπάθεια.
+
+## Παράδοση Pull Request
+
+Το commit της αναφοράς ανέβηκε στο `security/dependency-audit`. Η δημιουργία/ανάγνωση Pull Request μέσω GitHub GraphQL επέστρεψε `Forbidden`. Δεν έγινε παράκαμψη δικαιωμάτων. Ο ιδιοκτήτης μπορεί να ανοίξει [Pull Request χειροκίνητα προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/dependency-audit?expand=1), χρησιμοποιώντας το παρόν PR.md ως περιγραφή. Δεν έγινε merge ή deployment.
