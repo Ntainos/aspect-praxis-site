@@ -1,0 +1,101 @@
+{
+  "version": "0.1.0",
+  "name": "aspect-praxis-site",
+  "dependencies": {
+    "astro": {
+      "version": "5.18.2",
+      "resolved": "https://registry.npmjs.org/astro/-/astro-5.18.2.tgz",
+      "overridden": false,
+      "dependencies": {
+        "esbuild": {
+          "version": "0.27.7",
+          "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.27.7.tgz",
+          "overridden": false
+        },
+        "sharp": {
+          "version": "0.34.5"
+        },
+        "vite": {
+          "version": "6.4.5",
+          "resolved": "https://registry.npmjs.org/vite/-/vite-6.4.5.tgz",
+          "overridden": false,
+          "dependencies": {
+            "esbuild": {
+              "version": "0.25.12",
+              "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "zod-to-json-schema": {
+          "version": "3.25.2",
+          "resolved": "https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz",
+          "overridden": false,
+          "dependencies": {
+            "zod": {
+              "version": "3.25.76"
+            }
+          }
+        },
+        "zod-to-ts": {
+          "version": "1.2.0",
+          "resolved": "https://registry.npmjs.org/zod-to-ts/-/zod-to-ts-1.2.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "zod": {
+              "version": "3.25.76"
+            }
+          }
+        },
+        "zod": {
+          "version": "3.25.76",
+          "resolved": "https://registry.npmjs.org/zod/-/zod-3.25.76.tgz",
+          "overridden": false
+        }
+      }
+    },
+    "lighthouse": {
+      "version": "13.6.0",
+      "resolved": "https://registry.npmjs.org/lighthouse/-/lighthouse-13.6.0.tgz",
+      "overridden": false,
+      "dependencies": {
+        "@sentry/node": {
+          "version": "11.10.0",
+          "resolved": "https://registry.npmjs.org/@sentry/node/-/node-11.10.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "@sentry/bundler-plugins": {
+              "version": "11.10.0",
+              "resolved": "https://registry.npmjs.org/@sentry/bundler-plugins/-/bundler-plugins-11.10.0.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "puppeteer-core": {
+          "version": "25.16.0",
+          "resolved": "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-25.16.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "chromium-bidi": {
+              "version": "157.0.8090-0",
+              "resolved": "https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-157.0.8090-0.tgz",
+              "overridden": false,
+              "dependencies": {
+                "zod": {
+                  "version": "4.6.7",
+                  "resolved": "https://registry.npmjs.org/zod/-/zod-4.6.7.tgz",
+                  "overridden": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sharp": {
+      "version": "0.34.5",
+      "resolved": "https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz",
+      "overridden": false
+    }
+  }
+}

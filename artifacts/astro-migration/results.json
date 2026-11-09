@@ -1,0 +1,45 @@
+{
+  "status": "blocked-before-installation",
+  "base": "a449e16ad2155ada18bd426ac06f623d1ceabe69",
+  "branch": "security/astro-7-migration",
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "installedAstroBefore": "5.18.2",
+  "installedAstroAfter": "5.18.2",
+  "candidateAstro": "7.4.7",
+  "alternativeChecked": "7.4.8",
+  "requiredAdditionalSharp": "0.35.5",
+  "requiredAdditionalSharpPath": "node_modules/astro/node_modules/sharp",
+  "rootSharpUnchanged": "0.34.5",
+  "fixedPackageFindings": 0,
+  "auditBefore": {
+    "info": 0,
+    "low": 1,
+    "moderate": 4,
+    "high": 3,
+    "critical": 1,
+    "total": 9
+  },
+  "auditAfter": {
+    "info": 0,
+    "low": 1,
+    "moderate": 4,
+    "high": 3,
+    "critical": 1,
+    "total": 9
+  },
+  "checks": {
+    "npmCiBaseline": "pass",
+    "npmLsBaseline": "pass",
+    "buildBaseline": "pass",
+    "installDryRun": "pass; predicts additional Sharp 0.35.5; no installation",
+    "migrationBuild": "not run; approval boundary",
+    "migrationTests": "not run; approval boundary",
+    "migrationLighthouse": "not run; approval boundary",
+    "migrationScreenshots": "not generated; approval boundary"
+  },
+  "applicationAndLockfileUnchanged": true,
+  "realApiPosts": 0,
+  "merge": false,
+  "deployment": false
+}

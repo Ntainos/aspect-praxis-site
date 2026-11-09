@@ -1,0 +1,1349 @@
+add lightningcss-linux-x64-gnu 1.33.0
+add lightningcss 1.33.0
+add std-env 4.3.0
+add fnv1a-64 0.1.2
+add @shikijs/primitive 4.6.0
+add @types/estree-jsx 1.0.5
+add @bruits/satteri-linux-x64-gnu 0.11.7
+add @rolldown/pluginutils 1.1.0
+add @rolldown/binding-linux-x64-gnu 1.3.1
+add resolve-pkg-maps 1.0.0
+add fast-string-truncated-width 3.0.3
+add process-ancestry 0.1.0
+add @tybys/wasm-util 0.10.4
+add @emnapi/wasi-threads 1.2.3
+add fast-wrap-ansi 0.2.2
+add fast-string-width 3.0.2
+add @clack/core 1.6.0
+add satteri 0.11.7
+add yaml 2.9.1
+add @napi-rs/wasm-runtime 1.2.7
+add @emnapi/core 1.11.3
+add @astrojs/compiler-binding-linux-x64-gnu 0.5.3
+add @astrojs/compiler-binding 0.5.3
+add verkit 0.5.0
+add tinyps 0.5.2
+add tinyclip 1.0.3
+add rolldown 1.3.1
+add @oxc-project/types 0.157.0
+add obug 3.0.0
+add jsonc-parser 3.3.1
+add get-tsconfig 5.0.0-beta.6
+add am-i-vibing 0.5.0
+add @clack/prompts 1.9.0
+add @astrojs/markdown-satteri 0.4.7
+add @astrojs/compiler-rs 0.5.3
+add @emnapi/runtime 1.11.3
+remove zod-to-ts 1.2.0
+remove zod-to-json-schema 3.25.2
+change zod 3.25.76 => 4.6.7
+remove yoctocolors 2.2.0
+remove yocto-spinner 0.2.3
+change yargs-parser 21.1.1 => 22.0.0
+remove yargs-parser 22.0.0
+remove widest-line 5.0.0
+remove which-pm-runs 1.1.0
+remove web-namespaces 2.0.1
+change vite 6.4.5 => 8.3.7
+add @rolldown/binding-linux-x64-gnu 1.2.18
+add @oxc-project/types 0.156.0
+add rolldown 1.2.18
+remove esbuild 0.25.12
+remove @esbuild/linux-x64 0.25.12
+change vfile-message 4.0.3 => 4.0.4
+remove vfile-location 5.0.3
+remove unist-util-visit-children 3.0.0
+remove unist-util-remove-position 5.0.0
+remove unist-util-modify-children 4.0.0
+change unifont 0.7.5 => 1.0.3
+change undici 8.12.3 => 8.12.4
+remove typescript 5.9.3
+remove type-fest 4.41.0
+remove tsconfck 3.1.6
+change sisteransi 1.0.5 => 2.0.0
+change shiki 3.23.0 => 4.6.0
+remove rollup 4.67.4
+remove retext-stringify 4.0.0
+remove retext-latin 4.0.0
+remove retext 9.0.0
+remove remark-stringify 11.0.0
+remove remark-smartypants 3.0.3
+remove remark-rehype 11.1.2
+remove remark-parse 11.0.0
+remove remark-gfm 4.0.1
+remove rehype-stringify 10.0.1
+remove rehype-raw 7.0.0
+remove rehype-parse 9.0.1
+remove rehype 13.0.2
+remove prompts 2.4.2
+remove parse5 7.3.0
+remove parse-latin 7.0.0
+remove p-timeout 6.1.4
+change p-queue 8.1.1 => 10.0.0
+change p-limit 6.2.0 => 7.3.3
+remove ohash 2.0.12
+change neotraverse 0.6.18 => 1.0.1
+remove micromark-util-subtokenize 2.1.0
+remove micromark-util-resolve-all 2.0.1
+remove micromark-util-normalize-identifier 2.0.1
+remove micromark-util-html-tag-name 2.0.1
+remove micromark-util-edit-map 1.0.0
+remove micromark-util-decode-string 2.0.1
+remove micromark-util-decode-numeric-character-reference 2.0.2
+remove micromark-util-combine-extensions 2.0.1
+remove micromark-util-classify-character 2.0.1
+remove micromark-util-chunked 2.0.1
+remove micromark-factory-whitespace 2.0.1
+remove micromark-factory-title 2.0.1
+remove micromark-factory-space 2.1.0
+remove micromark-factory-label 2.0.1
+remove micromark-factory-destination 2.0.1
+remove micromark-extension-gfm-task-list-item 2.1.0
+remove micromark-extension-gfm-tagfilter 2.0.0
+remove micromark-extension-gfm-table 2.1.2
+remove micromark-extension-gfm-strikethrough 2.1.0
+remove micromark-extension-gfm-footnote 2.1.0
+remove micromark-extension-gfm-autolink-literal 2.1.0
+remove micromark-extension-gfm 3.0.0
+remove micromark-core-commonmark 2.0.4
+remove micromark 4.0.3
+remove mdast-util-to-string 4.0.0
+remove mdast-util-to-markdown 2.2.1
+remove mdast-util-phrasing 4.1.0
+remove mdast-util-gfm-task-list-item 2.0.0
+remove mdast-util-gfm-table 2.0.0
+remove mdast-util-gfm-strikethrough 2.0.1
+remove mdast-util-gfm-footnote 2.1.0
+remove mdast-util-gfm-autolink-literal 2.0.1
+remove mdast-util-gfm 3.1.0
+remove mdast-util-from-markdown 2.1.0
+remove mdast-util-find-and-replace 3.0.4
+remove mdast-util-definitions 6.0.0
+remove markdown-table 3.0.4
+change magic-string 0.30.21 => 1.4.5
+remove longest-streak 3.1.0
+remove yargs-parser 22.0.0
+remove kleur 3.0.3
+remove js-yaml 4.3.2
+remove is-fullwidth-code-point 3.0.0
+remove import-meta-resolve 4.2.0
+remove hastscript 9.0.3
+remove hast-util-to-text 4.0.3
+remove hast-util-to-parse5 8.0.1
+remove hast-util-raw 9.1.0
+remove hast-util-parse-selector 4.0.0
+remove hast-util-from-parse5 8.0.4
+remove hast-util-from-html 2.0.3
+remove eventemitter3 5.0.4
+remove estree-walker 3.0.3
+remove escape-string-regexp 5.0.0
+remove esbuild 0.27.7
+change es-module-lexer 1.7.0 => 3.0.4
+remove entities 6.0.1
+remove dlv 1.1.3
+change diff 8.0.4 => 9.0.0
+change devalue 5.9.4 => 6.0.3
+remove deterministic-object-hash 2.0.2
+remove decode-named-character-reference 1.3.0
+remove cssesc 3.0.0
+change cookie 1.1.1 => 2.0.2
+change common-ancestor-path 1.0.1 => 2.0.0
+remove cli-boxes 3.0.0
+change ci-info 4.4.0 => 4.5.0
+remove zod 4.6.7
+remove character-entities 2.0.2
+remove chalk 5.6.2
+remove camelcase 8.0.0
+remove boxen 8.0.1
+remove base-64 1.0.0
+change astro 5.18.2 => 7.4.7
+add @img/sharp-linux-x64 0.35.5
+add @img/sharp-libvips-linux-x64 1.3.4
+add sharp 0.35.5
+remove array-iterate 2.0.1
+remove argparse 2.0.1
+remove ansi-align 3.0.1
+remove strip-ansi 6.0.1
+remove string-width 4.2.3
+remove emoji-regex 8.0.0
+remove ansi-regex 5.0.1
+remove acorn 8.19.0
+remove @types/ms 2.1.0
+remove @types/debug 4.1.13
+change @shikijs/types 3.23.0 => 4.6.0
+change @shikijs/themes 3.23.0 => 4.6.0
+change @shikijs/langs 3.23.0 => 4.6.0
+change @shikijs/engine-oniguruma 3.23.0 => 4.6.0
+change @shikijs/engine-javascript 3.23.0 => 4.6.0
+change @shikijs/core 3.23.0 => 4.6.0
+remove @rollup/rollup-linux-x64-musl 4.67.4
+remove @rollup/rollup-linux-x64-gnu 4.67.4
+remove @rollup/pluginutils 5.5.1
+remove estree-walker 2.0.2
+remove @napi-rs/lzma-linux-x64-gnu 1.5.1
+remove @esbuild/linux-x64 0.27.7
+change @astrojs/telemetry 3.3.0 => 3.4.2
+add is-docker 4.0.0
+change @astrojs/prism 3.3.0 => 4.1.2
+remove @astrojs/markdown-remark 6.3.11
+change @astrojs/internal-helpers 0.7.6 => 0.13.1
+remove @astrojs/compiler 2.13.1
+{
+  "add": [
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/lightningcss-linux-x64-gnu"
+    },
+    {
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/lightningcss"
+    },
+    {
+      "name": "std-env",
+      "version": "4.3.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/std-env"
+    },
+    {
+      "name": "fnv1a-64",
+      "version": "0.1.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/fnv1a-64"
+    },
+    {
+      "name": "@shikijs/primitive",
+      "version": "4.6.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/primitive"
+    },
+    {
+      "name": "@types/estree-jsx",
+      "version": "1.0.5",
+      "path": "/workspace/aspect-praxis-site/node_modules/@types/estree-jsx"
+    },
+    {
+      "name": "@bruits/satteri-linux-x64-gnu",
+      "version": "0.11.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/@bruits/satteri-linux-x64-gnu"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/@rolldown/pluginutils"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.3.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/@rolldown/binding-linux-x64-gnu"
+    },
+    {
+      "name": "resolve-pkg-maps",
+      "version": "1.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/resolve-pkg-maps"
+    },
+    {
+      "name": "fast-string-truncated-width",
+      "version": "3.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/fast-string-truncated-width"
+    },
+    {
+      "name": "process-ancestry",
+      "version": "0.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/process-ancestry"
+    },
+    {
+      "name": "@tybys/wasm-util",
+      "version": "0.10.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/@tybys/wasm-util"
+    },
+    {
+      "name": "@emnapi/wasi-threads",
+      "version": "1.2.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/@emnapi/wasi-threads"
+    },
+    {
+      "name": "fast-wrap-ansi",
+      "version": "0.2.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/fast-wrap-ansi"
+    },
+    {
+      "name": "fast-string-width",
+      "version": "3.0.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/fast-string-width"
+    },
+    {
+      "name": "@clack/core",
+      "version": "1.6.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/@clack/core"
+    },
+    {
+      "name": "satteri",
+      "version": "0.11.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/satteri"
+    },
+    {
+      "name": "yaml",
+      "version": "2.9.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/yaml"
+    },
+    {
+      "name": "@napi-rs/wasm-runtime",
+      "version": "1.2.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/@napi-rs/wasm-runtime"
+    },
+    {
+      "name": "@emnapi/core",
+      "version": "1.11.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/@emnapi/core"
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "version": "0.5.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/compiler-binding-linux-x64-gnu"
+    },
+    {
+      "name": "@astrojs/compiler-binding",
+      "version": "0.5.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/compiler-binding"
+    },
+    {
+      "name": "verkit",
+      "version": "0.5.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/verkit"
+    },
+    {
+      "name": "tinyps",
+      "version": "0.5.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/tinyps"
+    },
+    {
+      "name": "tinyclip",
+      "version": "1.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/tinyclip"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.3.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/rolldown"
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.157.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/rolldown/node_modules/@oxc-project/types"
+    },
+    {
+      "name": "obug",
+      "version": "3.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/obug"
+    },
+    {
+      "name": "jsonc-parser",
+      "version": "3.3.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/jsonc-parser"
+    },
+    {
+      "name": "get-tsconfig",
+      "version": "5.0.0-beta.6",
+      "path": "/workspace/aspect-praxis-site/node_modules/get-tsconfig"
+    },
+    {
+      "name": "am-i-vibing",
+      "version": "0.5.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/am-i-vibing"
+    },
+    {
+      "name": "@clack/prompts",
+      "version": "1.9.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/@clack/prompts"
+    },
+    {
+      "name": "@astrojs/markdown-satteri",
+      "version": "0.4.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/markdown-satteri"
+    },
+    {
+      "name": "@astrojs/compiler-rs",
+      "version": "0.5.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/compiler-rs"
+    },
+    {
+      "name": "@emnapi/runtime",
+      "version": "1.11.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/@emnapi/runtime"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.18",
+      "path": "/workspace/aspect-praxis-site/node_modules/vite/node_modules/@rolldown/binding-linux-x64-gnu"
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.156.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/vite/node_modules/@oxc-project/types"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.2.18",
+      "path": "/workspace/aspect-praxis-site/node_modules/vite/node_modules/rolldown"
+    },
+    {
+      "name": "@img/sharp-linux-x64",
+      "version": "0.35.5",
+      "path": "/workspace/aspect-praxis-site/node_modules/astro/node_modules/@img/sharp-linux-x64"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-x64",
+      "version": "1.3.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/astro/node_modules/@img/sharp-libvips-linux-x64"
+    },
+    {
+      "name": "sharp",
+      "version": "0.35.5",
+      "path": "/workspace/aspect-praxis-site/node_modules/astro/node_modules/sharp"
+    },
+    {
+      "name": "is-docker",
+      "version": "4.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/telemetry/node_modules/is-docker"
+    }
+  ],
+  "added": 43,
+  "audited": 0,
+  "change": [
+    {
+      "from": {
+        "name": "zod",
+        "version": "3.25.76",
+        "path": "/workspace/aspect-praxis-site/node_modules/zod"
+      },
+      "to": {
+        "name": "zod",
+        "version": "4.6.7",
+        "path": "/workspace/aspect-praxis-site/node_modules/zod"
+      }
+    },
+    {
+      "from": {
+        "name": "yargs-parser",
+        "version": "21.1.1",
+        "path": "/workspace/aspect-praxis-site/node_modules/yargs-parser"
+      },
+      "to": {
+        "name": "yargs-parser",
+        "version": "22.0.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/yargs-parser"
+      }
+    },
+    {
+      "from": {
+        "name": "vite",
+        "version": "6.4.5",
+        "path": "/workspace/aspect-praxis-site/node_modules/vite"
+      },
+      "to": {
+        "name": "vite",
+        "version": "8.3.7",
+        "path": "/workspace/aspect-praxis-site/node_modules/vite"
+      }
+    },
+    {
+      "from": {
+        "name": "vfile-message",
+        "version": "4.0.3",
+        "path": "/workspace/aspect-praxis-site/node_modules/vfile-message"
+      },
+      "to": {
+        "name": "vfile-message",
+        "version": "4.0.4",
+        "path": "/workspace/aspect-praxis-site/node_modules/vfile-message"
+      }
+    },
+    {
+      "from": {
+        "name": "unifont",
+        "version": "0.7.5",
+        "path": "/workspace/aspect-praxis-site/node_modules/unifont"
+      },
+      "to": {
+        "name": "unifont",
+        "version": "1.0.3",
+        "path": "/workspace/aspect-praxis-site/node_modules/unifont"
+      }
+    },
+    {
+      "from": {
+        "name": "undici",
+        "version": "8.12.3",
+        "path": "/workspace/aspect-praxis-site/node_modules/undici"
+      },
+      "to": {
+        "name": "undici",
+        "version": "8.12.4",
+        "path": "/workspace/aspect-praxis-site/node_modules/undici"
+      }
+    },
+    {
+      "from": {
+        "name": "sisteransi",
+        "version": "1.0.5",
+        "path": "/workspace/aspect-praxis-site/node_modules/sisteransi"
+      },
+      "to": {
+        "name": "sisteransi",
+        "version": "2.0.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/sisteransi"
+      }
+    },
+    {
+      "from": {
+        "name": "shiki",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/shiki"
+      },
+      "to": {
+        "name": "shiki",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/shiki"
+      }
+    },
+    {
+      "from": {
+        "name": "p-queue",
+        "version": "8.1.1",
+        "path": "/workspace/aspect-praxis-site/node_modules/p-queue"
+      },
+      "to": {
+        "name": "p-queue",
+        "version": "10.0.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/p-queue"
+      }
+    },
+    {
+      "from": {
+        "name": "p-limit",
+        "version": "6.2.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/p-limit"
+      },
+      "to": {
+        "name": "p-limit",
+        "version": "7.3.3",
+        "path": "/workspace/aspect-praxis-site/node_modules/p-limit"
+      }
+    },
+    {
+      "from": {
+        "name": "neotraverse",
+        "version": "0.6.18",
+        "path": "/workspace/aspect-praxis-site/node_modules/neotraverse"
+      },
+      "to": {
+        "name": "neotraverse",
+        "version": "1.0.1",
+        "path": "/workspace/aspect-praxis-site/node_modules/neotraverse"
+      }
+    },
+    {
+      "from": {
+        "name": "magic-string",
+        "version": "0.30.21",
+        "path": "/workspace/aspect-praxis-site/node_modules/magic-string"
+      },
+      "to": {
+        "name": "magic-string",
+        "version": "1.4.5",
+        "path": "/workspace/aspect-praxis-site/node_modules/magic-string"
+      }
+    },
+    {
+      "from": {
+        "name": "es-module-lexer",
+        "version": "1.7.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/es-module-lexer"
+      },
+      "to": {
+        "name": "es-module-lexer",
+        "version": "3.0.4",
+        "path": "/workspace/aspect-praxis-site/node_modules/es-module-lexer"
+      }
+    },
+    {
+      "from": {
+        "name": "diff",
+        "version": "8.0.4",
+        "path": "/workspace/aspect-praxis-site/node_modules/diff"
+      },
+      "to": {
+        "name": "diff",
+        "version": "9.0.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/diff"
+      }
+    },
+    {
+      "from": {
+        "name": "devalue",
+        "version": "5.9.4",
+        "path": "/workspace/aspect-praxis-site/node_modules/devalue"
+      },
+      "to": {
+        "name": "devalue",
+        "version": "6.0.3",
+        "path": "/workspace/aspect-praxis-site/node_modules/devalue"
+      }
+    },
+    {
+      "from": {
+        "name": "cookie",
+        "version": "1.1.1",
+        "path": "/workspace/aspect-praxis-site/node_modules/cookie"
+      },
+      "to": {
+        "name": "cookie",
+        "version": "2.0.2",
+        "path": "/workspace/aspect-praxis-site/node_modules/cookie"
+      }
+    },
+    {
+      "from": {
+        "name": "common-ancestor-path",
+        "version": "1.0.1",
+        "path": "/workspace/aspect-praxis-site/node_modules/common-ancestor-path"
+      },
+      "to": {
+        "name": "common-ancestor-path",
+        "version": "2.0.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/common-ancestor-path"
+      }
+    },
+    {
+      "from": {
+        "name": "ci-info",
+        "version": "4.4.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/ci-info"
+      },
+      "to": {
+        "name": "ci-info",
+        "version": "4.5.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/ci-info"
+      }
+    },
+    {
+      "from": {
+        "name": "astro",
+        "version": "5.18.2",
+        "path": "/workspace/aspect-praxis-site/node_modules/astro"
+      },
+      "to": {
+        "name": "astro",
+        "version": "7.4.7",
+        "path": "/workspace/aspect-praxis-site/node_modules/astro"
+      }
+    },
+    {
+      "from": {
+        "name": "@shikijs/types",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/types"
+      },
+      "to": {
+        "name": "@shikijs/types",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/types"
+      }
+    },
+    {
+      "from": {
+        "name": "@shikijs/themes",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/themes"
+      },
+      "to": {
+        "name": "@shikijs/themes",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/themes"
+      }
+    },
+    {
+      "from": {
+        "name": "@shikijs/langs",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/langs"
+      },
+      "to": {
+        "name": "@shikijs/langs",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/langs"
+      }
+    },
+    {
+      "from": {
+        "name": "@shikijs/engine-oniguruma",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/engine-oniguruma"
+      },
+      "to": {
+        "name": "@shikijs/engine-oniguruma",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/engine-oniguruma"
+      }
+    },
+    {
+      "from": {
+        "name": "@shikijs/engine-javascript",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/engine-javascript"
+      },
+      "to": {
+        "name": "@shikijs/engine-javascript",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/engine-javascript"
+      }
+    },
+    {
+      "from": {
+        "name": "@shikijs/core",
+        "version": "3.23.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/core"
+      },
+      "to": {
+        "name": "@shikijs/core",
+        "version": "4.6.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@shikijs/core"
+      }
+    },
+    {
+      "from": {
+        "name": "@astrojs/telemetry",
+        "version": "3.3.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/telemetry"
+      },
+      "to": {
+        "name": "@astrojs/telemetry",
+        "version": "3.4.2",
+        "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/telemetry"
+      }
+    },
+    {
+      "from": {
+        "name": "@astrojs/prism",
+        "version": "3.3.0",
+        "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/prism"
+      },
+      "to": {
+        "name": "@astrojs/prism",
+        "version": "4.1.2",
+        "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/prism"
+      }
+    },
+    {
+      "from": {
+        "name": "@astrojs/internal-helpers",
+        "version": "0.7.6",
+        "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/internal-helpers"
+      },
+      "to": {
+        "name": "@astrojs/internal-helpers",
+        "version": "0.13.1",
+        "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/internal-helpers"
+      }
+    }
+  ],
+  "changed": 28,
+  "funding": 0,
+  "remove": [
+    {
+      "name": "zod-to-ts",
+      "version": "1.2.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/zod-to-ts"
+    },
+    {
+      "name": "zod-to-json-schema",
+      "version": "3.25.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/zod-to-json-schema"
+    },
+    {
+      "name": "yoctocolors",
+      "version": "2.2.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/yoctocolors"
+    },
+    {
+      "name": "yocto-spinner",
+      "version": "0.2.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/yocto-spinner"
+    },
+    {
+      "name": "yargs-parser",
+      "version": "22.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/yargs/node_modules/yargs-parser"
+    },
+    {
+      "name": "widest-line",
+      "version": "5.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/widest-line"
+    },
+    {
+      "name": "which-pm-runs",
+      "version": "1.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/which-pm-runs"
+    },
+    {
+      "name": "web-namespaces",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/web-namespaces"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.25.12",
+      "path": "/workspace/aspect-praxis-site/node_modules/vite/node_modules/esbuild"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.25.12",
+      "path": "/workspace/aspect-praxis-site/node_modules/vite/node_modules/@esbuild/linux-x64"
+    },
+    {
+      "name": "vfile-location",
+      "version": "5.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/vfile-location"
+    },
+    {
+      "name": "unist-util-visit-children",
+      "version": "3.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/unist-util-visit-children"
+    },
+    {
+      "name": "unist-util-remove-position",
+      "version": "5.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/unist-util-remove-position"
+    },
+    {
+      "name": "unist-util-modify-children",
+      "version": "4.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/unist-util-modify-children"
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/typescript"
+    },
+    {
+      "name": "type-fest",
+      "version": "4.41.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/type-fest"
+    },
+    {
+      "name": "tsconfck",
+      "version": "3.1.6",
+      "path": "/workspace/aspect-praxis-site/node_modules/tsconfck"
+    },
+    {
+      "name": "rollup",
+      "version": "4.67.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/rollup"
+    },
+    {
+      "name": "retext-stringify",
+      "version": "4.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/retext-stringify"
+    },
+    {
+      "name": "retext-latin",
+      "version": "4.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/retext-latin"
+    },
+    {
+      "name": "retext",
+      "version": "9.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/retext"
+    },
+    {
+      "name": "remark-stringify",
+      "version": "11.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/remark-stringify"
+    },
+    {
+      "name": "remark-smartypants",
+      "version": "3.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/remark-smartypants"
+    },
+    {
+      "name": "remark-rehype",
+      "version": "11.1.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/remark-rehype"
+    },
+    {
+      "name": "remark-parse",
+      "version": "11.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/remark-parse"
+    },
+    {
+      "name": "remark-gfm",
+      "version": "4.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/remark-gfm"
+    },
+    {
+      "name": "rehype-stringify",
+      "version": "10.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/rehype-stringify"
+    },
+    {
+      "name": "rehype-raw",
+      "version": "7.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/rehype-raw"
+    },
+    {
+      "name": "rehype-parse",
+      "version": "9.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/rehype-parse"
+    },
+    {
+      "name": "rehype",
+      "version": "13.0.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/rehype"
+    },
+    {
+      "name": "prompts",
+      "version": "2.4.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/prompts"
+    },
+    {
+      "name": "parse5",
+      "version": "7.3.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/parse5"
+    },
+    {
+      "name": "parse-latin",
+      "version": "7.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/parse-latin"
+    },
+    {
+      "name": "p-timeout",
+      "version": "6.1.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/p-timeout"
+    },
+    {
+      "name": "ohash",
+      "version": "2.0.12",
+      "path": "/workspace/aspect-praxis-site/node_modules/ohash"
+    },
+    {
+      "name": "micromark-util-subtokenize",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-subtokenize"
+    },
+    {
+      "name": "micromark-util-resolve-all",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-resolve-all"
+    },
+    {
+      "name": "micromark-util-normalize-identifier",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-normalize-identifier"
+    },
+    {
+      "name": "micromark-util-html-tag-name",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-html-tag-name"
+    },
+    {
+      "name": "micromark-util-edit-map",
+      "version": "1.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-edit-map"
+    },
+    {
+      "name": "micromark-util-decode-string",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-decode-string"
+    },
+    {
+      "name": "micromark-util-decode-numeric-character-reference",
+      "version": "2.0.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-decode-numeric-character-reference"
+    },
+    {
+      "name": "micromark-util-combine-extensions",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-combine-extensions"
+    },
+    {
+      "name": "micromark-util-classify-character",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-classify-character"
+    },
+    {
+      "name": "micromark-util-chunked",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-util-chunked"
+    },
+    {
+      "name": "micromark-factory-whitespace",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-factory-whitespace"
+    },
+    {
+      "name": "micromark-factory-title",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-factory-title"
+    },
+    {
+      "name": "micromark-factory-space",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-factory-space"
+    },
+    {
+      "name": "micromark-factory-label",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-factory-label"
+    },
+    {
+      "name": "micromark-factory-destination",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-factory-destination"
+    },
+    {
+      "name": "micromark-extension-gfm-task-list-item",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm-task-list-item"
+    },
+    {
+      "name": "micromark-extension-gfm-tagfilter",
+      "version": "2.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm-tagfilter"
+    },
+    {
+      "name": "micromark-extension-gfm-table",
+      "version": "2.1.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm-table"
+    },
+    {
+      "name": "micromark-extension-gfm-strikethrough",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm-strikethrough"
+    },
+    {
+      "name": "micromark-extension-gfm-footnote",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm-footnote"
+    },
+    {
+      "name": "micromark-extension-gfm-autolink-literal",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm-autolink-literal"
+    },
+    {
+      "name": "micromark-extension-gfm",
+      "version": "3.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-extension-gfm"
+    },
+    {
+      "name": "micromark-core-commonmark",
+      "version": "2.0.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark-core-commonmark"
+    },
+    {
+      "name": "micromark",
+      "version": "4.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/micromark"
+    },
+    {
+      "name": "mdast-util-to-string",
+      "version": "4.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-to-string"
+    },
+    {
+      "name": "mdast-util-to-markdown",
+      "version": "2.2.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-to-markdown"
+    },
+    {
+      "name": "mdast-util-phrasing",
+      "version": "4.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-phrasing"
+    },
+    {
+      "name": "mdast-util-gfm-task-list-item",
+      "version": "2.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-gfm-task-list-item"
+    },
+    {
+      "name": "mdast-util-gfm-table",
+      "version": "2.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-gfm-table"
+    },
+    {
+      "name": "mdast-util-gfm-strikethrough",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-gfm-strikethrough"
+    },
+    {
+      "name": "mdast-util-gfm-footnote",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-gfm-footnote"
+    },
+    {
+      "name": "mdast-util-gfm-autolink-literal",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-gfm-autolink-literal"
+    },
+    {
+      "name": "mdast-util-gfm",
+      "version": "3.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-gfm"
+    },
+    {
+      "name": "mdast-util-from-markdown",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-from-markdown"
+    },
+    {
+      "name": "mdast-util-find-and-replace",
+      "version": "3.0.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-find-and-replace"
+    },
+    {
+      "name": "mdast-util-definitions",
+      "version": "6.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/mdast-util-definitions"
+    },
+    {
+      "name": "markdown-table",
+      "version": "3.0.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/markdown-table"
+    },
+    {
+      "name": "longest-streak",
+      "version": "3.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/longest-streak"
+    },
+    {
+      "name": "yargs-parser",
+      "version": "22.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/lighthouse/node_modules/yargs-parser"
+    },
+    {
+      "name": "kleur",
+      "version": "3.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/kleur"
+    },
+    {
+      "name": "js-yaml",
+      "version": "4.3.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/js-yaml"
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/is-fullwidth-code-point"
+    },
+    {
+      "name": "import-meta-resolve",
+      "version": "4.2.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/import-meta-resolve"
+    },
+    {
+      "name": "hastscript",
+      "version": "9.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/hastscript"
+    },
+    {
+      "name": "hast-util-to-text",
+      "version": "4.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/hast-util-to-text"
+    },
+    {
+      "name": "hast-util-to-parse5",
+      "version": "8.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/hast-util-to-parse5"
+    },
+    {
+      "name": "hast-util-raw",
+      "version": "9.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/hast-util-raw"
+    },
+    {
+      "name": "hast-util-parse-selector",
+      "version": "4.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/hast-util-parse-selector"
+    },
+    {
+      "name": "hast-util-from-parse5",
+      "version": "8.0.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/hast-util-from-parse5"
+    },
+    {
+      "name": "hast-util-from-html",
+      "version": "2.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/hast-util-from-html"
+    },
+    {
+      "name": "eventemitter3",
+      "version": "5.0.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/eventemitter3"
+    },
+    {
+      "name": "estree-walker",
+      "version": "3.0.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/estree-walker"
+    },
+    {
+      "name": "escape-string-regexp",
+      "version": "5.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/escape-string-regexp"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.27.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/esbuild"
+    },
+    {
+      "name": "entities",
+      "version": "6.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/entities"
+    },
+    {
+      "name": "dlv",
+      "version": "1.1.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/dlv"
+    },
+    {
+      "name": "deterministic-object-hash",
+      "version": "2.0.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/deterministic-object-hash"
+    },
+    {
+      "name": "decode-named-character-reference",
+      "version": "1.3.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/decode-named-character-reference"
+    },
+    {
+      "name": "cssesc",
+      "version": "3.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/cssesc"
+    },
+    {
+      "name": "cli-boxes",
+      "version": "3.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/cli-boxes"
+    },
+    {
+      "name": "zod",
+      "version": "4.6.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/chromium-bidi/node_modules/zod"
+    },
+    {
+      "name": "character-entities",
+      "version": "2.0.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/character-entities"
+    },
+    {
+      "name": "chalk",
+      "version": "5.6.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/chalk"
+    },
+    {
+      "name": "camelcase",
+      "version": "8.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/camelcase"
+    },
+    {
+      "name": "boxen",
+      "version": "8.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/boxen"
+    },
+    {
+      "name": "base-64",
+      "version": "1.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/base-64"
+    },
+    {
+      "name": "array-iterate",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/array-iterate"
+    },
+    {
+      "name": "argparse",
+      "version": "2.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/argparse"
+    },
+    {
+      "name": "ansi-align",
+      "version": "3.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/ansi-align"
+    },
+    {
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/ansi-align/node_modules/strip-ansi"
+    },
+    {
+      "name": "string-width",
+      "version": "4.2.3",
+      "path": "/workspace/aspect-praxis-site/node_modules/ansi-align/node_modules/string-width"
+    },
+    {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/ansi-align/node_modules/emoji-regex"
+    },
+    {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/ansi-align/node_modules/ansi-regex"
+    },
+    {
+      "name": "acorn",
+      "version": "8.19.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/acorn"
+    },
+    {
+      "name": "@types/ms",
+      "version": "2.1.0",
+      "path": "/workspace/aspect-praxis-site/node_modules/@types/ms"
+    },
+    {
+      "name": "@types/debug",
+      "version": "4.1.13",
+      "path": "/workspace/aspect-praxis-site/node_modules/@types/debug"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-musl",
+      "version": "4.67.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/@rollup/rollup-linux-x64-musl"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.67.4",
+      "path": "/workspace/aspect-praxis-site/node_modules/@rollup/rollup-linux-x64-gnu"
+    },
+    {
+      "name": "@rollup/pluginutils",
+      "version": "5.5.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/@rollup/pluginutils"
+    },
+    {
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "path": "/workspace/aspect-praxis-site/node_modules/@rollup/pluginutils/node_modules/estree-walker"
+    },
+    {
+      "name": "@napi-rs/lzma-linux-x64-gnu",
+      "version": "1.5.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/@napi-rs/lzma-linux-x64-gnu"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.27.7",
+      "path": "/workspace/aspect-praxis-site/node_modules/@esbuild/linux-x64"
+    },
+    {
+      "name": "@astrojs/markdown-remark",
+      "version": "6.3.11",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/markdown-remark"
+    },
+    {
+      "name": "@astrojs/compiler",
+      "version": "2.13.1",
+      "path": "/workspace/aspect-praxis-site/node_modules/@astrojs/compiler"
+    }
+  ],
+  "removed": 119
+}
