@@ -62,3 +62,7 @@
 Αλλάζουν μόνο τα αποδεικτικά στο `artifacts/astro-migration/`. Δεν άλλαξαν main, cf-placeholder, feat/publication-seo-draft. Δεν έγινε merge, deployment ή πρόσβαση Cloudflare/Access/DNS. Δεν προστέθηκαν μυστικά, υπηρεσίες, runtime JavaScript ή αλλαγές CSP/noindex. [Μηχανικά αναγνώσιμα αποτελέσματα](results.json).
 
 **Σύσταση: απαιτείται απόφαση scope πριν την υλοποίηση.** Η migration δεν είναι έτοιμη για έγκριση συγχώνευσης. Μετά από έγκριση του συγκεκριμένου μεταβατικού Sharp, η εγκατάσταση και οι πλήρεις επαληθεύσεις μπορούν να συνεχιστούν στο ίδιο branch.
+
+## Pull Request
+
+Η δημιουργία Draft PR επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/astro-7-migration?expand=1), με την περιγραφή του PR.md. Παραμένει αίτημα απόφασης scope, χωρίς merge.

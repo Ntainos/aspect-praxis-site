@@ -11,3 +11,7 @@
 [Αναφορά](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/REPORT.md) · [Αποτελέσματα](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/results.json)
 
 Κανένα merge ή deployment.
+
+## Pull Request
+
+Η δημιουργία Draft PR επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/astro-7-migration?expand=1), με την περιγραφή του PR.md. Παραμένει αίτημα απόφασης scope, χωρίς merge.
