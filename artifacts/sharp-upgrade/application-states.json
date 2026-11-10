@@ -1,0 +1,82 @@
+[
+  {
+    "state": "validation-errors",
+    "width": 1440,
+    "mockedPosts": 0,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "pending",
+    "width": 1440,
+    "mockedPosts": 1,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "server-error",
+    "width": 1440,
+    "mockedPosts": 1,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "success",
+    "width": 1440,
+    "mockedPosts": 1,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "validation-errors",
+    "width": 390,
+    "mockedPosts": 0,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "pending",
+    "width": 390,
+    "mockedPosts": 1,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "server-error",
+    "width": 390,
+    "mockedPosts": 1,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  },
+  {
+    "state": "success",
+    "width": 390,
+    "mockedPosts": 1,
+    "actualExternalRequests": 0,
+    "axeViolations": [],
+    "errors": [],
+    "overflow": false,
+    "storage": 0
+  }
+]

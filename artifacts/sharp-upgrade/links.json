@@ -1,0 +1,79 @@
+[
+  {
+    "href": "http://127.0.0.1:4321/",
+    "label": "Praxis",
+    "kind": "internal",
+    "status": 200
+  },
+  {
+    "href": "http://127.0.0.1:4321/pos-leitourgei",
+    "label": "Πώς λειτουργεί",
+    "kind": "internal",
+    "status": 200
+  },
+  {
+    "href": "http://127.0.0.1:4321/eidi",
+    "label": "Είδη πράξεων",
+    "kind": "internal",
+    "status": 200
+  },
+  {
+    "href": "http://127.0.0.1:4321/dedomena",
+    "label": "Ασφάλεια και δεδομένα",
+    "kind": "internal",
+    "status": 200
+  },
+  {
+    "href": "http://127.0.0.1:4321/times",
+    "label": "Τιμές",
+    "kind": "internal",
+    "status": 200
+  },
+  {
+    "href": "http://127.0.0.1:4321/aitisi",
+    "label": "Αίτηση",
+    "kind": "internal",
+    "status": 200
+  },
+  {
+    "href": "mailto:info@aspect-praxis.com",
+    "label": "info@aspect-praxis.com",
+    "kind": "email",
+    "valid": true
+  },
+  {
+    "href": "https://app.aspect-praxis.com/oroi",
+    "label": "Όροι χρήσης",
+    "kind": "external",
+    "approvedDestination": true,
+    "networkRequested": false
+  },
+  {
+    "href": "https://app.aspect-praxis.com/aporrito",
+    "label": "Πολιτική απορρήτου",
+    "kind": "external",
+    "approvedDestination": true,
+    "networkRequested": false
+  },
+  {
+    "href": "https://app.aspect-praxis.com/cookies",
+    "label": "Πολιτική cookies",
+    "kind": "external",
+    "approvedDestination": true,
+    "networkRequested": false
+  },
+  {
+    "href": "https://app.aspect-praxis.com/prostasia-dedomenon",
+    "label": "Σύμβαση επεξεργασίας δεδομένων",
+    "kind": "external",
+    "approvedDestination": true,
+    "networkRequested": false
+  },
+  {
+    "href": "http://127.0.0.1:4321/dedomena#metra",
+    "label": "Όλα τα μέτρα, ένα-ένα",
+    "kind": "internal",
+    "status": 200,
+    "anchorExists": true
+  }
+]
