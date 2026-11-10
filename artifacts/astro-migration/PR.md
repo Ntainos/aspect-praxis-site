@@ -1,17 +1,13 @@
-# Astro 7 migration: απαιτείται έγκριση μεταβατικού Sharp
+# Astro 7.4.8: διόρθωση critical και διατήρηση εμφάνισης/CSP
 
-Η προσομοίωση της μετάβασης Astro 5.18.2 → 7.4.7 προσθέτει Sharp 0.35.5 κάτω από το Astro, ενώ το άμεσο Sharp 0.34.5 παραμένει. Και το 7.4.8 δηλώνει Sharp ^0.35.4. Σύμφωνα με τον ρητό περιορισμό scope, η εγκατάσταση σταμάτησε πριν γίνει αυτή η αλλαγή.
+Η μετάβαση Astro 5.18.2 → 7.4.8 εξαλείφει τις εγγραφές Astro, esbuild, Zod και zod-to-ts, συμπεριλαμβανομένης της critical GHSA-26w7-cxv4-gfx2. Το audit μειώνεται από 9 σε 5: 0 critical, 1 high, 4 moderate, 0 low. Παραμένουν ρητά το root Sharp 0.34.5 και η αλυσίδα Sentry.
 
-Η παράδοση περιέχει μόνο τεκμηρίωση και αποδεικτικά. Manifest/lockfile, πηγές, design, configuration, tests και headers είναι αμετάβλητα. Δεν αποτελεί επιτυχημένη migration ούτε πρόταση για merge.
+Το Astro επιλύει το εγκεκριμένο μεταβατικό Sharp 0.35.5. Η άμεση δήλωση sharp ^0.34.0 και οι 126 ονομασίες πακέτων της αλυσίδας Lighthouse διατηρούν τις ίδιες εκδόσεις. Το lockfile δημιουργήθηκε με την κανονική npm επιλογή install-strategy=nested και επαληθεύτηκε με απλό npm ci, χωρίς overrides ή παράκαμψη peers.
 
-Έλεγχοι: καθαρό npm ci, npm ls και build της βάσης πέρασαν. Το audit παραμένει 9 (1 critical, 3 high, 4 moderate, 1 low), με 0 διορθώσεις. Δεν εκτελέστηκαν browser/Lighthouse/οπτικές δοκιμές υποψηφίου, αφού δεν εγκαταστάθηκε Astro 7.
+Η μοναδική αλλαγή πηγών αυξάνει την ειδικότητα του selector .closing-email a μέσα στο .application-closing: διατηρεί το εγκεκριμένο λευκό email ανεξάρτητα από τη νέα σειρά CSS chunks. Configuration, design, κείμενα, components, API contract, tests και public/_headers είναι αμετάβλητα.
 
-Απαιτείται απόφαση μόνο για την πρόσθετη μεταβατική εξάρτηση Sharp 0.35.5. Το root Sharp και το Sentry παραμένουν εκτός scope. Έπειτα απαιτείται πλήρης επανέλεγχος πριν οποιαδήποτε έγκριση.
+Validation: καθαρό npm ci, npm ls και static build σε Node 24.22.1· όλες οι υπάρχουσες σουίτες και test:security PASS· 46 mock περιπτώσεις φόρμας χωρίς πραγματικά POST· axe 0· Lighthouse 100/100 σε 12 εκτελέσεις· μηδέν διαφορετικά pixels σε 12 συγκρίσεις προς Βήμα 6. Νέες συγκρίσεις προς design περιλαμβάνονται στην αναφορά. Η αυστηρή CSP και το γενικό noindex/nofollow παραμένουν ίδια.
 
-[Αναφορά](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/REPORT.md) · [Αποτελέσματα](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/results.json)
+[Πλήρης αναφορά](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/REPORT.md) · [Αποτελέσματα](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/results.json)
 
-Κανένα merge ή deployment.
-
-## Pull Request
-
-Η δημιουργία Draft PR επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/astro-7-migration?expand=1), με την περιγραφή του PR.md. Παραμένει αίτημα απόφασης scope, χωρίς merge.
+Προτείνεται review/έγκριση merge της συγκεκριμένης migration. Οι εκκρεμότητες Sharp/Sentry και οι έλεγχοι πραγματικής υποδομής/API απαιτούν χωριστή εργασία πριν δημόσια λειτουργία. Δεν έγινε merge ή deployment.

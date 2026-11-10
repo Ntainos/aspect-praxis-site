@@ -1,0 +1,66 @@
+{
+  "diagnosticOnly": true,
+  "method": "Browser-only candidate specificity rule; final build validation required",
+  "results": [
+    {
+      "name": "index",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "times",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "times",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "differentPixels": 0
+    }
+  ]
+}

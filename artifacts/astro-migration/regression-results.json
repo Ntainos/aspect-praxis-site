@@ -1,0 +1,42 @@
+[
+  {
+    "command": "npm test",
+    "exitCode": 0,
+    "seconds": 23.1
+  },
+  {
+    "command": "npm run test:home",
+    "exitCode": 0,
+    "seconds": 17.3
+  },
+  {
+    "command": "npm run test:pages",
+    "exitCode": 0,
+    "seconds": 32.5
+  },
+  {
+    "command": "npm run test:data-pricing",
+    "exitCode": 0,
+    "seconds": 28.3
+  },
+  {
+    "command": "npm run test:application",
+    "exitCode": 0,
+    "seconds": 87.0
+  },
+  {
+    "command": "npm run test:audit",
+    "exitCode": 0,
+    "seconds": 93.7
+  },
+  {
+    "command": "node tests/comparisons.mjs",
+    "exitCode": 0,
+    "seconds": 1.7
+  },
+  {
+    "command": "node tests/application-states.mjs",
+    "exitCode": 0,
+    "seconds": 22.2
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "page": "index",
+    "device": "desktop",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "index",
+    "device": "mobile",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "pos-leitourgei",
+    "device": "desktop",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "pos-leitourgei",
+    "device": "mobile",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "eidi",
+    "device": "desktop",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "eidi",
+    "device": "mobile",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "dedomena",
+    "device": "desktop",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "dedomena",
+    "device": "mobile",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "times",
+    "device": "desktop",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "times",
+    "device": "mobile",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "aitisi",
+    "device": "desktop",
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "page": "aitisi",
+    "device": "mobile",
+    "accessibility": 100,
+    "bestPractices": 100
+  }
+]

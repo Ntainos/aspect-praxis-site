@@ -1,0 +1,11 @@
+{
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "astro": "7.4.8",
+  "rootSharp": "0.34.5",
+  "astroSharp": "0.35.5",
+  "astroSharpResolved": "node_modules/astro/node_modules/sharp/dist/index.cjs",
+  "zod": "4.6.7",
+  "rootSharpSmokePngBytes": 92,
+  "astroSharpSmokePngBytes": 92
+}
