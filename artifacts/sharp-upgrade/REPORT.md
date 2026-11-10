@@ -101,3 +101,7 @@
 Αφορούν την τοπική εργαλειοθήκη Lighthouse, όχι SDK ή analytics στη δημόσια έξοδο. Δεν βρέθηκε δημόσια διαδρομή εισόδου επισκέπτη προς αυτά, αλλά παραμένει κίνδυνος εργαλείων με μη έμπιστα δεδομένα. Προτείνεται χωριστή, εγκεκριμένη ενημέρωση της αλυσίδας Sentry με νέο audit και πλήρη επανέλεγχο. Η [αρχική αναφορά ασφάλειας](https://github.com/Ntainos/aspect-praxis-site/blob/security/dependency-audit/artifacts/security-audit/REPORT.md) τεκμηριώνει υποψήφιο Sentry 11.11.0 και τις μεταβατικές major αλλαγές glob/minimatch/path-scurry. Δεν εφαρμόστηκαν εδώ.
 
 Οι έλεγχοι είναι τοπικοί. Δεν εξετάστηκαν πραγματικό API/CORS/rate limiting ή πραγματική υποδομή Cloudflare. Δεν έγινε merge, deployment ή αλλαγή Cloudflare/Access/DNS/hosting. Τα main, cf-placeholder και feat/publication-seo-draft παραμένουν ανέπαφα. [Συνολικά αποτελέσματα](results.json).
+
+## Pull Request
+
+Η δημιουργία PR μετά το push επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν έγινε παράκαμψη δικαιωμάτων. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/sharp-upgrade?expand=1), με την περιγραφή του PR.md. Δεν έγινε merge ή deployment.

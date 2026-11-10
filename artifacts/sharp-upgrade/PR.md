@@ -9,3 +9,7 @@ Validation: απλό npm ci, npm ls --all, static build και όλες οι υ�
 [Αναφορά και συγκρίσεις](https://github.com/Ntainos/aspect-praxis-site/blob/security/sharp-upgrade/artifacts/sharp-upgrade/REPORT.md) · [Αποτελέσματα](https://github.com/Ntainos/aspect-praxis-site/blob/security/sharp-upgrade/artifacts/sharp-upgrade/results.json)
 
 Προτείνεται review/έγκριση merge της συγκεκριμένης αλλαγής. Τα 4 moderate απαιτούν χωριστή ενημέρωση Sentry. Δεν έγινε merge ή deployment.
+
+## Pull Request
+
+Η δημιουργία PR μετά το push επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν έγινε παράκαμψη δικαιωμάτων. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/sharp-upgrade?expand=1), με την περιγραφή του PR.md. Δεν έγινε merge ή deployment.

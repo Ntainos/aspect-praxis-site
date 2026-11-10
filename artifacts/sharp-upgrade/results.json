@@ -236,5 +236,10 @@
   },
   "recommendation": "Ready for owner review and merge approval; Sentry follow-up remains separate",
   "mergePerformed": false,
-  "deploymentPerformed": false
+  "deploymentPerformed": false,
+  "pullRequest": {
+    "created": false,
+    "reason": "GitHub GraphQL Forbidden",
+    "manualUrl": "https://github.com/Ntainos/aspect-praxis-site/compare/main...security/sharp-upgrade?expand=1"
+  }
 }
