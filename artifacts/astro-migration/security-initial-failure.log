@@ -1,0 +1,22 @@
+
+> aspect-praxis-site@0.1.0 test:security
+> node tests/security.mjs
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: pos-leitourgei 1440: visual regression
+
+1252 !== 0
+
+    at file:///workspace/aspect-praxis-site/tests/security.mjs:37:97 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1252,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1

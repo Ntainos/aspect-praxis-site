@@ -1,0 +1,342 @@
+{
+  "before": {
+    "info": 0,
+    "low": 1,
+    "moderate": 4,
+    "high": 3,
+    "critical": 1,
+    "total": 9
+  },
+  "after": {
+    "info": 0,
+    "low": 0,
+    "moderate": 4,
+    "high": 1,
+    "critical": 0,
+    "total": 5
+  },
+  "removedPackageEntries": [
+    "astro",
+    "esbuild",
+    "zod",
+    "zod-to-ts"
+  ],
+  "newPackageEntries": [],
+  "advisories": [
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-j687-52p2-xcff",
+      "title": "Astro: XSS in define:vars via incomplete </script> tag sanitization",
+      "severity": "moderate",
+      "range": "<6.1.6",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-xr5h-phrj-8vxv",
+      "title": "Astro: Server island encrypted parameters vulnerable to cross-component replay",
+      "severity": "low",
+      "range": "<6.1.10",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-jrpj-wcv7-9fh9",
+      "title": "Astro: XSS via Unescaped Attribute Names in Spread Props",
+      "severity": "moderate",
+      "range": "<6.4.6",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-f48w-9m4c-m7f5",
+      "title": "Astro: XSS via unescaped spread attribute names in renderHTMLElement (incomplete fix for CVE-2026-54298)",
+      "severity": "moderate",
+      "range": "<7.0.6",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-7pw4-f3q4-r2p2",
+      "title": "Astro: Cross-site scripting via unescaped transition:* directive values on hydrated islands",
+      "severity": "low",
+      "range": ">=3.10.0 <7.0.4",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-4g3v-8h47-v7g6",
+      "title": "Astro: Reflected XSS via unescaped View Transition animation properties",
+      "severity": "moderate",
+      "range": ">=2.9.0 <=7.0.9",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-2pvr-wf23-7pc7",
+      "title": "Astro: Host header SSRF in prerendered error page fetch",
+      "severity": "high",
+      "range": "<6.4.6",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-8hv8-536x-4wqp",
+      "title": "Astro: Reflected XSS via unescaped slot name",
+      "severity": "high",
+      "range": "<6.3.3",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-26w7-cxv4-gfx2",
+      "title": "Astro: Remote code execution through AVIF image optimization",
+      "severity": "critical",
+      "range": "<7.2.8",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-376h-93r7-7g6f",
+      "title": "Astro: Authorization bypass from missing path-segment boundary check when stripping the configured base",
+      "severity": "moderate",
+      "range": "<=7.2.3",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "astro",
+      "url": "https://github.com/advisories/GHSA-98hj-9722-w3j8",
+      "title": "Astro: Reflected/Stored XSS via unescaped <script>/<style> tag content in JSX/MDX rendering",
+      "severity": "moderate",
+      "range": "<7.3.2",
+      "installed": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.4.8",
+          "lockVersion": "7.4.8"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "esbuild",
+      "url": "https://github.com/advisories/GHSA-g7r4-m6w7-qqqr",
+      "title": "esbuild allows arbitrary file read when running the development server on Windows",
+      "severity": "low",
+      "range": ">=0.27.3 <0.28.1",
+      "installed": [],
+      "vulnerableInstalled": []
+    },
+    {
+      "package": "glob",
+      "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+      "title": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+      "severity": "moderate",
+      "range": ">=9.0.0 <=14.0.1",
+      "installed": [
+        {
+          "path": "node_modules/glob",
+          "version": "13.0.6",
+          "lockVersion": "13.0.6"
+        }
+      ],
+      "vulnerableInstalled": [
+        {
+          "path": "node_modules/glob",
+          "version": "13.0.6",
+          "lockVersion": "13.0.6"
+        }
+      ]
+    },
+    {
+      "package": "minimatch",
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "title": "minimatch has potential denial of service via globparts amplification",
+      "severity": "moderate",
+      "range": ">=7.0.0 <11.0.1",
+      "installed": [
+        {
+          "path": "node_modules/minimatch",
+          "version": "10.2.6",
+          "lockVersion": "10.2.6"
+        }
+      ],
+      "vulnerableInstalled": [
+        {
+          "path": "node_modules/minimatch",
+          "version": "10.2.6",
+          "lockVersion": "10.2.6"
+        }
+      ]
+    },
+    {
+      "package": "sharp",
+      "url": "https://github.com/advisories/GHSA-f88m-g3jw-g9cj",
+      "title": "sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
+      "severity": "high",
+      "range": "<0.35.0",
+      "installed": [
+        {
+          "path": "node_modules/astro/node_modules/sharp",
+          "version": "0.35.5",
+          "lockVersion": "0.35.5"
+        },
+        {
+          "path": "node_modules/sharp",
+          "version": "0.34.5",
+          "lockVersion": "0.34.5"
+        }
+      ],
+      "vulnerableInstalled": [
+        {
+          "path": "node_modules/sharp",
+          "version": "0.34.5",
+          "lockVersion": "0.34.5"
+        }
+      ]
+    },
+    {
+      "package": "sharp",
+      "url": "https://github.com/advisories/GHSA-rgj7-g3m4-5g8c",
+      "title": "sharp: Vulnerabilities in libheif: GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545",
+      "severity": "high",
+      "range": "<0.35.4",
+      "installed": [
+        {
+          "path": "node_modules/astro/node_modules/sharp",
+          "version": "0.35.5",
+          "lockVersion": "0.35.5"
+        },
+        {
+          "path": "node_modules/sharp",
+          "version": "0.34.5",
+          "lockVersion": "0.34.5"
+        }
+      ],
+      "vulnerableInstalled": [
+        {
+          "path": "node_modules/sharp",
+          "version": "0.34.5",
+          "lockVersion": "0.34.5"
+        }
+      ]
+    },
+    {
+      "package": "sharp",
+      "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
+      "title": "sharp : Vulnerability in librsvg dependency CVE-2026-96889",
+      "severity": "high",
+      "range": "<0.35.5",
+      "installed": [
+        {
+          "path": "node_modules/astro/node_modules/sharp",
+          "version": "0.35.5",
+          "lockVersion": "0.35.5"
+        },
+        {
+          "path": "node_modules/sharp",
+          "version": "0.34.5",
+          "lockVersion": "0.34.5"
+        }
+      ],
+      "vulnerableInstalled": [
+        {
+          "path": "node_modules/sharp",
+          "version": "0.34.5",
+          "lockVersion": "0.34.5"
+        }
+      ]
+    },
+    {
+      "package": "zod",
+      "url": "https://github.com/advisories/GHSA-mrhx-c7xc-m3w5",
+      "title": "Zod can exhaust memory while validating oversized constrained collections",
+      "severity": "high",
+      "range": "<4.6.6",
+      "installed": [
+        {
+          "path": "node_modules/astro/node_modules/zod",
+          "version": "4.6.7",
+          "lockVersion": "4.6.7"
+        },
+        {
+          "path": "node_modules/chromium-bidi/node_modules/zod",
+          "version": "4.6.7",
+          "lockVersion": "4.6.7"
+        }
+      ],
+      "vulnerableInstalled": []
+    }
+  ],
+  "settings": "Explicit npm audit --json; no ignore/override/configuration change"
+}

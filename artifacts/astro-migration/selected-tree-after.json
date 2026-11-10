@@ -1,0 +1,66 @@
+{
+  "version": "0.1.0",
+  "name": "aspect-praxis-site",
+  "dependencies": {
+    "astro": {
+      "version": "7.4.8",
+      "resolved": "https://registry.npmjs.org/astro/-/astro-7.4.8.tgz",
+      "overridden": false,
+      "dependencies": {
+        "sharp": {
+          "version": "0.35.5",
+          "resolved": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
+          "overridden": false
+        },
+        "zod": {
+          "version": "4.6.7",
+          "resolved": "https://registry.npmjs.org/zod/-/zod-4.6.7.tgz",
+          "overridden": false
+        }
+      }
+    },
+    "lighthouse": {
+      "version": "13.6.0",
+      "resolved": "https://registry.npmjs.org/lighthouse/-/lighthouse-13.6.0.tgz",
+      "overridden": false,
+      "dependencies": {
+        "@sentry/node": {
+          "version": "11.10.0",
+          "resolved": "https://registry.npmjs.org/@sentry/node/-/node-11.10.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "@sentry/bundler-plugins": {
+              "version": "11.10.0",
+              "resolved": "https://registry.npmjs.org/@sentry/bundler-plugins/-/bundler-plugins-11.10.0.tgz",
+              "overridden": false
+            }
+          }
+        },
+        "puppeteer-core": {
+          "version": "25.16.0",
+          "resolved": "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-25.16.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "chromium-bidi": {
+              "version": "157.0.8090-0",
+              "resolved": "https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-157.0.8090-0.tgz",
+              "overridden": false,
+              "dependencies": {
+                "zod": {
+                  "version": "4.6.7",
+                  "resolved": "https://registry.npmjs.org/zod/-/zod-4.6.7.tgz",
+                  "overridden": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sharp": {
+      "version": "0.34.5",
+      "resolved": "https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz",
+      "overridden": false
+    }
+  }
+}

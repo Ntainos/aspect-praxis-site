@@ -1,0 +1,259 @@
+{
+  "status": "passed",
+  "base": "a449e16ad2155ada18bd426ac06f623d1ceabe69",
+  "continuedFrom": "1b2bfb20cf14afa03c1fcb4a556ea779d8c39fc0",
+  "branch": "security/astro-7-migration",
+  "versions": {
+    "node": "v24.22.1",
+    "npm": "11.9.0",
+    "astro": "7.4.8",
+    "rootSharp": "0.34.5",
+    "astroSharp": "0.35.5",
+    "astroSharpResolved": "node_modules/astro/node_modules/sharp/dist/index.cjs",
+    "zod": "4.6.7",
+    "rootSharpSmokePngBytes": 92,
+    "astroSharpSmokePngBytes": 92
+  },
+  "auditBefore": {
+    "info": 0,
+    "low": 1,
+    "moderate": 4,
+    "high": 3,
+    "critical": 1,
+    "total": 9
+  },
+  "auditAfter": {
+    "info": 0,
+    "low": 0,
+    "moderate": 4,
+    "high": 1,
+    "critical": 0,
+    "total": 5
+  },
+  "removedPackageEntries": [
+    "astro",
+    "esbuild",
+    "zod",
+    "zod-to-ts"
+  ],
+  "newPackageEntries": [],
+  "regressionCommands": [
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "seconds": 23.1
+    },
+    {
+      "command": "npm run test:home",
+      "exitCode": 0,
+      "seconds": 17.3
+    },
+    {
+      "command": "npm run test:pages",
+      "exitCode": 0,
+      "seconds": 32.5
+    },
+    {
+      "command": "npm run test:data-pricing",
+      "exitCode": 0,
+      "seconds": 28.3
+    },
+    {
+      "command": "npm run test:application",
+      "exitCode": 0,
+      "seconds": 87.0
+    },
+    {
+      "command": "npm run test:audit",
+      "exitCode": 0,
+      "seconds": 93.7
+    },
+    {
+      "command": "node tests/comparisons.mjs",
+      "exitCode": 0,
+      "seconds": 1.7
+    },
+    {
+      "command": "node tests/application-states.mjs",
+      "exitCode": 0,
+      "seconds": 22.2
+    },
+    {
+      "command": "npm run test:security",
+      "exitCode": 0
+    },
+    {
+      "command": "node tests/lighthouse-audit.mjs",
+      "exitCode": 0
+    }
+  ],
+  "npmCi": true,
+  "npmLsNoConflicts": true,
+  "staticBuild": true,
+  "axeViolations": 0,
+  "lighthouse": [
+    {
+      "page": "index",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "index",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "pos-leitourgei",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "pos-leitourgei",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "eidi",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "eidi",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "dedomena",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "dedomena",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "times",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "times",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "aitisi",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "aitisi",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    }
+  ],
+  "visual": [
+    {
+      "name": "index",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 9722880
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 3335670
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 6621120
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 3185130
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 3258720
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1713660
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 5397120
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 2527980
+    },
+    {
+      "name": "times",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 2957760
+    },
+    {
+      "name": "times",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1252290
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 2567520
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1311960
+    }
+  ],
+  "cspUnchanged": true,
+  "headersUnchanged": true,
+  "visibleTextsUnchanged": true,
+  "lighthouseSentryClosureUnchanged": true,
+  "realExternalApiPosts": 0,
+  "remainingRisks": [
+    "Root Sharp 0.34.5 high",
+    "Lighthouse/Sentry/glob/minimatch: 4 moderate"
+  ],
+  "recommendation": "Ready for owner review and merge approval for this migration only; no deployment approval",
+  "mergePerformed": false,
+  "deploymentPerformed": false,
+  "pullRequest": {
+    "created": false,
+    "reason": "GitHub GraphQL Forbidden",
+    "manualUrl": "https://github.com/Ntainos/aspect-praxis-site/compare/main...security/astro-7-migration?expand=1"
+  }
+}

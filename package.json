@@ -16,7 +16,7 @@
     "test:security": "node tests/security.mjs"
   },
   "dependencies": {
-    "astro": "^5.16.0"
+    "astro": "7.4.8"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.0",

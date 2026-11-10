@@ -1,0 +1,43 @@
+{
+  "unchangedPackages": {
+    "node_modules/@sentry/bundler-plugins": "11.10.0",
+    "node_modules/@sentry/conventions": "0.29.0",
+    "node_modules/@sentry/core": "11.10.0",
+    "node_modules/@sentry/node": "11.10.0",
+    "node_modules/@sentry/opentelemetry": "11.10.0",
+    "node_modules/@sentry/server-runtime-injection": "11.10.0",
+    "node_modules/@sentry/server-utils": "11.10.0",
+    "node_modules/glob": "13.0.6",
+    "node_modules/lighthouse": "13.6.0",
+    "node_modules/magic-string": "0.30.21",
+    "node_modules/minimatch": "10.2.6",
+    "node_modules/path-scurry": "2.0.2",
+    "node_modules/sharp": "0.34.5"
+  },
+  "lighthouseClosurePackages": 126,
+  "lighthouseClosureVersionDifferences": {},
+  "devDependenciesUnchanged": true,
+  "rootSharpVersion": "0.34.5",
+  "rootSharpIntegrityUnchanged": true,
+  "metadataOnlyChanges": {
+    "node_modules/magic-string": {
+      "dev": [
+        null,
+        true
+      ]
+    },
+    "node_modules/sharp": {
+      "devOptional": [
+        true,
+        null
+      ],
+      "dev": [
+        null,
+        true
+      ]
+    }
+  },
+  "astro": "7.4.8",
+  "astroSharp": "0.35.5",
+  "resolution": "npm install astro@7.4.8 --save-exact --install-strategy=nested --package-lock-only; then normal npm ci"
+}

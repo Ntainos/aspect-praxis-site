@@ -1,0 +1,30 @@
+[
+  {
+    "file": "dist/404.html",
+    "textNodesMatch": true
+  },
+  {
+    "file": "dist/index.html",
+    "textNodesMatch": true
+  },
+  {
+    "file": "dist/dedomena/index.html",
+    "textNodesMatch": true
+  },
+  {
+    "file": "dist/aitisi/index.html",
+    "textNodesMatch": true
+  },
+  {
+    "file": "dist/times/index.html",
+    "textNodesMatch": true
+  },
+  {
+    "file": "dist/pos-leitourgei/index.html",
+    "textNodesMatch": true
+  },
+  {
+    "file": "dist/eidi/index.html",
+    "textNodesMatch": true
+  }
+]
