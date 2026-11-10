@@ -11,3 +11,7 @@ Validation: καθαρό npm ci, npm ls και static build σε Node 24.22.1· 
 [Πλήρης αναφορά](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/REPORT.md) · [Αποτελέσματα](https://github.com/Ntainos/aspect-praxis-site/blob/security/astro-7-migration/artifacts/astro-migration/results.json)
 
 Προτείνεται review/έγκριση merge της συγκεκριμένης migration. Οι εκκρεμότητες Sharp/Sentry και οι έλεγχοι πραγματικής υποδομής/API απαιτούν χωριστή εργασία πριν δημόσια λειτουργία. Δεν έγινε merge ή deployment.
+
+## Pull Request
+
+Η δημιουργία PR μετά το push της ολοκληρωμένης migration επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν έγινε παράκαμψη δικαιωμάτων. [Χειροκίνητη δημιουργία PR προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/astro-7-migration?expand=1), με την περιγραφή του PR.md. Δεν έγινε merge ή deployment.

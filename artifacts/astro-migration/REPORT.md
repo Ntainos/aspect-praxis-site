@@ -128,3 +128,7 @@ npm run build
 [Συνολικά αποτελέσματα](results.json). Τα αρχικά dry-run/metadata του προηγούμενου σταδίου παραμένουν ιστορικά αποδεικτικά· δεν περιγράφουν την τελική εγκατάσταση. Η προηγούμενη παύση λύθηκε με τη ρητή έγκριση του ιδιοκτήτη στις 10 Νοεμβρίου για το μεταβατικό Sharp 0.35.5.
 
 Δεν έγινε αλλαγή στα main, cf-placeholder ή feat/publication-seo-draft, ούτε merge, deployment ή αλλαγή Cloudflare/Access/DNS. Τα ιστορικά screenshots και reports προηγούμενων βημάτων διατηρούνται· τα νέα αποδεικτικά βρίσκονται μόνο εδώ. Για μελλοντική ενημέρωση lockfile χρειάζεται επανέλεγχος της αλυσίδας Lighthouse/Sentry, επειδή μια νέα hoisted επίλυση μπορεί να μοιραστεί συμβατές νεότερες εξαρτήσεις του Astro.
+
+## Pull Request
+
+Η δημιουργία PR μετά το push της ολοκληρωμένης migration επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν έγινε παράκαμψη δικαιωμάτων. [Χειροκίνητη δημιουργία PR προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/astro-7-migration?expand=1), με την περιγραφή του PR.md. Δεν έγινε merge ή deployment.
