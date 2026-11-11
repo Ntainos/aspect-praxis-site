@@ -1,0 +1,70 @@
+{
+  "node": "v24.22.1",
+  "rootSharp": "0.34.5",
+  "astroSharp": "0.35.5",
+  "nativeVersions": {
+    "aom": "3.13.1",
+    "archive": "3.8.2",
+    "cairo": "1.18.4",
+    "cgif": "0.5.0",
+    "exif": "0.6.25",
+    "expat": "2.7.3",
+    "ffi": "3.5.2",
+    "fontconfig": "2.17.1",
+    "freetype": "2.14.1",
+    "fribidi": "1.0.16",
+    "glib": "2.86.1",
+    "harfbuzz": "12.1.0",
+    "heif": "1.20.2",
+    "highway": "1.3.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.17",
+    "mozjpeg": "0826579",
+    "pango": "1.57.0",
+    "pixman": "0.46.4",
+    "png": "1.6.50",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.61.2",
+    "spng": "0.7.4",
+    "tiff": "4.7.1",
+    "vips": "8.17.3",
+    "webp": "1.6.0",
+    "xml2": "2.15.1",
+    "zlib-ng": "2.2.5",
+    "sharp": "0.34.5"
+  },
+  "results": [
+    {
+      "name": "synthetic-resize-rotate",
+      "pngSha256": "81b9ce772f487af8b14893bdc6035e529c1204596c5ff7abc2f77545e1445e35",
+      "decodedSha256": "6b616504eeb7271777f84af0fb53cac584e0873afb94349f28dbce562866f03f",
+      "dimensions": {
+        "format": "raw",
+        "width": 24,
+        "height": 24,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "size": 2304
+      },
+      "astroMatches": true,
+      "differentPixelsFromBefore": null
+    },
+    {
+      "name": "approved-png-crop",
+      "pngSha256": "5815710b03d46a2f6fa3f2f08df36701314cecb5ad551fd543629d89939a6846",
+      "decodedSha256": "25eecde90221c0f39c83b9b1aecbe6036f95463b372af19ae59186793f4ce5f0",
+      "dimensions": {
+        "format": "raw",
+        "width": 48,
+        "height": 64,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "size": 12288
+      },
+      "astroMatches": true,
+      "differentPixelsFromBefore": null
+    }
+  ]
+}

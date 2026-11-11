@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:security
+> node tests/security.mjs
+
+PASS: headers/build, 21 CSP page cases, 12 pixel-identical screenshots, mock fetch and blocked native submission.
