@@ -1,0 +1,18 @@
+{
+  "base": "0a6f08e815eb0de78a7f12ed294661b76ce87305",
+  "trackedSourceDiff": [],
+  "historicalArtifactsDiff": [],
+  "protectedRemoteRefsUnchanged": true,
+  "checkedPaths": {
+    "src": "275388d2ddc2255633760a6dddccd9265fcbadda",
+    "public": "10a0a58028849231b724b572129164f852a3f516",
+    "design": "99c37769f3677f6c7ca166139a2ad2d6807bfec0",
+    "tests": "346855beb2aa3f37bb08116d41d0ed39dcdba195",
+    "package.json": "228c2b27656e794483a728a5c7d19c37d473f24f",
+    "package-lock.json": "2ce8eff56b08e5e48c6549a53224c0f34b1bf8ae",
+    "astro.config.mjs": "9d2613b45d3fd288a120c816e572f078a0f190f0",
+    "README.md": "3b8390a9a74a23c7ac314577f16950171ea8fe65"
+  },
+  "newEvidenceCredentialPatternHits": [],
+  "reportLocalLinksValid": true
+}

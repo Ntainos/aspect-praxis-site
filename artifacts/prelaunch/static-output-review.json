@@ -1,0 +1,201 @@
+{
+  "fileCount": 26,
+  "htmlCount": 7,
+  "forbiddenFiles": [],
+  "secretPatternHits": [],
+  "scanLimit": "Known credential patterns and allowlisted output paths; not a complete secret-history audit or production inspection.",
+  "headersByteIdentical": true,
+  "headersSha256": "13274f4938840c6215cd8e317ac3eea6ecdc9ff297e387d46d3bd3110f271403",
+  "files": [
+    {
+      "path": "404.html",
+      "bytes": 5851,
+      "sha256": "2023eefc76ad4738af35f16440fe457db884ab1e5f8a7cd4f5e61c980934fc98"
+    },
+    {
+      "path": "_astro/404.B-5lx-ak.css",
+      "bytes": 226,
+      "sha256": "ccfea14062106ca349878174504ca3cf0178eca2c5fea292b73f1ff637840a08"
+    },
+    {
+      "path": "_astro/ApplicationClosing.DcdyYemj.css",
+      "bytes": 1579,
+      "sha256": "1384e4e17942783d03167ac4cd7c4f0e692796c6ba104d99fd1c21f652951c23"
+    },
+    {
+      "path": "_astro/ApplicationForm.astro_astro_type_script_index_0_lang.DVT304Gx.js",
+      "bytes": 5756,
+      "sha256": "0f00794c0eb026957d0b3d50820e820a7f491ca8b83d7669751f90a7bcf73b00"
+    },
+    {
+      "path": "_astro/Header.astro_astro_type_script_index_0_lang.BKzjaAz-.js",
+      "bytes": 996,
+      "sha256": "82c04e5f7a1b5e0ceb5786ade7bd6687ba30d4e85eabe13c9e908d41acf53909"
+    },
+    {
+      "path": "_astro/Layout.Dmtk9v0v.css",
+      "bytes": 11118,
+      "sha256": "7f81d7f2d3f94b3c51f804f56566ba4e1e105d689dfd6b210b81594e9643f5ff"
+    },
+    {
+      "path": "_astro/aitisi.BxJbyMph.css",
+      "bytes": 5816,
+      "sha256": "35509523398f28be6a856cfcbeb6d2cbd1b7bf2d6359947ab1ca1f8d8325142a"
+    },
+    {
+      "path": "_astro/dedomena.Ddj1of_C.css",
+      "bytes": 9932,
+      "sha256": "ca4ed5c30e4da2cee9d4e1259922933817fbaabed2a77b38c46faa62b14f2539"
+    },
+    {
+      "path": "_astro/index.BNkaCtnm.css",
+      "bytes": 20945,
+      "sha256": "e89b09d685711b0b94e96ce310c7ed597ea12d2dec670061bd1355d179f7d366"
+    },
+    {
+      "path": "_astro/internal.CVDalkuy.css",
+      "bytes": 13551,
+      "sha256": "f2d1adc77f8d4481bad12711e019d9dddef69bbb175eb108025595fe5167d97e"
+    },
+    {
+      "path": "_astro/times.BmPl1R2v.css",
+      "bytes": 2625,
+      "sha256": "2d2aad808db4e0c0d1e16ebe3cbe8dc199329bf2e3aa1b54ac315918e883f304"
+    },
+    {
+      "path": "_headers",
+      "bytes": 536,
+      "sha256": "13274f4938840c6215cd8e317ac3eea6ecdc9ff297e387d46d3bd3110f271403"
+    },
+    {
+      "path": "aitisi/index.html",
+      "bytes": 14348,
+      "sha256": "489967a373156f18d562eeeefe460b43036b4a8161f06cf284fccc948b014f5d"
+    },
+    {
+      "path": "dedomena/index.html",
+      "bytes": 16468,
+      "sha256": "d92a66bb2805200203bb4485ba281b46c64751a5c7da0242f7d55ae33dd68da7"
+    },
+    {
+      "path": "eidi/index.html",
+      "bytes": 10516,
+      "sha256": "ebc78860ecbd53b782d35ab27476517b924d24d5338be68102c0b49e8fa1b810"
+    },
+    {
+      "path": "fonts/Geologica[CRSV,SHRP,slnt,wght].ttf",
+      "bytes": 348640,
+      "sha256": "9124d9e88ac6c11d761f35241713a51d68e2c4ebedce0edaca834717a00959ec"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4400,
+      "sha256": "778186245840aea0e60bec6a46e7fb1442e0cd78e41afeadffcd3e8824b379e0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 30313,
+      "sha256": "7a5ec142db80e96477fda418bc6834a4ed3ceae7cc8e0ce2320c132a04ea7661"
+    },
+    {
+      "path": "logo/aspect/aspect-logo-white.svg",
+      "bytes": 12315,
+      "sha256": "4b09d302f92687b2d8b7c8993b3a7046e12550602132cc8187c9f8f1b9263db2"
+    },
+    {
+      "path": "logo/aspect/aspect-symbol-black.svg",
+      "bytes": 8191,
+      "sha256": "54250e2053d3f8da8fc0c1365d2b40365f7729dde4b5bee669deaa71f75d0521"
+    },
+    {
+      "path": "logo/praxis-mark-48plus-accent.svg",
+      "bytes": 8003,
+      "sha256": "626dfe8cd0bf416ced507efa535010ad4bf63d0ca253539d874ee17572f3ea85"
+    },
+    {
+      "path": "logo/praxis-mark-small-under24.svg",
+      "bytes": 7911,
+      "sha256": "4e48719f60bac3853f2bc44c896e07089e3fdc544d1735fef73c9e88ef667416"
+    },
+    {
+      "path": "logo/praxis-mark-white.svg",
+      "bytes": 7956,
+      "sha256": "0eb118beba9b581b8416ed192e7a59aa3c9041f1c83e3cc4e947f96613555498"
+    },
+    {
+      "path": "logo/praxis-mark.svg",
+      "bytes": 7956,
+      "sha256": "448944c312e295f98633498ccee86b9e0ee10990496b46179f84af64f97f81a2"
+    },
+    {
+      "path": "pos-leitourgei/index.html",
+      "bytes": 21410,
+      "sha256": "344ff7a347555a6c9752dc3bd527b8593ba293377bcdde718993ad112ff6262c"
+    },
+    {
+      "path": "times/index.html",
+      "bytes": 10247,
+      "sha256": "9e6cfafe6c66b862a5524eec6727f28469e64c5f58bf216d0c13efa5bb699565"
+    }
+  ],
+  "pages": [
+    {
+      "file": "404.html",
+      "title": "Η σελίδα δεν βρέθηκε · Praxis",
+      "descriptions": [],
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 3
+    },
+    {
+      "file": "aitisi/index.html",
+      "title": "Αίτηση για το γραφείο σας.",
+      "descriptions": [],
+      "robots": [],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 5
+    },
+    {
+      "file": "dedomena/index.html",
+      "title": "Πώς προστατεύουμε τα δεδομένα.",
+      "descriptions": [],
+      "robots": [],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 4
+    },
+    {
+      "file": "eidi/index.html",
+      "title": "23 είδη πράξεων.",
+      "descriptions": [],
+      "robots": [],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 3
+    },
+    {
+      "file": "index.html",
+      "title": "Praxis · Συμπληρώνετε μια φόρμα. Παίρνετε σχέδιο πράξης σε Word.",
+      "descriptions": [],
+      "robots": [],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 15
+    },
+    {
+      "file": "pos-leitourgei/index.html",
+      "title": "Από τη φόρμα στο σχέδιο σε Word.",
+      "descriptions": [],
+      "robots": [],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 16
+    },
+    {
+      "file": "times/index.html",
+      "title": "Τιμές και πακέτα.",
+      "descriptions": [],
+      "robots": [],
+      "canonical": [],
+      "placeholderOccurrencesInHtml": 16
+    }
+  ]
+}

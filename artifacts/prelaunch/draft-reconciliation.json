@@ -1,0 +1,277 @@
+{
+  "main": "0a6f08e815eb0de78a7f12ed294661b76ce87305",
+  "draft": "daea32477f95d410531cbf01da5ac916aca123f9",
+  "mergeBase": "a449e16ad2155ada18bd426ac06f623d1ceabe69",
+  "exitCode": 0,
+  "tree": "7dd140d5d79cab31e317e4d6521d62f1d170e5e7",
+  "conflicts": false,
+  "buildExitCode": 0,
+  "preserved": {
+    "package.json": {
+      "mainGitObject": "228c2b27656e794483a728a5c7d19c37d473f24f",
+      "simulationGitObject": "228c2b27656e794483a728a5c7d19c37d473f24f",
+      "identical": true
+    },
+    "package-lock.json": {
+      "mainGitObject": "2ce8eff56b08e5e48c6549a53224c0f34b1bf8ae",
+      "simulationGitObject": "2ce8eff56b08e5e48c6549a53224c0f34b1bf8ae",
+      "identical": true
+    },
+    "astro.config.mjs": {
+      "mainGitObject": "9d2613b45d3fd288a120c816e572f078a0f190f0",
+      "simulationGitObject": "9d2613b45d3fd288a120c816e572f078a0f190f0",
+      "identical": true
+    },
+    "public/_headers": {
+      "mainGitObject": "0b96ceaf287a820ed43e8c87bd1dd73678971b44",
+      "simulationGitObject": "0b96ceaf287a820ed43e8c87bd1dd73678971b44",
+      "identical": true
+    },
+    "src/styles/application-closing.css": {
+      "mainGitObject": "3adc8af246e3d8db0d24f52396358bcbd494b027",
+      "simulationGitObject": "3adc8af246e3d8db0d24f52396358bcbd494b027",
+      "identical": true
+    },
+    "src/scripts/application.ts": {
+      "mainGitObject": "ae1fb801ce9407551d1d1bd8f23815a5fde7f948",
+      "simulationGitObject": "ae1fb801ce9407551d1d1bd8f23815a5fde7f948",
+      "identical": true
+    },
+    "src/lib/application.ts": {
+      "mainGitObject": "fb04b076731fe077e16e67739066be12d0f9eae2",
+      "simulationGitObject": "fb04b076731fe077e16e67739066be12d0f9eae2",
+      "identical": true
+    },
+    "src/components/application/ApplicationForm.astro": {
+      "mainGitObject": "70d113ea8994b8aa818c51eb00e5faa0b9351955",
+      "simulationGitObject": "70d113ea8994b8aa818c51eb00e5faa0b9351955",
+      "identical": true
+    },
+    "design": {
+      "mainGitObject": "99c37769f3677f6c7ca166139a2ad2d6807bfec0",
+      "simulationGitObject": "99c37769f3677f6c7ca166139a2ad2d6807bfec0",
+      "identical": true
+    }
+  },
+  "changedNonArtifacts": [
+    "src/layouts/Layout.astro",
+    "src/pages/aitisi.astro",
+    "src/pages/dedomena.astro",
+    "src/pages/eidi.astro",
+    "src/pages/index.astro",
+    "src/pages/pos-leitourgei.astro",
+    "src/pages/times.astro",
+    "tests/fixtures/publication-metadata.json",
+    "tests/publication.mjs"
+  ],
+  "compiledOutputComparison": [
+    {
+      "path": "404.html",
+      "mode": "body",
+      "identical": true
+    },
+    {
+      "path": "_astro/404.B-5lx-ak.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/ApplicationClosing.DcdyYemj.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/ApplicationForm.astro_astro_type_script_index_0_lang.DVT304Gx.js",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/Header.astro_astro_type_script_index_0_lang.BKzjaAz-.js",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/Layout.Dmtk9v0v.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/aitisi.BxJbyMph.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/dedomena.Ddj1of_C.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/index.BNkaCtnm.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/internal.CVDalkuy.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_astro/times.BmPl1R2v.css",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "_headers",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "aitisi/index.html",
+      "mode": "body",
+      "identical": true
+    },
+    {
+      "path": "dedomena/index.html",
+      "mode": "body",
+      "identical": true
+    },
+    {
+      "path": "eidi/index.html",
+      "mode": "body",
+      "identical": true
+    },
+    {
+      "path": "fonts/Geologica[CRSV,SHRP,slnt,wght].ttf",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "mode": "body",
+      "identical": true
+    },
+    {
+      "path": "logo/aspect/aspect-logo-white.svg",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "logo/aspect/aspect-symbol-black.svg",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "logo/praxis-mark-48plus-accent.svg",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "logo/praxis-mark-small-under24.svg",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "logo/praxis-mark-white.svg",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "logo/praxis-mark.svg",
+      "mode": "allBytes",
+      "identical": true
+    },
+    {
+      "path": "pos-leitourgei/index.html",
+      "mode": "body",
+      "identical": true
+    },
+    {
+      "path": "times/index.html",
+      "mode": "body",
+      "identical": true
+    }
+  ],
+  "approvedMetadataSixExact": true,
+  "metadataTest": "PASS",
+  "securityTest": "PASS",
+  "pixelComparisons": [
+    {
+      "name": "index",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 9722880
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 3335670
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 6621120
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 3185130
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 3258720
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1713660
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 5397120
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 2527980
+    },
+    {
+      "name": "times",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 2957760
+    },
+    {
+      "name": "times",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1252290
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 2567520
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1311960
+    }
+  ],
+  "branchOrIndexMergePerformed": false
+}
