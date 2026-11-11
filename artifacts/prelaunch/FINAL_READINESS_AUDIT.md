@@ -169,3 +169,7 @@ Node **24.22.1**, npm **11.9.0**, καθαρό `npm ci` χωρίς ειδικά 
 Η τεχνική βάση είναι κατάλληλη για συνέχιση της προετοιμασίας. Το #8 μπορεί να συμφιλιωθεί με ασφάλεια αργότερα με την παραπάνω διαδικασία. **Δεν προτείνεται δημόσια ενεργοποίηση τώρα.** Οι 11 ανοιχτές προϋποθέσεις χρειάζονται πραγματικά αποδεικτικά/αποφάσεις, όχι πρόσθετα τοπικά mock PASS.
 
 [Συνολικά αποτελέσματα](results.json) · [Περιγραφή PR τεκμηρίωσης](READINESS_PR.md). Τα main, cf-placeholder και feat/publication-seo-draft παραμένουν στα αρχικά remote SHA· [πριν](remote-refs-before.txt), [μετά](remote-refs-after.txt). Ακολουθεί μόνο commit/push του branch ελέγχου και αίτημα review της τεκμηρίωσης, χωρίς merge ή δημοσίευση.
+
+### Κατάσταση Pull Request
+
+Το commit ελέγχου `027c1e4` ανέβηκε στο `audit/prelaunch-readiness`. Η κανονική προσπάθεια `gh pr create` προς main επέστρεψε `Post "https://api.github.com/graphql": Forbidden`. Δεν δημιουργήθηκε PR από το εργαλείο και δεν επιχειρήθηκε παράκαμψη. [Χειροκίνητη δημιουργία PR](https://github.com/Ntainos/aspect-praxis-site/compare/main...audit/prelaunch-readiness?expand=1), με την έτοιμη περιγραφή `READINESS_PR.md`. Ακολουθεί μόνο commit καταγραφής αυτού του αποτελέσματος. Δεν έγινε merge ή δημοσίευση.

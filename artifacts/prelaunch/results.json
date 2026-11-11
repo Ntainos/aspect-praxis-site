@@ -234,5 +234,11 @@
   "productionInfrastructureVerified": false,
   "mergePerformed": false,
   "deploymentPerformed": false,
-  "scope": "Documentation and fresh audit artifacts only"
+  "scope": "Documentation and fresh audit artifacts only",
+  "pullRequest": {
+    "created": false,
+    "error": "GitHub GraphQL Forbidden",
+    "manualUrl": "https://github.com/Ntainos/aspect-praxis-site/compare/main...audit/prelaunch-readiness?expand=1",
+    "auditCommit": "027c1e4"
+  }
 }
