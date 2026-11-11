@@ -1,0 +1,59 @@
+{
+  "version": "0.1.0",
+  "name": "aspect-praxis-site",
+  "dependencies": {
+    "astro": {
+      "version": "7.4.8",
+      "resolved": "https://registry.npmjs.org/astro/-/astro-7.4.8.tgz",
+      "overridden": false,
+      "dependencies": {
+        "sharp": {
+          "version": "0.35.5"
+        }
+      }
+    },
+    "lighthouse": {
+      "version": "13.6.0",
+      "resolved": "https://registry.npmjs.org/lighthouse/-/lighthouse-13.6.0.tgz",
+      "overridden": false,
+      "dependencies": {
+        "@sentry/node": {
+          "version": "11.12.0",
+          "resolved": "https://registry.npmjs.org/@sentry/node/-/node-11.12.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "@sentry/bundler-plugins": {
+              "version": "11.12.0",
+              "resolved": "https://registry.npmjs.org/@sentry/bundler-plugins/-/bundler-plugins-11.12.0.tgz",
+              "overridden": false,
+              "dependencies": {
+                "glob": {
+                  "version": "14.0.4",
+                  "resolved": "https://registry.npmjs.org/glob/-/glob-14.0.4.tgz",
+                  "overridden": false,
+                  "dependencies": {
+                    "minimatch": {
+                      "version": "11.0.7",
+                      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-11.0.7.tgz",
+                      "overridden": false
+                    },
+                    "path-scurry": {
+                      "version": "3.0.0",
+                      "resolved": "https://registry.npmjs.org/path-scurry/-/path-scurry-3.0.0.tgz",
+                      "overridden": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sharp": {
+      "version": "0.35.5",
+      "resolved": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
+      "overridden": false
+    }
+  }
+}

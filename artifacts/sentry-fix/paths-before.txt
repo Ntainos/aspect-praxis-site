@@ -1,0 +1,47 @@
+@sentry/node@11.10.0 dev
+node_modules/@sentry/node
+  @sentry/node@"^11.8.0" from lighthouse@13.6.0
+  node_modules/lighthouse
+    dev lighthouse@"^13.6.0" from the root project
+
+@sentry/bundler-plugins@11.10.0 dev
+node_modules/@sentry/bundler-plugins
+  @sentry/bundler-plugins@"11.10.0" from @sentry/node@11.10.0 dev
+  node_modules/@sentry/node
+    @sentry/node@"^11.8.0" from lighthouse@13.6.0
+    node_modules/lighthouse
+      dev lighthouse@"^13.6.0" from the root project
+
+glob@13.0.6 dev
+node_modules/glob
+  glob@"^13.0.6" from @sentry/bundler-plugins@11.10.0 dev
+  node_modules/@sentry/bundler-plugins
+    @sentry/bundler-plugins@"11.10.0" from @sentry/node@11.10.0 dev
+    node_modules/@sentry/node
+      @sentry/node@"^11.8.0" from lighthouse@13.6.0
+      node_modules/lighthouse
+        dev lighthouse@"^13.6.0" from the root project
+
+minimatch@10.2.6 dev
+node_modules/minimatch
+  minimatch@"^10.2.2" from glob@13.0.6 dev
+  node_modules/glob
+    glob@"^13.0.6" from @sentry/bundler-plugins@11.10.0 dev
+    node_modules/@sentry/bundler-plugins
+      @sentry/bundler-plugins@"11.10.0" from @sentry/node@11.10.0 dev
+      node_modules/@sentry/node
+        @sentry/node@"^11.8.0" from lighthouse@13.6.0
+        node_modules/lighthouse
+          dev lighthouse@"^13.6.0" from the root project
+
+path-scurry@2.0.2 dev
+node_modules/path-scurry
+  path-scurry@"^2.0.2" from glob@13.0.6 dev
+  node_modules/glob
+    glob@"^13.0.6" from @sentry/bundler-plugins@11.10.0 dev
+    node_modules/@sentry/bundler-plugins
+      @sentry/bundler-plugins@"11.10.0" from @sentry/node@11.10.0 dev
+      node_modules/@sentry/node
+        @sentry/node@"^11.8.0" from lighthouse@13.6.0
+        node_modules/lighthouse
+          dev lighthouse@"^13.6.0" from the root project

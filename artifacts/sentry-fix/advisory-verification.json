@@ -1,0 +1,75 @@
+{
+  "before": {
+    "info": 0,
+    "low": 0,
+    "moderate": 4,
+    "high": 0,
+    "critical": 0,
+    "total": 4
+  },
+  "after": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "results": [
+    {
+      "source": 1244013,
+      "name": "glob",
+      "dependency": "glob",
+      "title": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+      "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+      "severity": "moderate",
+      "cwe": [
+        "CWE-400"
+      ],
+      "cvss": {
+        "score": 0,
+        "vectorString": null
+      },
+      "range": ">=9.0.0 <=14.0.1",
+      "installed": [
+        {
+          "path": "node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob",
+          "version": "14.0.4",
+          "lockVersion": "14.0.4"
+        }
+      ],
+      "vulnerableInstalled": []
+    },
+    {
+      "source": 1244623,
+      "name": "minimatch",
+      "dependency": "minimatch",
+      "title": "minimatch has potential denial of service via globparts amplification",
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "severity": "moderate",
+      "cwe": [
+        "CWE-405"
+      ],
+      "cvss": {
+        "score": 0,
+        "vectorString": null
+      },
+      "range": ">=7.0.0 <11.0.1",
+      "installed": [
+        {
+          "path": "node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob/node_modules/minimatch",
+          "version": "11.0.7",
+          "lockVersion": "11.0.7"
+        }
+      ],
+      "vulnerableInstalled": []
+    }
+  ],
+  "removedPackageEntries": [
+    "@sentry/bundler-plugins",
+    "@sentry/node",
+    "glob",
+    "minimatch"
+  ],
+  "auditExitCode": 0
+}

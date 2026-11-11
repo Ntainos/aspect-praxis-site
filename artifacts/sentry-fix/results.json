@@ -1,0 +1,363 @@
+{
+  "status": "passed",
+  "baseMain": "19080ae9bfb8b303d103060cab9039c69a4e50fc",
+  "branch": "security/sentry-dependency-fix",
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "unchanged": {
+    "astro": "7.4.8",
+    "sharp": "0.35.5",
+    "lighthouse": "13.6.0",
+    "packageJson": true,
+    "applicationSource": true,
+    "headersCSPNoindex": true,
+    "historicalArtifacts": true
+  },
+  "auditBefore": {
+    "info": 0,
+    "low": 0,
+    "moderate": 4,
+    "high": 0,
+    "critical": 0,
+    "total": 4
+  },
+  "auditAfter": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "auditExitCode": 0,
+  "versions": [
+    {
+      "package": "@isaacs/nonrecursive-glob-match",
+      "before": [],
+      "after": [
+        "1.1.0"
+      ]
+    },
+    {
+      "package": "@sentry/bundler-plugins",
+      "before": [
+        "11.10.0"
+      ],
+      "after": [
+        "11.12.0"
+      ]
+    },
+    {
+      "package": "@sentry/conventions",
+      "before": [
+        "0.29.0"
+      ],
+      "after": [
+        "0.32.0"
+      ]
+    },
+    {
+      "package": "@sentry/core",
+      "before": [
+        "11.10.0"
+      ],
+      "after": [
+        "11.12.0"
+      ]
+    },
+    {
+      "package": "@sentry/node",
+      "before": [
+        "11.10.0"
+      ],
+      "after": [
+        "11.12.0"
+      ]
+    },
+    {
+      "package": "@sentry/opentelemetry",
+      "before": [
+        "11.10.0"
+      ],
+      "after": [
+        "11.12.0"
+      ]
+    },
+    {
+      "package": "@sentry/server-runtime-injection",
+      "before": [
+        "11.10.0"
+      ],
+      "after": [
+        "11.12.0"
+      ]
+    },
+    {
+      "package": "@sentry/server-utils",
+      "before": [
+        "11.10.0"
+      ],
+      "after": [
+        "11.12.0"
+      ]
+    },
+    {
+      "package": "glob",
+      "before": [
+        "13.0.6"
+      ],
+      "after": [
+        "14.0.4"
+      ]
+    },
+    {
+      "package": "has-flag",
+      "before": [
+        "4.0.0"
+      ],
+      "after": []
+    },
+    {
+      "package": "minimatch",
+      "before": [
+        "10.2.6"
+      ],
+      "after": [
+        "11.0.7"
+      ]
+    },
+    {
+      "package": "path-scurry",
+      "before": [
+        "2.0.2"
+      ],
+      "after": [
+        "3.0.0"
+      ]
+    },
+    {
+      "package": "sentry",
+      "before": [
+        "0.45.0"
+      ],
+      "after": [
+        "0.49.0"
+      ]
+    },
+    {
+      "package": "supports-color",
+      "before": [
+        "8.1.1"
+      ],
+      "after": []
+    }
+  ],
+  "checks": {
+    "npmCiBefore": "pass",
+    "npmCiAfter": "pass",
+    "npmLsAll": "pass",
+    "build": "pass",
+    "security": "pass",
+    "regression": [
+      {
+        "command": "npm test",
+        "exitCode": 0,
+        "seconds": 23.2
+      },
+      {
+        "command": "npm run test:home",
+        "exitCode": 0,
+        "seconds": 16.3
+      },
+      {
+        "command": "npm run test:pages",
+        "exitCode": 0,
+        "seconds": 26.7
+      },
+      {
+        "command": "npm run test:data-pricing",
+        "exitCode": 0,
+        "seconds": 27.1
+      },
+      {
+        "command": "npm run test:application",
+        "exitCode": 0,
+        "seconds": 74.8
+      },
+      {
+        "command": "npm run test:audit",
+        "exitCode": 0,
+        "seconds": 94.3
+      },
+      {
+        "command": "node tests/comparisons.mjs",
+        "exitCode": 0,
+        "seconds": 1.5
+      },
+      {
+        "command": "node tests/application-states.mjs",
+        "exitCode": 0,
+        "seconds": 20.8
+      }
+    ],
+    "axeViolations": 0,
+    "lighthouse": [
+      {
+        "page": "index",
+        "device": "desktop",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "index",
+        "device": "mobile",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "pos-leitourgei",
+        "device": "desktop",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "pos-leitourgei",
+        "device": "mobile",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "eidi",
+        "device": "desktop",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "eidi",
+        "device": "mobile",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "dedomena",
+        "device": "desktop",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "dedomena",
+        "device": "mobile",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "times",
+        "device": "desktop",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "times",
+        "device": "mobile",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "aitisi",
+        "device": "desktop",
+        "accessibility": 100,
+        "bestPractices": 100
+      },
+      {
+        "page": "aitisi",
+        "device": "mobile",
+        "accessibility": 100,
+        "bestPractices": 100
+      }
+    ],
+    "visual": [
+      {
+        "name": "index",
+        "width": 1440,
+        "differentPixels": 0,
+        "totalPixels": 9722880
+      },
+      {
+        "name": "index",
+        "width": 390,
+        "differentPixels": 0,
+        "totalPixels": 3335670
+      },
+      {
+        "name": "pos-leitourgei",
+        "width": 1440,
+        "differentPixels": 0,
+        "totalPixels": 6621120
+      },
+      {
+        "name": "pos-leitourgei",
+        "width": 390,
+        "differentPixels": 0,
+        "totalPixels": 3185130
+      },
+      {
+        "name": "eidi",
+        "width": 1440,
+        "differentPixels": 0,
+        "totalPixels": 3258720
+      },
+      {
+        "name": "eidi",
+        "width": 390,
+        "differentPixels": 0,
+        "totalPixels": 1713660
+      },
+      {
+        "name": "dedomena",
+        "width": 1440,
+        "differentPixels": 0,
+        "totalPixels": 5397120
+      },
+      {
+        "name": "dedomena",
+        "width": 390,
+        "differentPixels": 0,
+        "totalPixels": 2527980
+      },
+      {
+        "name": "times",
+        "width": 1440,
+        "differentPixels": 0,
+        "totalPixels": 2957760
+      },
+      {
+        "name": "times",
+        "width": 390,
+        "differentPixels": 0,
+        "totalPixels": 1252290
+      },
+      {
+        "name": "aitisi",
+        "width": 1440,
+        "differentPixels": 0,
+        "totalPixels": 2567520
+      },
+      {
+        "name": "aitisi",
+        "width": 390,
+        "differentPixels": 0,
+        "totalPixels": 1311960
+      }
+    ],
+    "allDistFilesByteIdentical": true,
+    "realApiRequests": 0
+  },
+  "recommendation": "Ready for owner review and merge approval; publication remains separate",
+  "mergePerformed": false,
+  "deploymentPerformed": false,
+  "pullRequest": {
+    "created": false,
+    "reason": "GitHub GraphQL Forbidden",
+    "manualUrl": "https://github.com/Ntainos/aspect-praxis-site/compare/main...security/sentry-dependency-fix?expand=1"
+  }
+}
