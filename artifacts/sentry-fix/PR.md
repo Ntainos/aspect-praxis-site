@@ -9,3 +9,7 @@ Validation: καθαρό npm ci, npm ls --all, audit exit 0 και static build�
 [Αναφορά και συγκρίσεις](https://github.com/Ntainos/aspect-praxis-site/blob/security/sentry-dependency-fix/artifacts/sentry-fix/REPORT.md) · [Αποτελέσματα](https://github.com/Ntainos/aspect-praxis-site/blob/security/sentry-dependency-fix/artifacts/sentry-fix/results.json)
 
 Προτείνεται review και έγκριση merge της συγκεκριμένης αλλαγής. Η δημοσίευση και το Draft PR #8 παραμένουν χωριστά. Δεν έγινε merge ή deployment.
+
+## Pull Request
+
+Η δημιουργία PR επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν έγινε παράκαμψη δικαιωμάτων. Το branch ανέβηκε επιτυχώς. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/sentry-dependency-fix?expand=1), με την περιγραφή του PR.md. Δεν έγινε merge ή deployment και το Draft PR #8 παραμένει ανεξάρτητο.

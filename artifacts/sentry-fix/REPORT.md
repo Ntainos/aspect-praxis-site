@@ -114,3 +114,7 @@ npm run build
 **Καμία εναπομένουσα ευπάθεια στο σημερινό npm audit.** Το καθαρό audit είναι αποτέλεσμα για το συγκεκριμένο lockfile και τη σημερινή βάση advisories, όχι εγγύηση απουσίας άγνωστων ευπαθειών. Συνιστάται περιοδικός επανέλεγχος εξαρτήσεων.
 
 Δεν εξετάστηκαν πραγματικό backend/CORS/rate limiting ή πραγματική υποδομή παραγωγής· οι δοκιμές υποβολής ήταν αποκλειστικά mock. Οι χωριστοί έλεγχοι πριν τη δημοσίευση και το Draft PR #8 παραμένουν εκτός scope. Δεν έγινε merge, deployment ή αλλαγή Cloudflare/Access/DNS/λογαριασμών. [Συνολικά αποτελέσματα](results.json).
+
+## Pull Request
+
+Η δημιουργία PR επέστρεψε `Forbidden` από το GitHub GraphQL API. Δεν έγινε παράκαμψη δικαιωμάτων. Το branch ανέβηκε επιτυχώς. [Χειροκίνητη δημιουργία προς main](https://github.com/Ntainos/aspect-praxis-site/compare/main...security/sentry-dependency-fix?expand=1), με την περιγραφή του PR.md. Δεν έγινε merge ή deployment και το Draft PR #8 παραμένει ανεξάρτητο.
