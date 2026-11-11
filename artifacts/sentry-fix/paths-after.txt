@@ -1,0 +1,47 @@
+@sentry/node@11.12.0 dev
+node_modules/lighthouse/node_modules/@sentry/node
+  @sentry/node@"^11.8.0" from lighthouse@13.6.0
+  node_modules/lighthouse
+    dev lighthouse@"^13.6.0" from the root project
+
+@sentry/bundler-plugins@11.12.0 dev
+node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins
+  @sentry/bundler-plugins@"11.12.0" from @sentry/node@11.12.0 dev
+  node_modules/lighthouse/node_modules/@sentry/node
+    @sentry/node@"^11.8.0" from lighthouse@13.6.0
+    node_modules/lighthouse
+      dev lighthouse@"^13.6.0" from the root project
+
+glob@14.0.4 dev
+node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob
+  glob@"^14.0.3" from @sentry/bundler-plugins@11.12.0 dev
+  node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins
+    @sentry/bundler-plugins@"11.12.0" from @sentry/node@11.12.0 dev
+    node_modules/lighthouse/node_modules/@sentry/node
+      @sentry/node@"^11.8.0" from lighthouse@13.6.0
+      node_modules/lighthouse
+        dev lighthouse@"^13.6.0" from the root project
+
+minimatch@11.0.7 dev
+node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob/node_modules/minimatch
+  minimatch@"^11.0.5" from glob@14.0.4 dev
+  node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob
+    glob@"^14.0.3" from @sentry/bundler-plugins@11.12.0 dev
+    node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins
+      @sentry/bundler-plugins@"11.12.0" from @sentry/node@11.12.0 dev
+      node_modules/lighthouse/node_modules/@sentry/node
+        @sentry/node@"^11.8.0" from lighthouse@13.6.0
+        node_modules/lighthouse
+          dev lighthouse@"^13.6.0" from the root project
+
+path-scurry@3.0.0 dev
+node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob/node_modules/path-scurry
+  path-scurry@"^3.0.0" from glob@14.0.4 dev
+  node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins/node_modules/glob
+    glob@"^14.0.3" from @sentry/bundler-plugins@11.12.0 dev
+    node_modules/lighthouse/node_modules/@sentry/node/node_modules/@sentry/bundler-plugins
+      @sentry/bundler-plugins@"11.12.0" from @sentry/node@11.12.0 dev
+      node_modules/lighthouse/node_modules/@sentry/node
+        @sentry/node@"^11.8.0" from lighthouse@13.6.0
+        node_modules/lighthouse
+          dev lighthouse@"^13.6.0" from the root project

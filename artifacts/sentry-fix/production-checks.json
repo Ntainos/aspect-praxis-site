@@ -1,0 +1,76 @@
+{
+  "dist": [
+    "404.html",
+    "_astro",
+    "_headers",
+    "aitisi",
+    "dedomena",
+    "eidi",
+    "fonts",
+    "index.html",
+    "logo",
+    "pos-leitourgei",
+    "times"
+  ],
+  "notFound": [
+    {
+      "path": "/odigos",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/odigos/",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/odigos/index.html",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/unknown-step-6",
+      "status": 404,
+      "customGreekPage": true
+    },
+    {
+      "path": "/nested/unknown-step-6",
+      "status": 404,
+      "customGreekPage": true
+    }
+  ],
+  "favicon": {
+    "url": "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "width": 115,
+    "height": 150
+  },
+  "approvedFaviconBytes": true,
+  "externalInitialRequests": 0,
+  "requests": [
+    "http://127.0.0.1:4321/",
+    "http://127.0.0.1:4321/_astro/Layout.Dmtk9v0v.css",
+    "http://127.0.0.1:4321/_astro/ApplicationClosing.DcdyYemj.css",
+    "http://127.0.0.1:4321/_astro/index.BNkaCtnm.css",
+    "http://127.0.0.1:4321/logo/aspect/aspect-symbol-black.svg",
+    "http://127.0.0.1:4321/_astro/Header.astro_astro_type_script_index_0_lang.BKzjaAz-.js",
+    "http://127.0.0.1:4321/logo/aspect/aspect-logo-white.svg",
+    "http://127.0.0.1:4321/logo/praxis-mark.svg",
+    "http://127.0.0.1:4321/logo/praxis-mark-white.svg",
+    "http://127.0.0.1:4321/fonts/Geologica%5BCRSV,SHRP,slnt,wght%5D.ttf",
+    "http://127.0.0.1:4321/logo/praxis-mark-small-under24.svg",
+    "http://127.0.0.1:4321/pos-leitourgei",
+    "http://127.0.0.1:4321/_astro/internal.CVDalkuy.css",
+    "http://127.0.0.1:4321/eidi",
+    "http://127.0.0.1:4321/dedomena",
+    "http://127.0.0.1:4321/_astro/dedomena.Ddj1of_C.css",
+    "http://127.0.0.1:4321/times",
+    "http://127.0.0.1:4321/_astro/times.BmPl1R2v.css",
+    "http://127.0.0.1:4321/aitisi",
+    "http://127.0.0.1:4321/_astro/aitisi.BxJbyMph.css",
+    "http://127.0.0.1:4321/_astro/ApplicationForm.astro_astro_type_script_index_0_lang.DVT304Gx.js",
+    "http://127.0.0.1:4321/unknown-step-6",
+    "http://127.0.0.1:4321/_astro/404.B-5lx-ak.css"
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "package": "@isaacs/nonrecursive-glob-match",
+    "before": [],
+    "after": [
+      "1.1.0"
+    ]
+  },
+  {
+    "package": "@sentry/bundler-plugins",
+    "before": [
+      "11.10.0"
+    ],
+    "after": [
+      "11.12.0"
+    ]
+  },
+  {
+    "package": "@sentry/conventions",
+    "before": [
+      "0.29.0"
+    ],
+    "after": [
+      "0.32.0"
+    ]
+  },
+  {
+    "package": "@sentry/core",
+    "before": [
+      "11.10.0"
+    ],
+    "after": [
+      "11.12.0"
+    ]
+  },
+  {
+    "package": "@sentry/node",
+    "before": [
+      "11.10.0"
+    ],
+    "after": [
+      "11.12.0"
+    ]
+  },
+  {
+    "package": "@sentry/opentelemetry",
+    "before": [
+      "11.10.0"
+    ],
+    "after": [
+      "11.12.0"
+    ]
+  },
+  {
+    "package": "@sentry/server-runtime-injection",
+    "before": [
+      "11.10.0"
+    ],
+    "after": [
+      "11.12.0"
+    ]
+  },
+  {
+    "package": "@sentry/server-utils",
+    "before": [
+      "11.10.0"
+    ],
+    "after": [
+      "11.12.0"
+    ]
+  },
+  {
+    "package": "glob",
+    "before": [
+      "13.0.6"
+    ],
+    "after": [
+      "14.0.4"
+    ]
+  },
+  {
+    "package": "has-flag",
+    "before": [
+      "4.0.0"
+    ],
+    "after": []
+  },
+  {
+    "package": "minimatch",
+    "before": [
+      "10.2.6"
+    ],
+    "after": [
+      "11.0.7"
+    ]
+  },
+  {
+    "package": "path-scurry",
+    "before": [
+      "2.0.2"
+    ],
+    "after": [
+      "3.0.0"
+    ]
+  },
+  {
+    "package": "sentry",
+    "before": [
+      "0.45.0"
+    ],
+    "after": [
+      "0.49.0"
+    ]
+  },
+  {
+    "package": "supports-color",
+    "before": [
+      "8.1.1"
+    ],
+    "after": []
+  }
+]

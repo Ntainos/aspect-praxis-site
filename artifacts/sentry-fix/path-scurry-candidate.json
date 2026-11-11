@@ -1,0 +1,10 @@
+{
+  "version": "3.0.0",
+  "dependencies": {
+    "minipass": "^7.1.2",
+    "lru-cache": "^11.0.0"
+  },
+  "engines": {
+    "node": "18 || 20 || >=22"
+  }
+}

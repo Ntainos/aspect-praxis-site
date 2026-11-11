@@ -1,0 +1,33 @@
+{
+  "staticFiles": [
+    "dist/404.html",
+    "dist/index.html",
+    "dist/_headers",
+    "dist/dedomena/index.html",
+    "dist/logo/praxis-mark.svg",
+    "dist/logo/praxis-mark-48plus-accent.svg",
+    "dist/logo/praxis-mark-small-under24.svg",
+    "dist/logo/praxis-mark-white.svg",
+    "dist/aitisi/index.html",
+    "dist/_astro/ApplicationClosing.DcdyYemj.css",
+    "dist/_astro/ApplicationForm.astro_astro_type_script_index_0_lang.DVT304Gx.js",
+    "dist/_astro/times.BmPl1R2v.css",
+    "dist/_astro/aitisi.BxJbyMph.css",
+    "dist/_astro/dedomena.Ddj1of_C.css",
+    "dist/_astro/internal.CVDalkuy.css",
+    "dist/_astro/Layout.Dmtk9v0v.css",
+    "dist/_astro/index.BNkaCtnm.css",
+    "dist/_astro/Header.astro_astro_type_script_index_0_lang.BKzjaAz-.js",
+    "dist/_astro/404.B-5lx-ak.css",
+    "dist/times/index.html",
+    "dist/pos-leitourgei/index.html",
+    "dist/fonts/Geologica[CRSV,SHRP,slnt,wght].ttf",
+    "dist/fonts/OFL.txt",
+    "dist/eidi/index.html",
+    "dist/logo/aspect/aspect-logo-white.svg",
+    "dist/logo/aspect/aspect-symbol-black.svg"
+  ],
+  "headersByteIdentical": true,
+  "onlyTrackedChange": "package-lock.json",
+  "boundedSecretPatternScan": "no matches in new text evidence; not a full history scan"
+}
