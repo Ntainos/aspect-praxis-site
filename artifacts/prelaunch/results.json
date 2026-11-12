@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-11",
+  "baseMain": "0a6f08e815eb0de78a7f12ed294661b76ce87305",
+  "branch": "audit/prelaunch-readiness",
+  "decision": "NO-GO",
+  "technicalStatus": "PASS",
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "installation": [
+    {
+      "command": "npm ci",
+      "exitCode": 0,
+      "seconds": 13.48
+    },
+    {
+      "command": "npm audit --json",
+      "exitCode": 0,
+      "seconds": 1.05
+    },
+    {
+      "command": "npm ls --all",
+      "exitCode": 0,
+      "seconds": 1.12
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "seconds": 3.52
+    }
+  ],
+  "regression": [
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "seconds": 26.0
+    },
+    {
+      "command": "npm run test:home",
+      "exitCode": 0,
+      "seconds": 22.4
+    },
+    {
+      "command": "npm run test:pages",
+      "exitCode": 0,
+      "seconds": 32.2
+    },
+    {
+      "command": "npm run test:data-pricing",
+      "exitCode": 0,
+      "seconds": 34.3
+    },
+    {
+      "command": "npm run test:application",
+      "exitCode": 0,
+      "seconds": 70.9
+    },
+    {
+      "command": "npm run test:audit",
+      "exitCode": 0,
+      "seconds": 93.4
+    },
+    {
+      "command": "node tests/comparisons.mjs",
+      "exitCode": 0,
+      "seconds": 2.2
+    },
+    {
+      "command": "node tests/application-states.mjs",
+      "exitCode": 0,
+      "seconds": 26.4
+    }
+  ],
+  "security": "PASS",
+  "axeViolations": 0,
+  "lighthouse": [
+    {
+      "page": "index",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "index",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "pos-leitourgei",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "pos-leitourgei",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "eidi",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "eidi",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "dedomena",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "dedomena",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "times",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "times",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "aitisi",
+      "device": "desktop",
+      "accessibility": 100,
+      "bestPractices": 100
+    },
+    {
+      "page": "aitisi",
+      "device": "mobile",
+      "accessibility": 100,
+      "bestPractices": 100
+    }
+  ],
+  "visual": [
+    {
+      "name": "index",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 9722880
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 3335670
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 6621120
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 3185130
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 3258720
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1713660
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 5397120
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 2527980
+    },
+    {
+      "name": "times",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 2957760
+    },
+    {
+      "name": "times",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1252290
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "differentPixels": 0,
+      "totalPixels": 2567520
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "differentPixels": 0,
+      "totalPixels": 1311960
+    }
+  ],
+  "realApiSubmissions": 0,
+  "openPublicationPrerequisites": 11,
+  "blocked": 3,
+  "notVerified": 8,
+  "draftSimulation": "PASS, no conflicts, six approved metadata exact, dependencies and headers preserved",
+  "productionInfrastructureVerified": false,
+  "mergePerformed": false,
+  "deploymentPerformed": false,
+  "scope": "Documentation and fresh audit artifacts only",
+  "pullRequest": {
+    "created": false,
+    "error": "GitHub GraphQL Forbidden",
+    "manualUrl": "https://github.com/Ntainos/aspect-praxis-site/compare/main...audit/prelaunch-readiness?expand=1",
+    "auditCommit": "027c1e4"
+  }
+}

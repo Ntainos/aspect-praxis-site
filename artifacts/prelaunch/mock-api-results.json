@@ -1,0 +1,402 @@
+{
+  "endpoint": "https://app.aspect-praxis.com/api/public/office-application",
+  "allRequestsIntercepted": true,
+  "actualExternalRequests": 0,
+  "fixture": "Exclusively fictional; no request bodies saved in artifacts.",
+  "cases": [
+    {
+      "name": "initial-1440",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "initial-768",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "initial-390",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "errors-then-success-1440",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "jsonKeys": [
+        "officeName",
+        "notaryName",
+        "email",
+        "phone",
+        "city",
+        "message",
+        "acceptTerms",
+        "website"
+      ],
+      "bytes": 273,
+      "axeViolations": 0
+    },
+    {
+      "name": "errors-then-success-390",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "jsonKeys": [
+        "officeName",
+        "notaryName",
+        "email",
+        "phone",
+        "city",
+        "message",
+        "acceptTerms",
+        "website"
+      ],
+      "bytes": 273,
+      "axeViolations": 0
+    },
+    {
+      "name": "400-Greek",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 400,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "400-safe-text",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 400,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "400-terms",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 400,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "403",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 403,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "413",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 413,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "429",
+      "simulatedPosts": 2,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 429,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "network",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": null,
+      "onlyMockNetworkFailure": true
+    },
+    {
+      "name": "200-invalid-json",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 200,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "200-not-confirmed",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 200,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "200-wrong-type",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 200,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "200-empty",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 200,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "400-invalid-json",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 400,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "400-wrong-error",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 400,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "500",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 500,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "201",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 201,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "204",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 204,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "redirect",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "responseStatus": 302,
+      "onlyMockNetworkFailure": false
+    },
+    {
+      "name": "empty",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 6
+    },
+    {
+      "name": "office-short",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "office-long",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "notary-short",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "notary-long",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "city-empty",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "phone-empty",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "phone-characters",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "phone-short",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "phone-long",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "email-invalid",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "terms-unchecked",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "fieldErrors": 1
+    },
+    {
+      "name": "minimum",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "maximum",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "phone-symbols",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "honeypot-no-PII-request",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "UTF8-16384-bytes",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "bodyBytes": 16384
+    },
+    {
+      "name": "UTF8-16385-bytes",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": [],
+      "bodyBytes": 16385
+    },
+    {
+      "name": "UTF8-oversize-city",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "duplicate-submit-one-pending-and-after-success",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "server-error-1440",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "no-JavaScript-no-native-POST",
+      "simulatedPosts": 0,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "request-timeout-recoverable",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    },
+    {
+      "name": "trimmed-JSON-exact-types-no-termsVersion",
+      "simulatedPosts": 1,
+      "actualExternalRequests": 0,
+      "unexpectedExternalRequests": [],
+      "errors": []
+    }
+  ]
+}

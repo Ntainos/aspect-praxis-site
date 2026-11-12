@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "title": "Praxis · Με τεχνητή νοημοσύνη, για συμβολαιογραφικά γραφεία",
+      "description": "Το Praxis συντάσσει σχέδιο συμβολαιογραφικής πράξης με τη βοήθεια τεχνητής νοημοσύνης, από τα στοιχεία που δίνετε και διατυπώσεις εγκεκριμένες από συμβολαιογράφο.",
+      "status": 200,
+      "descriptionCount": 1,
+      "noindex": true
+    },
+    {
+      "path": "/pos-leitourgei",
+      "title": "Από τη φόρμα στο σχέδιο σε Word · Praxis",
+      "description": "Τρία βήματα: συμπληρώνετε τη φόρμα, το Praxis συντάσσει με τη βοήθεια τεχνητής νοημοσύνης, εσείς ελέγχετε και παίρνετε το .docx.",
+      "status": 200,
+      "descriptionCount": 1,
+      "noindex": true
+    },
+    {
+      "path": "/eidi",
+      "title": "23 είδη πράξεων · Praxis",
+      "description": "23 είδη πράξεων: αγοραπωλησία ακινήτου, προσύμφωνο, εξόφληση τιμήματος, γονική παροχή, δωρεά, αποδοχή κληρονομιάς, πληρεξούσιο.",
+      "status": 200,
+      "descriptionCount": 1,
+      "noindex": true
+    },
+    {
+      "path": "/dedomena",
+      "title": "Πώς προστατεύουμε τα δεδομένα · Praxis",
+      "description": "Μέσα στην ΕΕ: η εφαρμογή, η βάση και τα αντίγραφα ασφαλείας. Σύνδεση μέσω HTTPS. Κάθε γραφείο βλέπει μόνο τα δικά του δεδομένα.",
+      "status": 200,
+      "descriptionCount": 1,
+      "noindex": true
+    },
+    {
+      "path": "/times",
+      "title": "Τιμές και πακέτα · Praxis",
+      "description": "Μηνιαία συνδρομή ανά πακέτο. Κάθε πακέτο έχει ορισμένο αριθμό πράξεων τον μήνα και μέγιστο αριθμό χρηστών.",
+      "status": 200,
+      "descriptionCount": 1,
+      "noindex": true
+    },
+    {
+      "path": "/aitisi",
+      "title": "Αίτηση για το γραφείο σας · Praxis",
+      "description": "Συμπληρώστε την αίτηση. Η ομάδα της Aspect θα επικοινωνήσει μαζί σας και θα ενεργοποιήσει τον λογαριασμό σας προσωπικά.",
+      "status": 200,
+      "descriptionCount": 1,
+      "noindex": true
+    }
+  ],
+  "notFound": true,
+  "headersUnchanged": true,
+  "inactiveSeoAbsent": true
+}
