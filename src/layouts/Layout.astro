@@ -2,6 +2,6 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-const { title, noindex = false } = Astro.props;
+const { title, description, noindex = false } = Astro.props;
 ---
-<!doctype html><html lang="el"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>{title}</title>{noindex && <meta name="robots" content="noindex, nofollow" />}<link rel="icon" type="image/svg+xml" href="/logo/praxis-mark-small-under24.svg" /></head><body><Header /><main id="content"><slot /></main><Footer /></body></html>
+<!doctype html><html lang="el"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>{title}</title>{description && <meta name="description" content={description} />}{noindex && <meta name="robots" content="noindex, nofollow" />}<link rel="icon" type="image/svg+xml" href="/logo/praxis-mark-small-under24.svg" /></head><body><Header /><main id="content"><slot /></main><Footer /></body></html>
