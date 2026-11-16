@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:home
+> node tests/homepage.mjs
+
+PASS: homepage 1440/768/390; approved copy, links, responsive counts, menu, local requests, axe.

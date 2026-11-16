@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:pages
+> node tests/pages.mjs
+
+PASS: both pages at 1440/768/390; content, navigation, responsive layout, menu, local requests, axe.

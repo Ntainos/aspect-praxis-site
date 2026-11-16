@@ -14,7 +14,8 @@
     "test:application": "node tests/application.mjs",
     "test:audit": "node tests/final-audit.mjs",
     "test:security": "node tests/security.mjs",
-    "test:login": "node tests/login-link.mjs"
+    "test:login": "node tests/login-link.mjs",
+    "test:pricing": "node tests/pricing-packages.mjs"
   },
   "dependencies": {
     "astro": "7.4.8"
