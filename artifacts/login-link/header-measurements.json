@@ -1,0 +1,122 @@
+[
+  {
+    "width": 360,
+    "controls": [
+      {
+        "class": "brand",
+        "x": 16,
+        "y": 10,
+        "width": 94.890625,
+        "height": 44
+      },
+      {
+        "class": "desktop-nav",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "class": "login-link",
+        "x": 152.8125,
+        "y": 10,
+        "width": 83.375,
+        "height": 44
+      },
+      {
+        "class": "application-link",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "class": "menu-toggle",
+        "x": 244.1875,
+        "y": 10,
+        "width": 99.8125,
+        "height": 44
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "controls": [
+      {
+        "class": "brand",
+        "x": 16,
+        "y": 10,
+        "width": 94.890625,
+        "height": 44
+      },
+      {
+        "class": "desktop-nav",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "class": "login-link",
+        "x": 182.8125,
+        "y": 10,
+        "width": 83.375,
+        "height": 44
+      },
+      {
+        "class": "application-link",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      {
+        "class": "menu-toggle",
+        "x": 274.1875,
+        "y": 10,
+        "width": 99.8125,
+        "height": 44
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "controls": [
+      {
+        "class": "brand",
+        "x": 152,
+        "y": 16,
+        "width": 100.96875,
+        "height": 44
+      },
+      {
+        "class": "desktop-nav",
+        "x": 524.671875,
+        "y": 16,
+        "width": 500.703125,
+        "height": 44
+      },
+      {
+        "class": "login-link",
+        "x": 1041.375,
+        "y": 16,
+        "width": 95.375,
+        "height": 44
+      },
+      {
+        "class": "application-link",
+        "x": 1152.75,
+        "y": 16,
+        "width": 135.25,
+        "height": 44
+      },
+      {
+        "class": "menu-toggle",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    ]
+  }
+]

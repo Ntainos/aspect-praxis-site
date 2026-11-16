@@ -2,6 +2,7 @@ import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import assert from 'node:assert/strict';
 import { mkdir, writeFile, readdir } from 'node:fs/promises';
+import { APP_URL } from '../src/config/site.ts';
 const out = 'artifacts/step-6/foundation';
 await mkdir(out, {recursive:true});
 const browser = await chromium.launch({executablePath:process.env.CHROMIUM_PATH || '/usr/bin/chromium',args:['--no-sandbox']});
@@ -18,10 +19,17 @@ for(const width of [1440,768,390]){
  const legal=await page.locator('.site-footer a').evaluateAll(es=>es.map(e=>e.href).filter(h=>h.startsWith('https://app.aspect-praxis.com/')));
  assert.deepEqual(legal,['oroi','aporrito','cookies','prostasia-dedomenon'].map(p=>'https://app.aspect-praxis.com/'+p));
  assert.equal(await page.locator('form').count(),0);
- if(width===1440) assert.equal(Math.round((await page.locator('.desktop-nav').boundingBox()).x),532);
- if(width===390){
-  assert.equal(Math.round((await page.locator('.application-link').boundingBox()).x),185);
-  assert.equal(Math.round((await page.locator('.menu-toggle').boundingBox()).x),274);
+ const login=page.locator('.login-link .button.secondary');
+ assert(await login.isVisible());assert.equal(await login.getAttribute('href'),APP_URL);
+ const loginBox=await login.boundingBox();assert(loginBox.width>=44&&loginBox.height>=44);
+ if(width===1440){
+  const nav=await page.locator('.desktop-nav').boundingBox(),application=await page.locator('.application-link').boundingBox();
+  assert(nav.x+nav.width<loginBox.x);assert(loginBox.x+loginBox.width<application.x);
+ }
+ if(width<1000){
+  assert(await page.locator('.application-link').isHidden());
+  const brand=await page.locator('.brand').first().boundingBox(),toggle=await page.locator('.menu-toggle').boundingBox();
+  assert(brand.x+brand.width<loginBox.x);assert(loginBox.x+loginBox.width<toggle.x);
  }
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  assert(await page.evaluate(()=>document.fonts.check('17px Geologica')));
@@ -30,7 +38,7 @@ for(const width of [1440,768,390]){
  const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
  if(width<1000){
   const toggle=page.locator('.menu-toggle'); const menu=page.locator('#mobile-navigation');
-  for(const control of [toggle,page.locator('.application-link .button')]) assert((await control.boundingBox()).height>=44);
+  for(const control of [toggle,login]) assert((await control.boundingBox()).height>=44);
   assert(await toggle.locator('.menu-lines').isVisible());
   await toggle.focus();await page.keyboard.press('Enter');assert.equal(await toggle.getAttribute('aria-expanded'),'true');
   await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement.textContent),'Πώς λειτουργεί');

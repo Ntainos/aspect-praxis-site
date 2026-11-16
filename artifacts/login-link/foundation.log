@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test
+> node tests/foundation.mjs
+
+PASS: 1440, 768, 390; zero WCAG A/AA axe violations.
