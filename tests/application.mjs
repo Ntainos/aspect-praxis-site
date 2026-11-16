@@ -37,7 +37,7 @@ const reference={1440:{intro:{top:76,height:287},content:{top:363,height:977},fo
 for(const width of [1440,768,390]){
  const t=await setup(width),{page}=t;
  assert.equal(await page.locator('html').getAttribute('lang'),'el');assert.equal(await page.locator('h1').count(),1);assert.equal(await page.locator('h1').innerText(),'Αίτηση για το γραφείο σας.');assert.equal(await page.locator('.breadcrumbs a').getAttribute('href'),'/');
- assert.equal(await page.locator('.application-closing').count(),0);assert.equal(await page.locator('.application-link').getAttribute('aria-hidden'),'true');assert(await page.locator('.application-link').evaluate(e=>e.inert&&getComputedStyle(e).visibility==='hidden'&&e.getBoundingClientRect().width>0));
+ assert.equal(await page.locator('.application-closing').count(),0);assert.equal(await page.locator('.application-link').getAttribute('aria-hidden'),'true');assert(await page.locator('.application-link').evaluate((e,width)=>e.inert&&getComputedStyle(e).visibility==='hidden'&&(width<1000?getComputedStyle(e).display==='none':e.getBoundingClientRect().width>0),width));
  assert.equal(await page.locator('.application-terms input').isChecked(),false);
  assert.deepEqual(await page.locator('.application-field input,.application-field textarea,.application-terms input').evaluateAll(es=>es.map(e=>[e.name,e.required])),[['officeName',true],['city',true],['notaryName',true],['email',true],['phone',true],['message',false],['acceptTerms',true]]);
  assert.equal(await page.locator('[name=website]').getAttribute('tabindex'),'-1');assert(await page.locator('[name=website]').evaluate(e=>!e.getClientRects().length&&e.closest('[aria-hidden=true]')));

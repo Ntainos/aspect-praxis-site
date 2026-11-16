@@ -13,7 +13,8 @@
     "test:data-pricing": "node tests/data-pricing.mjs",
     "test:application": "node tests/application.mjs",
     "test:audit": "node tests/final-audit.mjs",
-    "test:security": "node tests/security.mjs"
+    "test:security": "node tests/security.mjs",
+    "test:login": "node tests/login-link.mjs"
   },
   "dependencies": {
     "astro": "7.4.8"

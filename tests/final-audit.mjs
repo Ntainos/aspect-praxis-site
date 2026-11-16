@@ -3,6 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import assert from 'node:assert/strict';
 import {mkdir,readFile,writeFile,readdir} from 'node:fs/promises';
 import sharp from 'sharp';
+import { APP_URL } from '../src/config/site.ts';
 const out='artifacts/step-6',origin='http://127.0.0.1:4321';
 const pages=['index','pos-leitourgei','eidi','dedomena','times','aitisi'];
 const legal=['oroi','aporrito','cookies','prostasia-dedomenon'].map(s=>'https://app.aspect-praxis.com/'+s);
@@ -57,7 +58,7 @@ for(const name of [...pages,'404'])for(const width of [1440,768,390]){
 const request=await browser.newContext();const linkResults=[];
 for(const l of links.values()){
  if(l.kind==='internal'){const u=new URL(l.href);const response=await request.request.get(u.origin+u.pathname);assert.equal(response.status(),200,l.href);if(u.hash){const p=await request.newPage();await p.goto(u.origin+u.pathname);assert.equal(await p.locator(`[id="${decodeURIComponent(u.hash.slice(1))}"]`).count(),1);await p.close();}linkResults.push({...l,status:200,anchorExists:!!u.hash||undefined});}
- else if(l.kind==='external'){assert(legal.includes(l.href),l.href);linkResults.push({...l,approvedDestination:true,networkRequested:false});}
+ else if(l.kind==='external'){assert(legal.includes(l.href)||l.href===new URL(APP_URL).href,l.href);linkResults.push({...l,approvedDestination:true,networkRequested:false});}
  else {assert.equal(l.href,'mailto:info@aspect-praxis.com');linkResults.push({...l,valid:true});}
 }
 const notFound=[];for(const path of ['/odigos','/odigos/','/odigos/index.html','/unknown-step-6','/nested/unknown-step-6']){const response=await request.request.get(origin+path);assert.equal(response.status(),404);assert((await response.text()).includes('Η σελίδα δεν βρέθηκε.'));notFound.push({path,status:404,customGreekPage:true});}

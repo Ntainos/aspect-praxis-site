@@ -74,7 +74,7 @@ for(const slug of ['dedomena','times'])for(const width of [1440,768,390]){
   await page.keyboard.press('Space');assert(await menu.isVisible());
   const openAxe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();assert.deepEqual(openAxe.violations,[]);
   await toggle.click();if(width===390)await toggle.tap();else await toggle.click();assert(await menu.isVisible());await page.keyboard.press('Escape');assert(await menu.locator('a').evaluateAll(es=>es.every(e=>!e.getClientRects().length)));
-  assert(await page.locator('.menu-toggle,.application-link .button,main .button').evaluateAll(es=>es.every(e=>e.getBoundingClientRect().height>=44)));
+  assert(await page.locator('.menu-toggle,.login-link .button,main .button').evaluateAll(es=>es.every(e=>e.getBoundingClientRect().height>=44)));
  }
  const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
  assert.deepEqual(errors,[]);assert.deepEqual(failures,[]);assert(requests.every(u=>new URL(u).origin===origin));assert.equal((await context.cookies()).length,0);assert.equal(await page.evaluate(()=>localStorage.length+sessionStorage.length),0);

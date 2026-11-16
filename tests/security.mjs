@@ -32,9 +32,11 @@ for(const name of ['index','pos-leitourgei','eidi','dedomena','times','aitisi','
   const current=await page.screenshot({path:`${out}/${name}-${width}.png`,fullPage:true});
   const baseline=execFileSync('git',['show',`7efa4f5:artifacts/step-6/${name}-${width}.png`],{maxBuffer:20*1024*1024});
   const a=await sharp(baseline).ensureAlpha().raw().toBuffer({resolveWithObject:true}),b=await sharp(current).ensureAlpha().raw().toBuffer({resolveWithObject:true});
-  assert.deepEqual(a.info,b.info);let different=0;for(let i=0;i<a.data.length;i+=4)if(!a.data.subarray(i,i+4).equals(b.data.subarray(i,i+4)))different++;
+  assert.deepEqual(a.info,b.info);
+  const headerHeight=width===1440?77:65;assert.equal((await page.locator('.site-header').boundingBox()).height,headerHeight);
+  let different=0,bodyDifferent=0;for(let i=0;i<a.data.length;i+=4)if(!a.data.subarray(i,i+4).equals(b.data.subarray(i,i+4))){different++;if(i>=width*headerHeight*4)bodyDifferent++;}
   const meta=await sharp(current).metadata();await sharp({create:{width:width*2,height:meta.height,channels:3,background:'white'}}).composite([{input:baseline,left:0,top:0},{input:current,left:width,top:0}]).png().toFile(`${out}/comparison-${name}-${width}.png`);
-  visual.push({name,width,differentPixels:different,totalPixels:meta.width*meta.height});assert.equal(different,0,`${name} ${width}: visual regression`);
+  visual.push({name,width,differentPixels:different,bodyDifferentPixels:bodyDifferent,expectedDifference:'Shared header login link only',headerHeight,totalPixels:meta.width*meta.height});assert(different>0,`${name} ${width}: expected header update`);assert.equal(bodyDifferent,0,`${name} ${width}: visual regression outside header`);
  }
  if(width<1000){const toggle=page.locator('.menu-toggle'),menu=page.locator('#mobile-navigation');
   await toggle.click();assert(await menu.isVisible());await page.keyboard.press('Escape');assert(await toggle.evaluate(e=>document.activeElement===e));
@@ -64,5 +66,5 @@ await context.route('**/*',route=>{if(route.request().method()==='POST'){nativeP
 await page.goto(origin+'/aitisi');await page.evaluate(()=>HTMLFormElement.prototype.submit.call(document.querySelector('form')));
 await page.waitForFunction(()=>window.cspViolations.includes('form-action'));assert.equal(nativePosts,0);assert.deepEqual(await page.evaluate(()=>window.cspViolations),['form-action']);
 await context.close();await writeFile(`${out}/security-results.json`,JSON.stringify({headers,cloudflareLimits:{rules:1,longestLine:Math.max(...lines.map(l=>l.length)),maxRules:100,maxLine:2000},html,scripts,pages:results,visual,form,nativeSubmission:{blocked:true,expectedViolation:'form-action',networkPosts:0}},null,2));
-console.log('PASS: headers/build, 21 CSP page cases, 12 pixel-identical screenshots, mock fetch and blocked native submission.');
+console.log('PASS: headers/build, 21 CSP page cases, 12 screenshots identical below the updated header, mock fetch and blocked native submission.');
 }finally{await browser.close();}

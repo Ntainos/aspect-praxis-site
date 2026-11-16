@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:application
+> node tests/application.mjs
+
+PASS: application at 1440/768/390, axe 0, 46 mocked/validation cases, no real external requests.

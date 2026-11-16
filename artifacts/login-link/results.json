@@ -1,0 +1,1015 @@
+{
+  "results": [
+    {
+      "name": "index",
+      "width": 360,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 152.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 244.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 182.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 274.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "index",
+      "width": 1440,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 152,
+          "y": 16,
+          "width": 100.96875,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 1041.375,
+          "y": 16,
+          "width": 95.375,
+          "height": 44
+        },
+        {
+          "label": "Κάντε αίτηση",
+          "x": 1152.75,
+          "y": 16,
+          "width": 135.25,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 360,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 152.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 244.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 182.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 274.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 152,
+          "y": 16,
+          "width": 100.96875,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 1041.375,
+          "y": 16,
+          "width": 95.375,
+          "height": 44
+        },
+        {
+          "label": "Κάντε αίτηση",
+          "x": 1152.75,
+          "y": 16,
+          "width": 135.25,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "eidi",
+      "width": 360,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 152.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 244.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 182.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 274.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 152,
+          "y": 16,
+          "width": 100.96875,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 1041.375,
+          "y": 16,
+          "width": 95.375,
+          "height": 44
+        },
+        {
+          "label": "Κάντε αίτηση",
+          "x": 1152.75,
+          "y": 16,
+          "width": 135.25,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "dedomena",
+      "width": 360,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 152.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 244.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 182.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 274.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 152,
+          "y": 16,
+          "width": 100.96875,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 1041.375,
+          "y": 16,
+          "width": 95.375,
+          "height": 44
+        },
+        {
+          "label": "Κάντε αίτηση",
+          "x": 1152.75,
+          "y": 16,
+          "width": 135.25,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "times",
+      "width": 360,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 152.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 244.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "times",
+      "width": 390,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 182.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 274.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "times",
+      "width": 1440,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 152,
+          "y": 16,
+          "width": 100.96875,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 1041.375,
+          "y": 16,
+          "width": 95.375,
+          "height": 44
+        },
+        {
+          "label": "Κάντε αίτηση",
+          "x": 1152.75,
+          "y": 16,
+          "width": 135.25,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "aitisi",
+      "width": 360,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 152.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 244.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 16,
+          "y": 10,
+          "width": 94.890625,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 182.8125,
+          "y": 10,
+          "width": 83.375,
+          "height": 44
+        },
+        {
+          "label": "Μενού",
+          "x": 274.1875,
+          "y": 10,
+          "width": 99.8125,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "href": "https://app.aspect-praxis.com",
+      "targets": [
+        {
+          "label": "Praxis",
+          "x": 152,
+          "y": 16,
+          "width": 100.96875,
+          "height": 44
+        },
+        {
+          "label": "Σύνδεση",
+          "x": 1041.375,
+          "y": 16,
+          "width": 95.375,
+          "height": 44
+        }
+      ],
+      "keyboardFocus": true,
+      "keyboardActivation": "mocked",
+      "pointerActivation": "mocked",
+      "axeViolations": [],
+      "menuViolations": [],
+      "externalRequests": [],
+      "errors": [],
+      "activations": [
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        },
+        {
+          "url": "https://app.aspect-praxis.com/",
+          "method": "GET",
+          "mocked": true
+        }
+      ]
+    }
+  ],
+  "visual": [
+    {
+      "name": "index",
+      "width": 390,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 65,
+      "headerPixels": 3366,
+      "bodyPixels": 0
+    },
+    {
+      "name": "index",
+      "width": 1440,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 77,
+      "headerPixels": 4174,
+      "bodyPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 65,
+      "headerPixels": 3366,
+      "bodyPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 77,
+      "headerPixels": 4253,
+      "bodyPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 65,
+      "headerPixels": 3366,
+      "bodyPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 77,
+      "headerPixels": 4205,
+      "bodyPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 65,
+      "headerPixels": 3366,
+      "bodyPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 77,
+      "headerPixels": 4301,
+      "bodyPixels": 0
+    },
+    {
+      "name": "times",
+      "width": 390,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 65,
+      "headerPixels": 3366,
+      "bodyPixels": 0
+    },
+    {
+      "name": "times",
+      "width": 1440,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 77,
+      "headerPixels": 4168,
+      "bodyPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 65,
+      "headerPixels": 628,
+      "bodyPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "baseline": "7efa4f5:artifacts/step-6",
+      "headerHeight": 77,
+      "headerPixels": 4174,
+      "bodyPixels": 0
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 390,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 600,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 601,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 768,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 999,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 1000,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 1100,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 1101,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 1199,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 1200,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    },
+    {
+      "width": 1440,
+      "noJavaScriptLoginVisible": true,
+      "overflow": false,
+      "overlappingTargets": false
+    }
+  ]
+}
