@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:login
+> node tests/login-link.mjs
+
+PASS: six pages × 360/390/1440; keyboard and pointer activation mocked; axe 0; mobile menus; 10 Step 6 comparisons identical below header; pricing changes confined to packages/notes and section translation; 12 responsive/no-JavaScript checks.

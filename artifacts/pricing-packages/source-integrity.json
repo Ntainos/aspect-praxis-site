@@ -1,0 +1,39 @@
+{
+  "baseCommit": "d7f801ed5639ffc4c45812964b80dd7eb5c97256",
+  "unchangedHtml": [
+    "index.html",
+    "404.html",
+    "aitisi/index.html",
+    "dedomena/index.html",
+    "eidi/index.html",
+    "pos-leitourgei/index.html"
+  ],
+  "unchangedPaths": [
+    "design",
+    "public",
+    "src/lib",
+    "src/layouts",
+    "src/config",
+    "src/components/Header.astro",
+    "src/components/Footer.astro",
+    "src/components/ApplicationClosing.astro",
+    "src/pages/index.astro",
+    "src/pages/aitisi.astro",
+    "src/styles/global.css",
+    "src/styles/home.css",
+    "src/styles/application.css",
+    "package-lock.json",
+    "astro.config.mjs"
+  ],
+  "javascriptByteIdentical": [
+    {
+      "file": "ApplicationForm.astro_astro_type_script_index_0_lang.DVT304Gx.js",
+      "sha256": "0f00794c0eb026957d0b3d50820e820a7f491ca8b83d7669751f90a7bcf73b00"
+    },
+    {
+      "file": "Header.astro_astro_type_script_index_0_lang.BKzjaAz-.js",
+      "sha256": "82c04e5f7a1b5e0ceb5786ade7bd6687ba30d4e85eabe13c9e908d41acf53909"
+    }
+  ],
+  "referenceAndTestsExcludedFromBuild": true
+}

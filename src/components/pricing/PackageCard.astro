@@ -1,4 +1,19 @@
 ---
 import Card from '../Card.astro';
+import { pricingTerms, popularPackageLabel, formatAmount, formatMoney, formatUsers, type PricingPackage } from '../../data/pricing';
+interface Props { plan: PricingPackage; }
+const { plan } = Astro.props;
 ---
-<Card class="package-card"><h2>Πακέτο [●]</h2><p class="package-price">[●] € <span>/ μήνα</span></p><dl><div><dt>Πράξεις τον μήνα</dt><dd>[●]</dd></div><div><dt>Χρήστες έως</dt><dd>[●]</dd></div></dl></Card>
+<Card class={`package-card${plan.popular ? ' package-card-popular' : ''}`}>
+  <div class="package-badge-slot">{plan.popular && <p class="package-badge">{popularPackageLabel}</p>}</div>
+  <h2>{plan.name}</h2>
+  <p class="package-price">{formatAmount(plan.monthlyNet)} <span>/ μήνα χωρίς ΦΠΑ</span></p>
+  <p class="package-vat">{formatMoney(plan.monthlyGross)} με ΦΠΑ {pricingTerms.vatPercent}%</p>
+  <dl>
+    <div><dt>Πράξεις τον μήνα</dt><dd>{plan.actionsPerMonth}</dd></div>
+    <div><dt>Κόστος ανά πράξη</dt><dd>{formatMoney(plan.costPerAction)}</dd></div>
+    <div><dt>Ταυτόχρονοι χρήστες</dt><dd>{formatUsers(plan.concurrentUsers)}</dd></div>
+    <div><dt>Επιπλέον πράξη, χωρίς ΦΠΑ</dt><dd>{formatAmount(plan.extraActionNet)}</dd></div>
+    <div><dt>Νέες λειτουργίες σε ανάπτυξη</dt><dd>{plan.newFeaturesInDevelopment ? 'Ναι' : 'Όχι'}</dd></div>
+  </dl>
+</Card>

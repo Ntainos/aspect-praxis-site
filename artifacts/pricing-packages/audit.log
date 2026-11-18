@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:audit
+> node tests/final-audit.mjs
+
+PASS: 21 page/viewport checks; axe 0; all local links/anchors; approved external destinations; 404; no guide; favicon; no external loading requests.

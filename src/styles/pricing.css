@@ -3,14 +3,21 @@
 .pricing-content{padding-block:96px}
 .package-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .package-card{padding:26px}
+.package-card-popular{border-color:var(--petrol);background:var(--ai-bg)}
+.package-badge-slot{min-height:32px;margin-bottom:12px}
+.package-badge{display:inline-block;background:var(--soft);color:var(--soft-text);border-radius:var(--radius-control);font-size:13px;font-weight:500;line-height:24px;padding:4px 10px;margin:0}
 .package-card h2{font-size:16px;line-height:1.6;letter-spacing:0;margin:0 0 8px;font-weight:600;text-wrap:wrap}
-.package-price{font-size:44px;font-weight:200;line-height:1.4;letter-spacing:-.04em;color:var(--petrol);margin:0 0 16px}
+.package-price{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:8px;font-size:44px;font-weight:200;line-height:1.4;letter-spacing:-.04em;color:var(--petrol);margin:0 0 4px}
+.package-vat{font-size:14px;line-height:24px;color:var(--muted);margin:0 0 20px}
 .package-price span{font-size:14px;font-weight:380;letter-spacing:0;color:var(--muted);white-space:nowrap}
 .package-card dl{margin:0;font-size:16px;color:#36423E}
 .package-card dd{color:var(--ink)}
 .package-card dl>div{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
-.package-card dd{margin:0;font-weight:600}
-.package-note{font-size:15px;color:var(--muted);margin:16px 0 48px}
+.package-card dd{margin:0;font-weight:600;white-space:nowrap}
+.package-notes{margin:16px 0 48px}
+.package-note{font-size:15px;color:var(--muted);margin:0}
+.package-note+.package-note{margin-top:8px}
+.package-note a{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
 .package-benefits{display:grid;grid-template-columns:4fr 8fr;gap:64px;border-top:1px solid var(--ink);padding-top:26px}
 .package-benefits h2{font-size:22px;line-height:1.4;letter-spacing:-.025em;margin:0}
 .benefits-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
@@ -23,18 +30,16 @@
  .package-card{padding:20px}
  .package-benefits{grid-template-columns:1fr;gap:24px}
 }
+@media(max-width:999px){.package-grid{grid-template-columns:1fr}}
 @media(max-width:700px){
  .pricing-page .internal-intro{padding-top:30px;padding-bottom:40px}
  .pricing-content{padding-block:64px}
  .package-grid{grid-template-columns:1fr}
- .package-card:not(:first-child){display:none}
  .package-card{padding:22px 20px}
  .package-card h2{font-size:17px;margin-bottom:8px}
- .package-price{font-size:44px;line-height:1.2;margin-bottom:20px}
- .package-price span{font-size:16px}
+ .package-price{font-size:44px;line-height:1.2}
  .package-card dl{font-size:16px}
  .package-card dl>div{padding-top:14px;margin-top:14px}
- .package-note{font-size:15px;margin:16px 0 48px}
  .package-benefits{grid-template-columns:1fr;gap:28px;padding-top:26px}
  .package-benefits h2{font-size:22px}
  .benefits-grid{grid-template-columns:1fr;gap:24px}

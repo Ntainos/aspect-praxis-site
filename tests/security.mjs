@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import {execFileSync} from 'node:child_process';
 import sharp from 'sharp';
+import { assertPricingVisual } from './pricing-visual.mjs';
 const out='artifacts/cloudflare-security',origin='http://127.0.0.1:4321';
 await mkdir(out,{recursive:true});
 const raw=await readFile('public/_headers','utf8');assert.equal(await readFile('dist/_headers','utf8'),raw);
@@ -30,6 +31,7 @@ for(const name of ['index','pos-leitourgei','eidi','dedomena','times','aitisi','
  assert(await page.evaluate(async()=>{const img=new Image();img.src=document.querySelector('link[rel=icon]').href;await img.decode();return img.naturalWidth>0;}));
  if(name!=='404'&&width!==768){
   const current=await page.screenshot({path:`${out}/${name}-${width}.png`,fullPage:true});
+  if(name==='times'){visual.push({name,...await assertPricingVisual(page,current,width)});}else{
   const baseline=execFileSync('git',['show',`7efa4f5:artifacts/step-6/${name}-${width}.png`],{maxBuffer:20*1024*1024});
   const a=await sharp(baseline).ensureAlpha().raw().toBuffer({resolveWithObject:true}),b=await sharp(current).ensureAlpha().raw().toBuffer({resolveWithObject:true});
   assert.deepEqual(a.info,b.info);
@@ -37,6 +39,7 @@ for(const name of ['index','pos-leitourgei','eidi','dedomena','times','aitisi','
   let different=0,bodyDifferent=0;for(let i=0;i<a.data.length;i+=4)if(!a.data.subarray(i,i+4).equals(b.data.subarray(i,i+4))){different++;if(i>=width*headerHeight*4)bodyDifferent++;}
   const meta=await sharp(current).metadata();await sharp({create:{width:width*2,height:meta.height,channels:3,background:'white'}}).composite([{input:baseline,left:0,top:0},{input:current,left:width,top:0}]).png().toFile(`${out}/comparison-${name}-${width}.png`);
   visual.push({name,width,differentPixels:different,bodyDifferentPixels:bodyDifferent,expectedDifference:'Shared header login link only',headerHeight,totalPixels:meta.width*meta.height});assert(different>0,`${name} ${width}: expected header update`);assert.equal(bodyDifferent,0,`${name} ${width}: visual regression outside header`);
+  }
  }
  if(width<1000){const toggle=page.locator('.menu-toggle'),menu=page.locator('#mobile-navigation');
   await toggle.click();assert(await menu.isVisible());await page.keyboard.press('Escape');assert(await toggle.evaluate(e=>document.activeElement===e));
@@ -66,5 +69,5 @@ await context.route('**/*',route=>{if(route.request().method()==='POST'){nativeP
 await page.goto(origin+'/aitisi');await page.evaluate(()=>HTMLFormElement.prototype.submit.call(document.querySelector('form')));
 await page.waitForFunction(()=>window.cspViolations.includes('form-action'));assert.equal(nativePosts,0);assert.deepEqual(await page.evaluate(()=>window.cspViolations),['form-action']);
 await context.close();await writeFile(`${out}/security-results.json`,JSON.stringify({headers,cloudflareLimits:{rules:1,longestLine:Math.max(...lines.map(l=>l.length)),maxRules:100,maxLine:2000},html,scripts,pages:results,visual,form,nativeSubmission:{blocked:true,expectedViolation:'form-action',networkPosts:0}},null,2));
-console.log('PASS: headers/build, 21 CSP page cases, 12 screenshots identical below the updated header, mock fetch and blocked native submission.');
+console.log('PASS: headers/build, 21 CSP page cases, 10 screenshots identical below the updated header; pricing changes confined to packages/notes and section translation, mock fetch and blocked native submission.');
 }finally{await browser.close();}

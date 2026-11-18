@@ -1,0 +1,86 @@
+{
+  "terms": {
+    "vatPercent": 24,
+    "subscriptionMonths": 12,
+    "annualPrepaymentMonths": 12,
+    "annualPaidMonths": 10,
+    "includedRevisions": 5
+  },
+  "approved": [
+    {
+      "name": "Βασικό",
+      "net": 99,
+      "gross": "122,76 €",
+      "actions": 10,
+      "perAction": "9,90 €",
+      "users": "1",
+      "extra": 12,
+      "features": "Όχι",
+      "popular": false
+    },
+    {
+      "name": "Επαγγελματικό",
+      "net": 189,
+      "gross": "234,36 €",
+      "actions": 25,
+      "perAction": "7,56 €",
+      "users": "Έως 3",
+      "extra": 9,
+      "features": "Ναι",
+      "popular": true
+    },
+    {
+      "name": "Προνομιακό",
+      "net": 590,
+      "gross": "731,60 €",
+      "actions": 90,
+      "perAction": "6,56 €",
+      "users": "Απεριόριστοι",
+      "extra": 7,
+      "features": "Ναι",
+      "popular": false
+    }
+  ],
+  "computed": [
+    {
+      "name": "Βασικό",
+      "monthlyNet": 99,
+      "actionsPerMonth": 10,
+      "concurrentUsers": 1,
+      "extraActionNet": 12,
+      "newFeaturesInDevelopment": false,
+      "popular": false,
+      "monthlyGross": 122.76,
+      "costPerAction": 9.9,
+      "displayGross": "122,76 €",
+      "displayCostPerAction": "9,90 €"
+    },
+    {
+      "name": "Επαγγελματικό",
+      "monthlyNet": 189,
+      "actionsPerMonth": 25,
+      "concurrentUsers": 3,
+      "extraActionNet": 9,
+      "newFeaturesInDevelopment": true,
+      "popular": true,
+      "monthlyGross": 234.36,
+      "costPerAction": 7.56,
+      "displayGross": "234,36 €",
+      "displayCostPerAction": "7,56 €"
+    },
+    {
+      "name": "Προνομιακό",
+      "monthlyNet": 590,
+      "actionsPerMonth": 90,
+      "concurrentUsers": null,
+      "extraActionNet": 7,
+      "newFeaturesInDevelopment": true,
+      "popular": false,
+      "monthlyGross": 731.6,
+      "costPerAction": 6.56,
+      "displayGross": "731,60 €",
+      "displayCostPerAction": "6,56 €"
+    }
+  ],
+  "allApprovedValuesMatch": true
+}

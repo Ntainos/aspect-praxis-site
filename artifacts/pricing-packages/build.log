@@ -1,0 +1,28 @@
+
+> aspect-praxis-site@0.1.0 build
+> astro build
+
+16:26:49 [types] Generated 40ms
+16:26:49 [build] output: "static"
+16:26:49 [build] mode: "static"
+16:26:49 [build] directory: /workspace/aspect-praxis-site/dist/
+16:26:49 [build] Collecting build info...
+16:26:49 [build] ✓ Completed in 82ms.
+16:26:49 [build] Building static entrypoints...
+16:26:49 [vite] ✓ built in 379ms
+16:26:49 [vite] ✓ built in 26ms
+16:26:49 [build] Rearranging server assets...
+
+ generating static routes 
+16:26:49   ├─ /404.html (+19ms) 
+16:26:49   ├─ /aitisi/index.html (+7ms) 
+16:26:49   ├─ /dedomena/index.html (+5ms) 
+16:26:49   ├─ /eidi/index.html (+4ms) 
+16:26:49   ├─ /pos-leitourgei/index.html (+12ms) 
+16:26:49   ├─ /times/index.html (+8ms) 
+16:26:49   ├─ /index.html (+4ms) 
+16:26:49 ✓ Completed in 93ms.
+
+16:26:49 [build] ✓ Completed in 554ms.
+16:26:49 [build] 7 page(s) built in 638ms
+16:26:49 [build] Complete!

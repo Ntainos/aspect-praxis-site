@@ -5,6 +5,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
 import { APP_URL } from '../src/config/site.ts';
+import { assertPricingVisual } from './pricing-visual.mjs';
 
 const origin = 'http://127.0.0.1:4321';
 const out = 'artifacts/login-link';
@@ -56,7 +57,9 @@ try {
     if (name === 'index') await page.screenshot({ path: `${out}/header-${width}.png` });
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     assert.deepEqual(axe.violations, []);
-    if (width !== 360) {
+    if (name === 'times') {
+      visual.push({ name, ...await assertPricingVisual(page, current, width) });
+    } else if (width !== 360) {
       // Immutable Step 6 reference: never replace it with the updated screenshots.
       const baseline = execFileSync('git', ['show', `7efa4f5:artifacts/step-6/${name}-${width}.png`], { maxBuffer: 20 * 1024 * 1024 });
       const a = await sharp(baseline).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
@@ -142,5 +145,5 @@ try {
     await context.close();
   }
   await writeFile(`${out}/results.json`, JSON.stringify({ results, visual, responsive }, null, 2));
-  console.log('PASS: six pages × 360/390/1440; keyboard and pointer activation mocked; axe 0; mobile menus; 12 Step 6 comparisons identical below header; 12 responsive/no-JavaScript checks.');
+  console.log('PASS: six pages × 360/390/1440; keyboard and pointer activation mocked; axe 0; mobile menus; 10 Step 6 comparisons identical below header; pricing changes confined to packages/notes and section translation; 12 responsive/no-JavaScript checks.');
 } finally { await browser.close(); }

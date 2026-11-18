@@ -3,6 +3,8 @@ import AxeBuilder from '@axe-core/playwright';
 import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import sharp from 'sharp';
+import { assertPricingPage } from './pricing-assertions.mjs';
+import { APP_URL } from '../src/config/site.ts';
 const out='artifacts/step-4';await mkdir(out,{recursive:true});
 const source=await readFile('design/keimena.md','utf8');
 const norm=s=>s.replace(/\s+/g,' ').trim();
@@ -23,11 +25,11 @@ for(const slug of ['dedomena','times'])for(const width of [1440,768,390]){
  assert.equal(await page.locator('.breadcrumbs a').getAttribute('href'),'/');
  assert.equal(await page.locator('.desktop-nav [aria-current=page]').getAttribute('href'),`/${slug}`);
  assert.equal(await page.locator('#mobile-navigation [aria-current=page]').getAttribute('href'),`/${slug}`);
- const texts=await page.locator('main').evaluate(e=>[...e.querySelectorAll('h1,h2,h3,p,strong,small,dt,dd,figcaption')].filter(e=>!e.childElementCount).map(e=>e.textContent.trim()));
+ const texts=await page.locator('main').evaluate(e=>[...e.querySelectorAll('h1,h2,h3,p,strong,small,dt,dd,figcaption')].filter(e=>!e.childElementCount&&!e.closest('.package-grid,.package-notes')).map(e=>e.textContent.trim()));
  for(const text of texts)assert(norm(source).includes(norm(text)),`Unapproved copy: ${text}`);
  const main=norm(await page.locator('main').innerText());
  const links=await page.locator('main a').evaluateAll(es=>es.map(e=>e.getAttribute('href')));
- assert(links.every(h=>['/','/aitisi','#metra','mailto:info@aspect-praxis.com','https://app.aspect-praxis.com/prostasia-dedomenon'].includes(h)));
+ assert(links.every(h=>['/','/aitisi','#metra','mailto:info@aspect-praxis.com','https://app.aspect-praxis.com/prostasia-dedomenon',...(slug==='times'?[`${APP_URL}/oroi`]:[])].includes(h)));
  assert.deepEqual(await page.locator('.site-footer a[href^="https://app.aspect-praxis.com"]').evaluateAll(es=>es.map(e=>[e.textContent.trim(),e.getAttribute('href')])),[['Όροι χρήσης','https://app.aspect-praxis.com/oroi'],['Πολιτική απορρήτου','https://app.aspect-praxis.com/aporrito'],['Πολιτική cookies','https://app.aspect-praxis.com/cookies'],['Σύμβαση επεξεργασίας δεδομένων','https://app.aspect-praxis.com/prostasia-dedomenon']]);
  if(slug==='dedomena'){
   assert.equal(await page.locator('.security-measure:visible').count(),10);
@@ -49,12 +51,7 @@ for(const slug of ['dedomena','times'])for(const width of [1440,768,390]){
   assert.equal(new URL(page.url()).hash,'#metra');
   const header=await page.locator('.site-header').boundingBox(),target=await page.locator('#measures-title').boundingBox();assert(target.y>=header.y+header.height);
  }else{
-  assert.equal(await page.locator('.package-card').count(),3);assert.equal(await page.locator('.package-card:visible').count(),width===390?1:3);
-  for(const card of await page.locator('.package-card').all()){
-   assert.equal(await card.locator('h2').innerText(),'Πακέτο [●]');assert.equal(norm(await card.locator('.package-price').innerText()),'[●] € / μήνα');
-   assert.deepEqual(await card.locator('dl>div').allTextContents(),['Πράξεις τον μήνα[●]','Χρήστες έως[●]']);
-  }
-  assert.equal(await page.locator('.package-note').innerText(),'Ενδεικτική δομή. Ονόματα, πλήθος και ποσά των πακέτων: [●].');
+  await assertPricingPage(page);
   assert.deepEqual(await page.locator('.package-benefit h3').allTextContents(),['Πληρωμή με κάρτα','Διορθώσεις χωρίς χρέωση','Τι μετρά ως πράξη']);
   assert.equal(await page.locator('.package-benefit').last().locator('p').innerText(),'Μια πράξη μετρά μόνο όταν βγει .docx ή κείμενο. Όσο το Praxis σας δείχνει τι χρειάζεται ακόμη, δεν μετρά.');
  }

@@ -1,0 +1,5 @@
+
+> aspect-praxis-site@0.1.0 test:data-pricing
+> node tests/data-pricing.mjs
+
+PASS: security and pricing at 1440/768/390; approved copy, measures, cards, anchor, navigation, menu, local requests, axe.

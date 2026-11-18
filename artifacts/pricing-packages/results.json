@@ -1,0 +1,655 @@
+{
+  "approvedPrices": [
+    {
+      "name": "Βασικό",
+      "net": 99,
+      "gross": "122,76 €",
+      "actions": 10,
+      "perAction": "9,90 €",
+      "users": "1",
+      "extra": 12,
+      "features": "Όχι",
+      "popular": false
+    },
+    {
+      "name": "Επαγγελματικό",
+      "net": 189,
+      "gross": "234,36 €",
+      "actions": 25,
+      "perAction": "7,56 €",
+      "users": "Έως 3",
+      "extra": 9,
+      "features": "Ναι",
+      "popular": true
+    },
+    {
+      "name": "Προνομιακό",
+      "net": 590,
+      "gross": "731,60 €",
+      "actions": 90,
+      "perAction": "6,56 €",
+      "users": "Απεριόριστοι",
+      "extra": 7,
+      "features": "Ναι",
+      "popular": false
+    }
+  ],
+  "pricing": [
+    {
+      "width": 360,
+      "rendered": [
+        {
+          "name": "Βασικό",
+          "price": "99 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "122,76 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "10",
+            "9,90 €",
+            "1",
+            "12 €",
+            "Όχι"
+          ]
+        },
+        {
+          "name": "Επαγγελματικό",
+          "price": "189 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "234,36 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "25",
+            "7,56 €",
+            "Έως 3",
+            "9 €",
+            "Ναι"
+          ]
+        },
+        {
+          "name": "Προνομιακό",
+          "price": "590 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "731,60 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "90",
+            "6,56 €",
+            "Απεριόριστοι",
+            "7 €",
+            "Ναι"
+          ]
+        }
+      ],
+      "boxes": [
+        {
+          "x": 16,
+          "y": 384.4375,
+          "right": 344,
+          "bottom": 869.390625,
+          "height": 484.953125
+        },
+        {
+          "x": 16,
+          "y": 893.390625,
+          "right": 344,
+          "bottom": 1378.34375,
+          "height": 484.953125
+        },
+        {
+          "x": 16,
+          "y": 1402.34375,
+          "right": 344,
+          "bottom": 1887.296875,
+          "height": 484.953125
+        }
+      ],
+      "visual": {
+        "width": 360,
+        "baseline": "9d46764:artifacts/login-link",
+        "unchangedPrefixPixels": true,
+        "shifts": [
+          {
+            "selector": ".site-header",
+            "beforeY": 0,
+            "afterY": 0,
+            "shift": 0,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".internal-intro",
+            "beforeY": 65,
+            "afterY": 65,
+            "shift": 0,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".package-benefits",
+            "beforeY": 745.609375,
+            "afterY": 2075.296875,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".pricing-activation",
+            "beforeY": 1139.90625,
+            "afterY": 2469.59375,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".application-closing",
+            "beforeY": 1301.6875,
+            "afterY": 2631.375,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".site-footer",
+            "beforeY": 2114.234375,
+            "afterY": 3443.921875,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          }
+        ]
+      },
+      "axeViolations": [],
+      "internalLinks": [
+        "/",
+        "/pos-leitourgei",
+        "/eidi",
+        "/dedomena",
+        "/times",
+        "/aitisi"
+      ],
+      "termsRequests": [
+        {
+          "url": "https://app.aspect-praxis.com/oroi",
+          "method": "GET",
+          "mocked": true
+        }
+      ],
+      "keyboardFocus": true,
+      "touchTarget": {
+        "x": 257.203125,
+        "y": 428.296875,
+        "width": 47.03125,
+        "height": 44
+      },
+      "externalRequests": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "rendered": [
+        {
+          "name": "Βασικό",
+          "price": "99 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "122,76 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "10",
+            "9,90 €",
+            "1",
+            "12 €",
+            "Όχι"
+          ]
+        },
+        {
+          "name": "Επαγγελματικό",
+          "price": "189 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "234,36 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "25",
+            "7,56 €",
+            "Έως 3",
+            "9 €",
+            "Ναι"
+          ]
+        },
+        {
+          "name": "Προνομιακό",
+          "price": "590 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "731,60 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "90",
+            "6,56 €",
+            "Απεριόριστοι",
+            "7 €",
+            "Ναι"
+          ]
+        }
+      ],
+      "boxes": [
+        {
+          "x": 16,
+          "y": 384.4375,
+          "right": 374,
+          "bottom": 869.390625,
+          "height": 484.953125
+        },
+        {
+          "x": 16,
+          "y": 893.390625,
+          "right": 374,
+          "bottom": 1378.34375,
+          "height": 484.953125
+        },
+        {
+          "x": 16,
+          "y": 1402.34375,
+          "right": 374,
+          "bottom": 1887.296875,
+          "height": 484.953125
+        }
+      ],
+      "visual": {
+        "width": 390,
+        "baseline": "9d46764:artifacts/login-link",
+        "unchangedPrefixPixels": true,
+        "shifts": [
+          {
+            "selector": ".site-header",
+            "beforeY": 0,
+            "afterY": 0,
+            "shift": 0,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".internal-intro",
+            "beforeY": 65,
+            "afterY": 65,
+            "shift": 0,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".package-benefits",
+            "beforeY": 745.609375,
+            "afterY": 2075.296875,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".pricing-activation",
+            "beforeY": 1115.90625,
+            "afterY": 2445.59375,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".application-closing",
+            "beforeY": 1277.6875,
+            "afterY": 2607.375,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".site-footer",
+            "beforeY": 2059.84375,
+            "afterY": 3389.53125,
+            "shift": 1329.6875,
+            "unchangedContentStylesAndGeometry": true
+          }
+        ]
+      },
+      "axeViolations": [],
+      "internalLinks": [
+        "/",
+        "/pos-leitourgei",
+        "/eidi",
+        "/dedomena",
+        "/times",
+        "/aitisi"
+      ],
+      "termsRequests": [
+        {
+          "url": "https://app.aspect-praxis.com/oroi",
+          "method": "GET",
+          "mocked": true
+        }
+      ],
+      "keyboardFocus": true,
+      "touchTarget": {
+        "x": 238.03125,
+        "y": 428.296875,
+        "width": 47.03125,
+        "height": 44
+      },
+      "externalRequests": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "rendered": [
+        {
+          "name": "Βασικό",
+          "price": "99 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "122,76 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "10",
+            "9,90 €",
+            "1",
+            "12 €",
+            "Όχι"
+          ]
+        },
+        {
+          "name": "Επαγγελματικό",
+          "price": "189 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "234,36 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "25",
+            "7,56 €",
+            "Έως 3",
+            "9 €",
+            "Ναι"
+          ]
+        },
+        {
+          "name": "Προνομιακό",
+          "price": "590 €\n/ μήνα χωρίς ΦΠΑ",
+          "vat": "731,60 € με ΦΠΑ 24%",
+          "labels": [
+            "Πράξεις τον μήνα",
+            "Κόστος ανά πράξη",
+            "Ταυτόχρονοι χρήστες",
+            "Επιπλέον πράξη, χωρίς ΦΠΑ",
+            "Νέες λειτουργίες σε ανάπτυξη"
+          ],
+          "values": [
+            "90",
+            "6,56 €",
+            "Απεριόριστοι",
+            "7 €",
+            "Ναι"
+          ]
+        }
+      ],
+      "boxes": [
+        {
+          "x": 152,
+          "y": 400.46875,
+          "right": 514.65625,
+          "bottom": 882.625,
+          "height": 482.15625
+        },
+        {
+          "x": 538.65625,
+          "y": 400.46875,
+          "right": 901.328125,
+          "bottom": 882.625,
+          "height": 482.15625
+        },
+        {
+          "x": 925.328125,
+          "y": 400.46875,
+          "right": 1287.984375,
+          "bottom": 882.625,
+          "height": 482.15625
+        }
+      ],
+      "visual": {
+        "width": 1440,
+        "baseline": "9d46764:artifacts/login-link",
+        "unchangedPrefixPixels": true,
+        "shifts": [
+          {
+            "selector": ".site-header",
+            "beforeY": 0,
+            "afterY": 0,
+            "shift": 0,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".internal-intro",
+            "beforeY": 77,
+            "afterY": 77,
+            "shift": 0,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".package-benefits",
+            "beforeY": 742.84375,
+            "afterY": 1022.625,
+            "shift": 279.78125,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".pricing-activation",
+            "beforeY": 977.84375,
+            "afterY": 1257.625,
+            "shift": 279.78125,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".application-closing",
+            "beforeY": 1120.4375,
+            "afterY": 1400.21875,
+            "shift": 279.78125,
+            "unchangedContentStylesAndGeometry": true
+          },
+          {
+            "selector": ".site-footer",
+            "beforeY": 1605.34375,
+            "afterY": 1885.125,
+            "shift": 279.78125,
+            "unchangedContentStylesAndGeometry": true
+          }
+        ]
+      },
+      "axeViolations": [],
+      "internalLinks": [
+        "/",
+        "/pos-leitourgei",
+        "/eidi",
+        "/dedomena",
+        "/times",
+        "/aitisi"
+      ],
+      "termsRequests": [
+        {
+          "url": "https://app.aspect-praxis.com/oroi",
+          "method": "GET",
+          "mocked": true
+        }
+      ],
+      "keyboardFocus": true,
+      "touchTarget": {
+        "x": 712.375,
+        "y": 855.625,
+        "width": 47.03125,
+        "height": 44
+      },
+      "externalRequests": [],
+      "errors": []
+    }
+  ],
+  "unchangedPages": [
+    {
+      "name": "index",
+      "width": 360,
+      "differentPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 360,
+      "differentPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 360,
+      "differentPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 360,
+      "differentPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 360,
+      "differentPixels": 0
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 390,
+      "differentPixels": 0
+    },
+    {
+      "name": "index",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "pos-leitourgei",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "eidi",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "dedomena",
+      "width": 1440,
+      "differentPixels": 0
+    },
+    {
+      "name": "aitisi",
+      "width": 1440,
+      "differentPixels": 0
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 700,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 701,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 999,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 1100,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 1101,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "allPackagesVisible": true,
+      "noJavaScript": true,
+      "overflow": false
+    }
+  ]
+}
